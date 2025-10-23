@@ -1,0 +1,318 @@
+
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+.markdown-preview.markdown-preview {
+  // modify your style here
+  // eg: background-color: blue;
+
+  font-size: 10pt;
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#003649;
+  }
+
+  h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    border-left: 10px solid #003649;
+    padding-left: 15px;
+    color:#003649;
+  }
+
+  h2 {
+    font-size: 18pt;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 12pt;
+    font-weight: bold;
+  }
+
+  img {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  th {
+    padding: 0px 12px;
+    font-size: 9pt;
+    background-color: #eee;
+    color: #666;
+  }
+
+  td {
+    padding: 2px 12px;
+    word-break: break-word;
+  }
+
+  td:first-child {
+    white-space: nowrap;
+  }
+
+  p {
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+
+  ul, ol {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  nav {
+    background-color: #fff3dd;
+    color: #333;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    page-break-inside: avoid;
+  }
+
+  nav::before {
+    content: "エントリーパス";
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #999;
+    display: block;
+  }
+
+  .subentry {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    padding: 0px 10px;
+
+    border: 1px solid #003649;
+    // border-left: 6px solid #003649;
+    // display: inline-block;
+    width: fit-content;
+    color: #003649;
+
+    // border: none;
+    // background-color: #003649;
+    // color: white;
+
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 12px
+  }
+  .subentry::before,
+  .subentry::after {
+    content: "";
+    display: block;
+  }
+
+  .step {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.1rem;
+    padding: 0px 6px;
+    border-left: 4px solid #003649;
+    display: inline-block;
+    color: #003649;
+    margin-bottom: 4px;
+    margin-top: 12px
+  }
+
+  .strongred {
+    font-weight: bold;
+    color: red;
+  }
+
+  .danger {
+    color: red;
+    background-color: #fae0e2;
+    border-left: 4px solid #e7847b;
+    border-radius: 4px;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+  }
+
+  .annotation {
+    color: #333;
+    background-color: #e9f0f8;
+    border-left: 4px solid #d0daf5;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+  }
+
+  /*
+  .command img {
+    margin-left: -48px;
+    width: 48px;
+    transform: translateY(-7px);
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 65%);
+  }
+  */
+
+  /*
+  .toc {
+    color: #003649;
+  }
+  .toc a {
+    color: #003649;
+  }
+  .toc li {
+    list-style: none;
+  }
+  .toc ul {
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .toc ul > li > ul {
+    padding-left: 1.5rem;
+    font-size: 1.0rem;
+    font-weight: normal;
+  }
+  */
+
+  .toc {
+    color: #003649;
+  }
+  .toc-item {
+    color: #003649;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .dots {
+    border-bottom: 1px dotted #ccc;
+    flex: 1;
+    margin: 0 10px;
+  }
+  .toc-section-item {
+    padding-left: 1.5rem;
+    font-weight: normal;
+    font-size: 1.0rem;
+  }
+  .toc-section-subitem {
+    padding-left: 2.5rem;
+    font-weight: normal;
+    font-size: 0.85rem;
+  }
+
+  .roletable {
+    font-size: 9pt;
+  }
+  .roletable ul {
+    margin: 0;
+    line-height: 1.2em;
+  }
+  .roletable li {
+    list-style: disc;
+  }
+  .roletable li::marker {
+    font-size: 0.7em;
+  }
+
+  .subheading {
+    border-left: 6px solid #003649;
+    // border-bottom: 1px solid #003649;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #003649;
+    padding-left: 10px;
+    padding-right: 6px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+  }
+
+  .icontable td {
+    border: none;
+    height: 22px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  .icontable img {
+    height: 22px;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  // -----------
+  // 8_command
+  // -----------
+
+  .commandcontrol table {
+    width: fit-content;
+    margin-top: 2px;
+    margin-bottom: 4px;
+  }
+
+  .commandcontrol td {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: fit-content;
+    font-size: 0.9em;
+  }
+
+  .commandcontrol .annotation {
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+  }
+
+  .command {
+    // border-left: 4px solid #003649;
+    // border-bottom: 1px solid #003649;
+    display: inline-block;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #003649;
+    // padding-left: 6px;
+    // padding-right: 6px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+  }
+
+  .command span {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    padding: 0px 10px;
+
+    border: 1px solid #003649;
+    // border-left: 6px solid #003649;
+    display: inline-block;
+    color: #003649;
+
+    // border: none;
+    // background-color: #003649;
+    // color: white;
+
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 12px
+  }
+
+  .no-break {
+    break-inside: avoid;        /* 新仕様 */
+    page-break-inside: avoid;   /* 旧仕様（互換） */
+  }
+}
