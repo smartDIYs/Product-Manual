@@ -23,11 +23,13 @@
   h2 {
     font-size: 18pt;
     font-weight: bold;
+    margin-bottom: 4px;
   }
 
   h3 {
     font-size: 14pt;
     font-weight: bold;
+    margin-bottom: 2px;
   }
 
   h4 {
@@ -287,31 +289,18 @@
     color: #003649;
     // padding-left: 6px;
     // padding-right: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     margin-top: 4px;
   }
-
-  .command span {
-    font-size: 0.8rem;
-    font-weight: bold;
-    line-height: 1.2rem;
-    padding: 0px 10px;
-
-    border: 1px solid #003649;
-    // border-left: 6px solid #003649;
-    display: inline-block;
-    color: #003649;
-
-    // border: none;
-    // background-color: #003649;
-    // color: white;
-
-    border-radius: 4px;
-    margin-bottom: 8px;
-    margin-top: 12px
+  .commandcontrol p {
+    margin: 1px 0px;
+  }
+  .no-break {
+    break-inside: avoid;        /* 新仕様 */
+    page-break-inside: avoid;   /* 旧仕様（互換） */
   }
 
-  .no-break {
+  table {
     break-inside: avoid;        /* 新仕様 */
     page-break-inside: avoid;   /* 旧仕様（互換） */
   }

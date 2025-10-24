@@ -28,7 +28,10 @@
 接続するエンコーダに応じてコントローラのジャンパピン（画像赤枠部分）の設定を変更する必要があります。シングルエンコーダは左、デュアルエンコーダは右です。
 </div>
 
-<img src="./images/_encoder_jumper_pin.jpg" width="400px"/>
+<img src="./images/_encoder_jumper_pin.jpg" width="340px"/>
+
+
+<div style="page-break-before:always"></div>
 
 
 ## 外部インターフェイス仕様
@@ -44,8 +47,8 @@
 | 5 | IN2  | 外部制御入力。ソフトウェアでの設定により、下記機能のいずれかへ割り当てが可能です。<br>➀インターロック　➁レーザー照射 |
 | 6 | GND  | GND（IN1, IN2 用） |
 | 7 | NC   | 使用しません。何も接続しないでください。 |
-| 8 | OUT1 | マーキング完了信号。オープンコレクタ出力。 |
-| 9 | OUT2 | 動作状態信号。オープンコレクタ出力。 |
+| 8 | OUT1 | デフォルトではマーキング完了信号が割り当てられています。オープンコレクタ出力。 |
+| 9 | OUT2 | デフォルトでは動作状態信号が割り当てられています。オープンコレクタ出力。 |
 
 **等価回路図**
 
@@ -55,7 +58,7 @@
 <th>出力</th>
 </tr>
 <tr>
-<td style="padding:20px"><img src="./images/_external_interface_output.png" width="300px"/></td>
-<td style="padding:20px"><img src="./images/_external_interface_input.png" width="300px"/></td>
+<td style="padding:20px"><img src="./images/_external_interface_input.png"  width="340px"/></td>
+<td style="padding:20px"><img src="./images/_external_interface_output.png" width="180px"/></td>
 </tr>
 </table>

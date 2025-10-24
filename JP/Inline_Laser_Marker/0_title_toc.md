@@ -24,7 +24,7 @@ puppeteer:
 <div align="center">
 
 第 2 版 <br>
-発行日 2025年10月30日<br>
+発行日 2025年10月⚪︎⚪︎日<br>
 
 </div>
 
