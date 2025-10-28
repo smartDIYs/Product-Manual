@@ -1,5 +1,7 @@
 # ハードウェア仕様
 
+<!--
+
 ## エンコーダ入力仕様
 
 <div class="subheading">コネクタ① デュアルエンコーダ入力</div>
@@ -33,10 +35,11 @@
 
 <div style="page-break-before:always"></div>
 
+-->
 
 ## 外部インターフェイス仕様
 
-<div class="subheading">コネクタ③　外部インターフェイス ( センサー・PLC 接続 )</div>
+<!-- <div class="subheading">コネクタ③　外部インターフェイス ( センサー・PLC 接続 )</div> -->
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
