@@ -84,5 +84,7 @@
 
 ※通信インターフェイスに関する設定は[外部通信](#外部通信)をご参照ください。
 
+<br>
+
 **シリアルポート RXD/TXD**
-<img src="./images/_serial_pin.png" width="240px"/>
+<img src="./images/_serial_pin.png" width="200px"/>

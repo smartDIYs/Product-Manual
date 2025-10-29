@@ -17,11 +17,11 @@
 
 「ファイル」タブを開き、「新規」をタップします。ファイル名をタップしファイル名を入力します。「確定」をタップするとファイルが新規作成されます。
 
-<img src="./images/_quickguide_new_document.jpg" width="400px"/>
+<img src="./images/_quickguide_new_document.png" width="400px"/>
 
 ## 各種設定
 
-<img src="./images/_quickguide_parameter.jpg" width="400px"/>
+<img src="./images/_quickguide_parameter.png" width="400px"/>
 
 「パラメータ」をタップし各種設定を行います。
 
@@ -64,7 +64,7 @@
 
 ## データ作成
 
-<img src="./images/_quickguide_edit.jpg" width="400px"/>
+<img src="./images/_quickguide_edit.png" width="400px"/>
 
 ここでは固定テキストデータを作成します。「編集」タブをタップし、「テキスト」ボタンをタップします。
 テキスト作成ダイアログが表示されるので、「追加」ボタンをタップし「テキスト」を選択します。

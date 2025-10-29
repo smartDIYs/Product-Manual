@@ -1,6 +1,25 @@
 
 # パラメータ
 
+「パラメータ」タブでは、加工パラメータをはじめ、IOポートやユーザ権限などシステムの様々な設定を行うことができます。
+
+<img src="./images/parameter_screen/param_1_pen.png" width="560px"/>
+
+<br>
+
+| 設定ページ | 概要 |
+| :---: | ---- |
+|  **ペンパラメータ** | 加工パラメータを設定します。 |
+|  **マーキング方法** | 加工開始トリガー等の設定を行います。 |
+|  **ライン設定** | 使用しません。 |
+|  **IO設定k** | IOポートの割り当てや設定を行います。 |
+|  **加工エリア** | 加工エリアのサイズや補正を行います。 |
+|  **レーザー設定** | レーザー発信機の種別を設定します。 |
+|  **ユーザー権限** | ユーザーの追加や権限設定を行います。 |
+|  **言語とフォント** | 言語設定やフォントの管理を行います。 |
+|  **システム** | 外部通信の設定やIPアドレスの設定を行います。 |
+
+
 ## ペンパラメータ
 
 ### 基本パラメータ
@@ -51,6 +70,8 @@
 マーキングを行う際のトリガー設定を行います。
 使用するトリガーに応じて、トリガータイプの選択などを設定します。
 開始位置は、指定した位置または自動設定することができます。
+
+<img src="./images/parameter_screen/param_2_marking.png" width="600"/>
 
 ### トリガーモード
 <div class="subentry">トリガーモード</div>
@@ -132,7 +153,7 @@
 | キャッシュ | データの一時保存機能です。この値を10に設定すると、ホストから送信されたデータが10件保存され、ホストから送信されたデータの順序に従って順番に加工します。 |
 
 
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 ## ライン設定
 
@@ -169,7 +190,12 @@
 ラインを使用せず、素材を固定して加工する場合に選択します。 -->
 
 
+<div style="page-break-before:always"></div>
+
+
 ## IO設定
+
+<img src="./images/parameter_screen/param_4_io.png" width="600"/>
 
 ### 共通出力
 
@@ -208,6 +234,9 @@
 <div style="page-break-before:always"></div>
 
 ## 加工エリア
+
+
+<img src="./images/parameter_screen/param_5_area.png" width="600"/>
 
 ### ガルバノスキャナ設定
 
@@ -254,11 +283,20 @@
 | レーザーテスト | レーザーが正常に照射されるかどうかを確認します。<br><span class="strongred">レーザーが照射されるため、必ず安全メガネを着用して操作してください。</span> |
 | インポート・エクスポート | ガルバノスキャナ補正で設定した値を保存できます。また、保存されたデータを読み込むことも可能です。 |
 
+
+
+<div style="page-break-before:always"></div>
+
 ## レーザー設定
+
+<img src="./images/parameter_screen/param_6_laser.png" width="520"/>
 
 レーザーの種類を選択します。LM110Cはファイバー、LM140RはCO2、LM110UはUVが選択されているか確認してください。
 
 ## ユーザー権限
+
+
+<img src="./images/parameter_screen/param_7_user.png" width="520"/>
 
 ### ユーザー設定
 
@@ -269,7 +307,12 @@
 ユーザーごとに権限レベルを設定することができます。
 
 
+<div style="page-break-before:always"></div>
+
 ## 言語とフォント
+
+
+<img src="./images/parameter_screen/param_8_language.png" width="520"/>
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -282,13 +325,23 @@
 
 ## システム
 
+
+<img src="./images/parameter_screen/param_9_system.png" width="600"/>
+
 ### バージョン情報
 ソフトウェア、ハードウェアのバージョン番号を表示します。
+
 
 ### 外部通信
 
 外部から刻印データを読み込んだり、コマンドを使用して操作を行う場合に設定します。通信方法を設定後、「起動」ボタンを押すと外部との通信が可能になります。
 詳細については[外部機器との通信](#外部機器との通信)の章をご確認ください。
+
+
+<img src="./images/parameter_screen/param_9_system_trans.png" width="600"/>
+
+
+<div style="page-break-before:always"></div>
 
 #### 通信プラグイン - 設定
 
@@ -302,6 +355,7 @@
 
 使用するプラグインを選択した状態で「設定」ボタンをタップすると通信設定を編集することができます。
 
+<div class="no-break">
 <div class="subentry">plugin_com</div>
 
 ここではシリアルポートの通信設定を変更することができます。
@@ -315,8 +369,9 @@
 | ストップビット | ストップビットを設定します。 |
 | フロー制御 | フロー制御の種類を設定します。 |
 | エンコーディング選択 | エンコーディングを設定します。 |
+</div>
 
-
+<div class="no-break">
 <div class="subentry">plugin_tcp</div>
 
 ここではTCPポートの通信設定を変更することができます。
@@ -328,11 +383,14 @@
 | ネイティブサーバーIPアドレス | 設定されているIPアドレスが表示されます。 |
 | ターゲットサーバーポート | 外部サーバーを使用する場合は、サーバーのポート番号を設定します。 |
 | ターゲットサーバーIPアドレス | 外部サーバーを使用する場合は、サーバーのIPアドレスを設定します。 |
+</div>
 
 
 <div style="page-break-before:always"></div>
 
 #### 解析プラグイン - 設定
+
+<img src="./images/parameter_screen/param_9_system_parser.png" width="600"/>
 
 <div class="subentry">構成</div>
 
@@ -362,12 +420,18 @@
 
 <div class="commandcontrol">
 
+<div class="no-break">
+
 **スケール完了1回の戻り値**
 
 マーキング1回ごとに総マーキング数を送ります。
 <div class="annotation">
 送信例: MarkStatus:2;;<br>
 </div>
+</div>
+
+
+<div class="no-break">
 
 **コールアウトが完了したらコンテンツに戻ります**
 
@@ -376,6 +440,10 @@
 送信例: MarkData:text1text2;;<br>
 ※text1text2 はテキストオブジェクト1、テキストオブジェクト2のテキスト内容を意味します。
 </div>
+</div>
+
+
+<div class="no-break">
 
 **ドロップ変更によるドロップ回数の戻し**
 
@@ -383,6 +451,9 @@
 <div class="annotation">
 MissCount:1;;<br>
 </div>
+</div>
+
+<div class="no-break">
 
 **マーキング状態変更時に状態復帰**
 
@@ -390,6 +461,7 @@ MissCount:1;;<br>
 <div class="annotation">
 MarkStatus:2;;<br>
 ※2 はマーキング状態を意味します。
+</div>
 </div>
 
 </div>
@@ -400,9 +472,15 @@ MarkStatus:2;;<br>
 * チャンネル構成方式1: 一度に複数のチャンネルデータを送信できます。デフォルトではチャンネル間のデータは英文セミコロンで区切ります。
 * チャンネル設定方式2: 各チャンネルごとに、1つのデータのどの部分を取得するかを設定できます。開始位置と文字数を指定するだけです。<br>例: データ「123456789」がある場合、チャンネル1の開始位置を0、文字数を3に設定すると、チャンネル1が取得するデータは「123」となります。チャンネル2を開始位置3、文字数5に設定すると、チャンネル2が取得するデータは「45678」となります。
 
+
+<div style="page-break-before:always"></div>
+
 ### 高度な設定
 
-#### 高度な設定
+
+<img src="./images/parameter_screen/param_9_system_advance.png" width="500"/>
+
+<div class="subentry">高度な設定</div>
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -411,7 +489,7 @@ MarkStatus:2;;<br>
 | 最小マーク間隔（mm） | ソフトウェアによる適切なライン速度の計算に影響するだけで、実際のマーキングには影響しません。 設定なしでも可能です。 |
 
 
-#### 機能設定
+<div class="subentry">機能設定</div>
 
 | 項目 | 説明 |
 |:---:|-----|

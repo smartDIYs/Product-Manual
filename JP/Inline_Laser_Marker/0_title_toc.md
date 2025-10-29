@@ -16,7 +16,7 @@ puppeteer:
 
 <div style="height:120px"></div>
 <div align="center">
-<img src="./images/__title_photo.jpg" width="520px">
+<img src="./images/__title_photo.jpg" width="580px">
 </div>
 <div style="height:120px"></div>
 
@@ -24,7 +24,7 @@ puppeteer:
 <div align="center">
 
 第 2 版 <br>
-発行日 2025年10月⚪︎⚪︎日<br>
+発行日 2025年10月30日<br>
 
 </div>
 
