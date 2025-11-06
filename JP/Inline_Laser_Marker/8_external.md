@@ -915,10 +915,10 @@ Shape1、Shape2 はマーキングしたい図形名を指定します。<br>
 <!-- Original ID: 45 -->
 <div class="no-break">
 <div class="command">
-41. システム現在テンプレート名の取得 - GetCurDoc
+41. 現在テンプレート名の取得 - GetCurDoc
 </div>
 
-システムの現在のテンプレート名を取得します。
+現在のテンプレート名を取得します。
 
 <table>
 <tr><td>コマンド</td><td>GetCurDoc</td></tr>
