@@ -62,8 +62,8 @@
 
 <table class="noframe">
 <tr>
-<td><img src="./images/lends_correction/2_test_marking.png" width="400px"/></td>
-<td><img src="./images/lends_correction/3_test_mark_result.jpg" width="440px"/></td>
+<td><img src="./images/lends_correction/2_test_marking.png" width="380px"/></td>
+<td><img src="./images/lends_correction/3_test_mark_result.jpg" width="420px"/></td>
 </tr>
 </table>
 
@@ -123,7 +123,51 @@
 
 <div style="page-break-before:always"></div>
 
+## ログの操作
+
+### ログレベルの変更
+
+パラメータタブの「システム設定」画面を開き、「高度な設定」を表示します。
+ログレベルを「デバッグ」に設定すると、より詳細なログを取得できます。（ログファイルの容量は大きくなります）
+<img src="./images/_change_log_level.png" width="400px"/>
+
+
+### ログファイルのエクスポート
+
+あらかじめ USB メモリを本体パネルの USB ポートに接続します。<br>
+ファイルタブの「管理」画面を開き、ログフォルダ内で対象のログファイルを選択して「コピー」ボタンをタップします。
+続いて USB メモリのフォルダを選択し、「ペースト」ボタンをタップします。
+
+<table class="noframe">
+<tr>
+<td><img src="./images/_log_export_1.png" width="400px"/></td>
+<td><img src="./images/_log_export_2.png" width="400px"/></td>
+</tr>
+</table>
+
+<div style="page-break-before:always"></div>
+
+## ユーザーデータのバックアップ
+
+あらかじめ USB メモリを本体パネルの USB ポートに接続します。<br>
+ファイル画面を開き、右上のメニューボタンをタップして「ユーザーデータをバックアップします」を選択します。
+続いてUSBメモリフォルダを選択し、「確定」ボタンをタップします。
+
+<div class="annotation">
+バックアップファイルには加工ファイルやレンズ補正ファイル、ログデータなどが含まれます。
+</div>
+
+<table class="noframe">
+<tr>
+<td><img src="./images/_backup_menu.png" width="400px"/></td>
+<td><img src="./images/_backup_to_usb.png" width="400px"/></td>
+</tr>
+</table>
+
+
+
 ## フォントの追加
 
 パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
 <img src="./images/_add_font.png" width="400px"/>
+
