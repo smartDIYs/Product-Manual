@@ -9,22 +9,26 @@
     },
     {
       "file": "2_screen.md",
-      "title": "概要"
+      "title": "画面構成"
     },
     {
       "file": "3_quickstart.md",
-      "title": "概要"
+      "title": "クイックスタート"
     },
     {
       "file": "4_edit.md",
-      "title": "概要"
+      "title": "編集"
     },
     {
       "file": "5_setting.md",
-      "title": "概要"
+      "title": "設定"
     },
     {
-      "file": "9_appendix.md",
+      "file": "6_option.md",
+      "title": "オプション"
+    },
+    {
+      "file": "7_appendix.md",
       "title": "付録"
     },
     {
