@@ -10,8 +10,8 @@ puppeteer:
 <div style="height:100px"></div>
 
 <div style="color:#003649; font-weight:bold;" align="center">
-<span style="font-size:22pt;">携帯型レーザーマーカー</span><br>
-<span style="font-size:36pt;">操作マニュアル</span>
+<span style="font-size:48pt;">LM100P</span><br>
+<span style="font-size:28pt;">操作マニュアル</span>
 </div>
 
 <div style="height:120px"></div>
