@@ -24,7 +24,7 @@ puppeteer:
 <div align="center">
 
 第 0 版 <br>
-発行日 2025年11月27日<br>
+発行日 2026年00月00日<br>
 
 </div>
 
