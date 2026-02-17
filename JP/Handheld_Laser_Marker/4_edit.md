@@ -3,7 +3,7 @@
 ここでは、ファイルに追加できる刻印データの種類や設定方法を説明します。
 追加できるものには、テキスト、図形（点・線・円・矩形）、バーコード、QRコードなどが含まれます。
 
-<img src="images/_object_panel.jpg" width="50px" />
+<img src="images/screen_object_panel.png" width="360px" />
 
 
 
@@ -14,20 +14,20 @@
 ### 点
 「点」を選択するとグラフィックエリアの座標（X:5, Y:5） に点が配置されます。コントロールパネル等で任意の位置に移動させてください。
 
-<img src="./images/object_panel/_add_draw_dot.jpg"  width="300px"/>
+<img src="./images/screen_object_add_draw_dot.png"  width="300px"/>
 
 また、下図に示すように、設定 → マーキングパラメータで「パルス照射」または「連続照射」を選択することもできます。
 <TODO:@メーカー確認。挙動の違いについて>
 
 「点」の加工パラメータは「単点照射時間」で設定で設定します。
 
-<img src="./images/_marking_parameter.jpg"  width="300px"/>
+<img src="./images/screen_setting_process_parameter.png"  width="300px"/>
 
 
 ### 直線
 「直線」を選択すると下記のダイアログが表示されます。直線の長さやタイプなどを設定できます。
 
-<img src="./images/object_panel/_add_draw_line.jpg"  width="300px"/>
+<img src="./images/screen_object_add_line.png"  width="300px"/>
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -44,7 +44,7 @@
 ### 円形
 「円形」を選択するとグラフィックエリアの中心に直径20mmの円が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
 
-<img src="./images/object_panel/_add_draw_circle.jpg"  width="300px"/>
+<img src="./images/screen_object_add_circle.png"  width="300px"/>
 
 ### 矩形
 「矩形」を選択するとグラフィックエリアの中心に一辺20mmの矩形が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
@@ -54,7 +54,7 @@
 「ファイル」を選択すると下記のダイアログが表示されます。サポートされる形式は dxf, plt, jpg, png, bmp です。
 ファイルが見つからない場合は、「種類」が適切に設定されているかご確認ください。
 
-<img src="./images/object_panel/_add_graph.jpg"  width="300px"/>
+<img src="./images/screen_object_add_file.png"  width="300px"/>
 
 <div class="annotation">
 ラスタ画像は、インポート後にコントロールパネルの「編集」機能から 解像度や明るさ・コントラスト、色の反転などの設定を行うことができます。
@@ -65,7 +65,7 @@
 「テキスト」を選択すると、テキスト編集画面が表示されます。
 新規作成時には空の固定テキストが自動的に追加されています。
 
-<img src="images/object_panel/_add_text.jpg" width=480px />
+<img src="images/screen_object_add_text.png" width=480px />
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -108,7 +108,7 @@
 
 
 **フォントの種類**
-<img src="images/object_panel/_add_text_fixed_text_font.jpg" width=280px />
+<img src="images/screen_object_font_list.png" width=280px />
 
 <div class="annotation">
 
@@ -122,7 +122,9 @@
 
 ### 固定テキスト
 「テキスト」をタップするとテキスト要素が追加されます。「編集」をタップするとテキストボックスがポップアップし、任意の文字列を入力することができます。
-<img src="images/object_panel/_add_text_fixed_text_keyboard.jpg" width=480px />
+
+<img src="images/screen_object_add_text_fixed.png" width=480px />
+
 
 ### シリアル番号
 「シリアル番号」をタップするとテキスト要素が追加されます。「編集」をタップすると下記のポップアップが表示されます。
@@ -136,7 +138,7 @@
 
 シリアル番号を選択し、編集ボタンをクリックすると、次に示すシリアル番号編集画面がポップアップ表示されます。
 
-<img src="images/object_panel/_add_text_serial_number_edit.jpg" width=280px />
+<img src="images/screen_object_add_text_serial_edit.png" width=280px />
 
 | 項目 | 説明 |
 |:---:|---|
