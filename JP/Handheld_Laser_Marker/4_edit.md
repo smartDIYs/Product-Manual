@@ -132,7 +132,7 @@
 
 シリアル番号ボタンをクリックすると、デフォルト内容「0000」のシリアル番号が追加されます。
 
-<img src="images/object_panel/_add_text_serial_number.jpg" width=280px />
+<img src="images/screen_object_add_text_serial.png" width=280px />
 
 **シリアル番号の編集**
 
@@ -178,8 +178,8 @@
 
 <table class="noframe">
 <tr>
-<td style="padding:0 20px"><img src="./images/object_panel/_add_text_daytime_day.jpg"  width="300px"/></td>
-<td style="padding:0 20px"><img src="./images/object_panel/_add_text_daytime_time.jpg" width="300px"/></td>
+<td style="padding:0 20px"><img src="./images/screen_object_add_text_date.png"  width="300px"/></td>
+<td style="padding:0 20px"><img src="./images/screen_object_add_text_time.png" width="300px"/></td>
 </tr>
 <tr style="text-align:center">
 <td>日付</td><td>時刻</td>
@@ -190,14 +190,14 @@
 
 日付または時刻要素を選択して「編集」ボタンをタップすると、日付／時刻編集画面がポップアップ表示されます。
 
-<img src="./images/object_panel/_add_text_daytime_edit.jpg" width="380px"/>
+<img src="./images/screen_object_add_text_datetime_edit.png" width="380px"/>
 
 | 項目 | 説明 |
 |:---:|---|
 | 形式選択 | システム内蔵の日時フォーマットが用意されており、そのまま選択して使用できます。 |
 | 形式の修正 | 日時フォーマットを編集します。区切り記号や、年月日の並び順などを変更できます。 |
 | 時間オフセット | 年・月・日・時・分・秒を現在時刻を基準として増減させることができます。例えば、「日」の値に1を加えると翌日、「日」の値を -1 にすると前日となります。他の項目も同様です。 |
-| カスタム形式（凡例型式） | カスタマイズした時間変数の表現を設定します。下図のように「カスタマイズを有効にする」にチェックを入れ、対象の項目を選択してフォーマットを編集します。<img src="./images/object_panel/_add_text_daytime_custom_format.jpg" width="300px"/> |
+| 凡例型式 | 時間変数のカスタム表現を設定します。（2026 → 0x7E8など）<br>「設定」ボタンをタップして表示されるダイアログの「カスタマイズを有効にする」にチェックを入れ、対象の項目（年・月・日等）および対象数値を選択して「フォーマットの変更」をタップします。<br>編集内容はプロジェクトファイル内でのみ有効です。<!--<img src="./images/object_panel/_add_text_daytime_custom_format.jpg" width="300px"/>--> |
 | 名称 | この項目は使用しません。 |
 | 保証期間（日） | この項目は使用しません。 |
 
