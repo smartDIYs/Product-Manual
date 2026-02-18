@@ -4,7 +4,7 @@
 
 マーキングファイルが読み込まれた状態で、画面左の「設定」→「加工パラメータ」 を選択すると、現在の加工ファイルのパラメータを変更できます。デフォルト値の変更も可能です。
 
-<img src="./images/_marking_parameter.jpg"  width="300px"/>
+<img src="./images/screen_setting_process_parameter.png"  width="300px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -175,19 +175,22 @@
 
 <img src="./images/_user_rights.jpg"  width="300px"/>
 
+<img src="./images/screen_setting_user_rights.png"  width="300px"/>
+
+
 **設定例**
 
 対象となるユーザーの権限から「オブジェクト追加」「オブジェクト編集」「ファイル操作」の3つの機能のチェックを外します。
-その後、管理者ユーザーをログアウトし、対象ユーザーでログインすると制限された機能はグレー表示になり、使用できなくなります。
+その後、管理者ユーザーをログアウトし、対象ユーザーでログインすると制限された機能（各種ボタン）はグレー表示になり、使用できなくなります。
 
 また、ユーザーは必要に応じて追加・削除・パスワード変更を行うことができます。
 
-<table class="noframe">
+<!-- <table class="noframe">
 <tr>
 <td><img src="./images/_user_rights_example1.jpg"  height="180px"/></td>
 <td><img src="./images/_user_rights_example2.jpg" height="180px"/></td>
 </tr>
-</table>
+</table> -->
 
 
 ## フォント管理
@@ -202,8 +205,7 @@
 
 ここではシステム全般の設定を行うことができます。**設定の変更を行う場合は再起動が必要です。**
 
-<img src="./images/_system_settings.jpg"  width="300px"/>
-
+<img src="./images/screen_setting_system_setting.png"  width="300px"/>
 
 | 項目 | 説明 |
 |:---:|---|

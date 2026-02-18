@@ -6,6 +6,9 @@
 
 まず、「設定 > システム設定 > メニュー表示」で **生産ライン** を有効にします。有効にすると左メニューに「生産ライン」が追加されます。
 
+
+<img src="./images/screen_setting_enable_production_line.png"  width="400px"/>
+
 <div class="subentry">
 生産ライン
 </div>
