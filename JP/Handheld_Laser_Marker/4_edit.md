@@ -209,7 +209,7 @@
 
 ### ファイル
 ファイルボタンをクリックし、テキストファイルまたはExcelファイルを選択して項目を追加します。
-<img src="./images/object_panel/_add_text_file_read.jpg" width="380px"/>
+<img src="./images/screen_object_add_text_file.png" width="380px"/>
 
 <div class="caution">
 行ごとに文字数が異なる場合、文字が加工エリアからはみ出した場合に加工不良が発生するリスクがあります。<br>
@@ -221,7 +221,7 @@
 
 「テキスト読み込み」を選択し、Editボタンをクリックすると、ファイル読込の編集画面がポップアップ表示されます。
 
-<img src="./images/object_panel/_add_text_file_read_txt.jpg" width="380px"/>
+<img src="./images/screen_object_add_text_file_text.png" width="380px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -235,7 +235,7 @@
 
 「エクセル読み込み」を選択し、Editボタンをクリックすると、Excel読込の編集画面がポップアップ表示されます。
 
-<img src="./images/object_panel/_add_text_file_read_excel.jpg" width="380px"/>
+<img src="./images/screen_object_add_text_file_excel.png" width="380px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -255,10 +255,11 @@
 
 <!-- <img src="./images/object_panel/_add_text_plan.jpg"  width="300px"/> -->
 
+
 <table class="noframe">
 <tr>
-<td style="padding:20px"><img src="./images/object_panel/_add_text_plan_add.jpg"  width="300px"/></td>
-<td style="padding:20px"><img src="./images/object_panel/_add_text_plan_edit.jpg" width="300px"/></td>
+<td style="padding:20px"><img src="./images/screen_object_add_text_plan.png"  width="300px"/></td>
+<td style="padding:20px"><img src="./images/screen_object_add_text_plan_modify.png" width="300px"/></td>
 </tr>
 </table>
 
@@ -292,16 +293,15 @@
 ### ランダムコード
 刻印文字列をランダムに生成します。
 「ランダムコード」ボタンをタップして作成し、「編集」ボタンをタップして具体的な設定を行います。
-<img src="./images/object_panel/_add_text_random_edit.jpg"  width="300px"/>
 
 | 項目 | 説明 |
 |:---:|---|
-| フォーマット | ランダムに生成する文字種類などを設定します。数字は「*」、小文字は「a」、大文字は「A」で表します。 |
+| Format | ランダムに生成する文字種類などを設定します。数字は「*」、小文字は「a」、大文字は「A」で表します。 |
 | 按天变动 | 有効の場合、同日は同一のランダムコードを使用し、翌日になると新しいコードに更新されます。 |
 | 重新获取 | ランダムコードを再生成します。 |
 
 <div class="annotation">
-例：フォーマットを「***aaaAAA」に設定した場合、3桁の数字・3文字の小文字・3文字の大文字が混ざったランダムコード（4rj9EC5cS / W03M1pdKe など）が生成されます。<br>
+例：Formatに「***aaaAAA」を設定した場合、3桁の数字・3文字の小文字・3文字の大文字が混ざったランダムコード（4rj9EC5cS / W03M1pdKe など）が生成されます。<br>
 </div>
 
 
@@ -310,10 +310,10 @@ VINコード形式での文字列生成をサポートします。
 
 
 ## バーコード
-「バーコード」ボタンをタップと編集画面がポップアップします。
+「バーコード」ボタンをタップすると編集画面がポップアップします。
 テキストボックスをタップするとテキスト編集画面が表示され、 [テキスト](#テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとバーコードが更新されます。
 
-<img src="./images/object_panel/_add_barcode.jpg"  width="300px"/>
+<img src="./images/screen_object_add_barcode.png"  width="300px"/>
 
 <div class="subentry">
 コード種類
@@ -329,16 +329,8 @@ VINコード形式での文字列生成をサポートします。
 | 上下枠線（上下長さ） | バーコードの上下端に枠線を追加し、その線幅（mm）を設定します。 |
 | 左右枠線（左右長さ） | バーコードの左右端に枠線を追加し、その線幅（mm）を設定します。上下枠線が0以外のとき枠線の線幅は統一されます。 |
 
-<table class="noframe">
-<tr>
-<td><img src="./images/object_panel/_add_barcode_border_normal.jpg"  height="80px"/></td>
-<td><img src="./images/object_panel/_add_barcode_border_reverse.jpg" height="80px"/></td>
-</tr>
-<tr style="text-align:center;">
-<td>通常</td>
-<td>反転 + 枠あり</td>
-</tr>
-</table>
+
+<img src="./images/screen_barcode_inversion.png"  width="380px"/>
 
 <div class="subentry">
 テキスト
@@ -365,7 +357,7 @@ VINコード形式での文字列生成をサポートします。
 「QRコード」ボタンをタップと編集画面がポップアップします。
 テキストボックスをタップするとテキスト編集画面が表示され、 [テキスト](#テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとQRコードが更新されます。
 
-<img src="./images/object_panel/_add_qrcode.jpg"  width="300px"/>
+<img src="./images/screen_object_add_qrcode.png"  width="300px"/>
 
 <div class="subentry">
 コード種類
@@ -382,16 +374,7 @@ VINコード形式での文字列生成をサポートします。
 | 左右枠線 | バーコードの左右端に枠線を追加し、その線幅（mm）を設定します。上下長さが0以外のとき枠線の線幅は統一されます。 |
 | Clear Wrap | この機能は使用しません。 |
 
-<table class="noframe">
-<tr>
-<td><img src="./images/object_panel/_add_qrcode_border_normal.jpg"  height="80px"/></td>
-<td><img src="./images/object_panel/_add_qrcode_border_reverse.jpg" height="80px"/></td>
-</tr>
-<tr style="text-align:center;">
-<td>通常</td>
-<td>反転 + 枠あり</td>
-</tr>
-</table>
+<img src="./images/screen_qrcode_inversion.png"  width="380px"/>
 
 <div class="subentry">
 テキスト
@@ -420,8 +403,7 @@ VINコード形式での文字列生成をサポートします。
 「待機時間」をタップすると編集画面が表示され、待機時間を設定できます。
 必要に応じてオブジェクトリストなどで加工順序を変更し、遅延を入れたいオブジェクトの直前に「待機時間」を配置してください。
 
-<img src="./images/object_panel/_add_delayer.jpg"  width="300px"/>
-
+<img src="./images/screen_object_add_delayer_edit.png"  width="300px"/>
 
 ## 出力ポート
 この機能は使用しません。
