@@ -7,13 +7,13 @@
 まず、「設定 > システム設定 > メニュー表示」で **生産ライン** を有効にします。有効にすると左メニューに「生産ライン」が追加されます。
 
 
-<img src="./images/screen_setting_enable_production_line.png"  width="400px"/>
+<img src="./images/screen_setting_enable_pline.png"  width="400px"/>
 
 <div class="subentry">
 生産ライン
 </div>
 
-<img src="./images/option_long_char/setting_product_line.jpg"  width="400px"/>
+<img src="./images/screen_setting_pline_setting.png"  width="400px"/>
 
 | 項目 | 設定 |
 |:---:|---|
@@ -26,7 +26,7 @@
 | パルス数 | 8657 |
 | 飛行係数 | 0.0190 |
 
-<img src="./images/option_long_char/setting_other_param.jpg"  width="400px"/>
+<img src="./images/screen_setting_pline_setting_other.png"  width="400px"/>
 
 **生産ライン - その他の設定**
 
@@ -38,7 +38,7 @@
 加工モード
 </div>
 
-<img src="./images/option_long_char/setting_process_mode.jpg"  width="400px"/>
+<img src="./images/screen_setting_pline_setting_mode.png"  width="400px"/>
 
 | 項目 | 設定 |
 |:---:|---|
