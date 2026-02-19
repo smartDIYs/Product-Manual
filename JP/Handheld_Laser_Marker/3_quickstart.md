@@ -24,23 +24,30 @@
 
 **刻印文字列の作成**<br>
 
-オブジェクトパネルから「テキスト」を選択します。
+オブジェクトパネルにある「テキスト」アイコンをタップします。
 
-<画像>
+<img src="./images/quickstart_add_text_icon.png"  width="50px"/>
+
 
 文字列リストに追加されている「テキスト」要素を選択し、「編集」ボタンをタップします。
 
-<画像>
+<img src="./images/quickstart_text_edit.png"  width="300px"/>
 
 「内容」の入力フォームをタップし、「ABC」と入力して「OK」ボタンをタップします。（大文字を入力する場合は`Caps`を有効にします）
 
-<画像>
+<img src="./images/quickstart_text_edit_input.png"  width="300px"/>
 
 「シリアル番号」をタップしてシリアル番号要素を追加します。
 
+<img src="./images/quickstart_add_serial_element.png"  width="300px"/>
+
+
 フォントの「選択」ボタンをタップし、「輪郭線」フォントから「Arial Unicode MS」を選択します。
 
-画面右上の「OK」ボタンをタップします。
+
+<img src="./images/quickstart_text_font_select.png"  width="300px"/>
+
+テキスト修正ダイアログ画面右上の「OK」ボタンをタップして編集画面に戻ります。
 
 **オブジェクトの選択**<br>
 グラフィックビューに表示されているテキストオブジェクトをタップすると、オブジェクトが選択状態になります。
@@ -50,9 +57,14 @@
 テキストオブジェクトが選択された状態で、位置を X:0 / Y:0 に設定します。<br>
 ※コントロールパネルの「中央揃え」をタップすることでも同等の操作が可能です。
 
+<img src="./images/quickstart_text_position_edit.png"  width="300px"/>
+
 **塗潰し設定**<br>
 テキストオブジェクトが選択された状態で、コントロールパネルの「塗潰し」をタップします。
 表示されたダイアログで下記の設定を行います。
+
+
+<img src="./images/quickstart_text_fill_edit.png"  width="300px"/>
 
 | 項目 | 設定 |
 |:---:|---|
@@ -62,12 +74,14 @@
 | 輪郭 | 有効 |
 | 塗潰し種類 | 通常 |
 
-この設定を行うと、グラフィックビューでも実際に塗りつぶされた状態で文字列が表示されます。
+<!-- 設定を行うと、グラフィックビューに塗りつぶされた状態のテキストが表示されます。 -->
 
 ## パラメータ設定
 
 コントロールパネルの パラメータ「変更」ボタンをタップします。
 表示されたパラメータ設定画面で下記の設定を行います。
+
+<img src="./images/quickstart_parameter_edit.png"  width="300px"/>
 
 | 項目 | ステンレス（参考） | MDF（参考） | ABS樹脂 |
 |:---:|---|---|---|
@@ -80,6 +94,11 @@
 
 安定した場所に素材を設置し、ハンドガンをしっかりと保持して素材に押し付けます。
 ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
+
+<img src="./images/quickstart_status_bar_idle.png"  width="300px"/>
+
+<img src="./images/quickstart_status_bar_marking.png"  width="300px"/>
+
 <span class="strongred">マーキング状態では、ハンドガンのトリガー入力でレーザー照射されます。十分に注意してください。</div>
 
 刻印位置に赤色のガイド光が表示されるので、位置を確認しながら微調整を行います。
