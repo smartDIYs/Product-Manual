@@ -13,7 +13,7 @@
 1. バーコードスキャナを加工機のUSBポートに接続します。
 2. 設定 > 通信設定を開き、各項目を設定します。
 
-<img src="./images/screen/screen_setting_scanner_connection.png"  width="500px"/>
+<img src="./images/guide_barcode_scan_connection.png"  width="500px"/>
 
 <div class="fixed-table">
 
@@ -36,8 +36,7 @@
 システム設定 - バーコードスキャナ
 </div>
 
-<img src="./images/screen/screen_setting_scanner_access.png"  width="500px"/>
-<img src="./images/screen/screen_setting_scanner.png"  width="500px"/>
+<img src="./images/guide_barcode_scan_setting.png"  width="500px"/>
 
 <div class="fixed-table">
 
@@ -49,15 +48,13 @@
 </div>
 
 
-<div style="page-break-before:always"></div>
-
 
 ### 使用方法
 
 1. テキスト要素の「外部データ」を追加し、「編集」ボタンをタップします。
 2. 変数名称（Variable name）を`sv1`に設定します。
 
-<img src="./images/screen/screen_setting_scanner_howto.png"  width="500px"/>
+<img src="./images/guide_barcode_scan_howto.png"  width="500px"/>
 
 この状態でバーコードリーダーでコードを読み取ると、上記のテキスト要素の文字列が読み取った文字列に変更されます。
 
@@ -114,7 +111,7 @@
 テスト加工で加工された外側の四角形を確認し、歪み方に応じて「樽型」「シアー型」「台形型」の歪みを補正します。
 各項目について、**X方向は軸2、Y方向は軸1** の項目へ補正値を入力します。
 
-<img src="./images/appendix/appendix_lens_distortion.png"  width="240px"/>
+<img src="./images/illusts/illusts_lens_distortion.png"  width="280px"/>
 
 まずは補正する歪みのいずれかに着目して補正値を +0.01〜0.05 程度変化させ、結果を確認します。
 - 着目している歪みが大きくなってしまった場合は元の値に戻し、補正値を -0.01〜0.05 程度変化させて再度確認します。

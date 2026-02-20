@@ -45,7 +45,7 @@
 
 **線種**
 
-<img src="./images/edit/edit_line_types.png"  width="400px"/>
+<img src="./images/illusts/illusts_line_types.png"  width="420px"/>
 
 
 ### 円形
