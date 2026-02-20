@@ -29,7 +29,7 @@
   h3 {
     font-size: 14pt;
     font-weight: bold;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
 
   h4 {
@@ -139,7 +139,8 @@
     border-radius: 4px;
     padding: 6px 12px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     page-break-inside: avoid;
   }
 
@@ -320,5 +321,32 @@
   table {
     break-inside: avoid;        /* 新仕様 */
     page-break-inside: avoid;   /* 旧仕様（互換） */
+  }
+
+  .fixed-table table {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .img-float-left,
+  .img-float-right
+  {
+    display:flow-root;
+  }
+
+  .img-float-left table,
+  .img-float-right table {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .img-float-left img {
+    float:left;
+    margin-right:20px;
+  }
+
+  .img-float-right img {
+    float:right;
+    margin-left:20px;
   }
 }

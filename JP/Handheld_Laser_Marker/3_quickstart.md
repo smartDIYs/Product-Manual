@@ -2,52 +2,94 @@
 
 ## ログイン
 
-ログインボタンをクリックすると、パスワード入力画面がポップアップ表示されます。
+ログインボタンをタップするとログインダイアログが表示されます。必要に応じてログインを行なってください。
+
+<img src="./images/quickstart_login.png" width="480px"/>
+
 
 <div class="annotation">
-ログインパスワード：123<br>
-※管理者の初期パスワードです。異なる権限でシステムにログインすることもできます。
+管理者の初期パスワード：123<br>
+
+ログインユーザー（または未ログイン状態）ごとに操作を制限することも可能です。詳細は [ユーザー管理](#ユーザー管理) をご確認ください。
+
 </div>
 
 ## 新規ファイルの作成
 
 メニューバーの「新規」ボタンをタップして新規ファイルを開きます。
 
+<img src="./images/quickstart_new_file.png" width="480px"/>
+
 <div class="annotation">
 「編集中のファイルを保存しますか？」と表示された場合、「OK」をタップすると現在のファイルの変更内容が保存されます。「キャンセル」をタップすると変更内容が破棄されます。
 </div>
 
 
+
+
 ## データ作成
 
-一例として、刻印ごとに「ABC0000」「ABC0001」「ABC0002」... とカウントアップしていく文字列を作成します。
+<div class="subentry">オブジェクトの作成</div>
 
-**刻印文字列の作成**<br>
+ここでは一例として、刻印ごとに「ABC0000」「ABC0001」「ABC0002」... とカウントアップしていくテキストオブジェクトを作成します。
+この場合「ABC」という 固定テキスト要素 と「0001, 0002, 0003, ...」とカウントアップする シリアル番号要素 を組み合わせて実現します。
 
-オブジェクトパネルにある「テキスト」アイコンをタップします。
+<div class="annotation">
 
-<img src="./images/quickstart_add_text_icon.png"  width="50px"/>
+「テキスト」要素は固定文字列を表現します。「シリアル番号」要素は加工ごとにカウントアップを行う可変文字列を表現します。
+その他、各要素の詳細は [テキスト](#テキスト) をご確認ください。
+
+</div>
 
 
-文字列リストに追加されている「テキスト」要素を選択し、「編集」ボタンをタップします。
+<div style="page-break-before:always"></div>
 
-<img src="./images/quickstart_text_edit.png"  width="300px"/>
 
-「内容」の入力フォームをタップし、「ABC」と入力して「OK」ボタンをタップします。（大文字を入力する場合は`Caps`を有効にします）
+**テキストオブジェクトの作成**
 
-<img src="./images/quickstart_text_edit_input.png"  width="300px"/>
+オブジェクトパネルにある「テキスト」アイコンをタップします。<img src="./images/quickstart_add_text_icon.png" style="display:inline;margin-bottom:0;" width="30px"/>
 
-「シリアル番号」をタップしてシリアル番号要素を追加します。
 
-<img src="./images/quickstart_add_serial_element.png"  width="300px"/>
 
+テキストオブジェクトを新規作成すると、「テキスト」要素が自動的に登録されています。
+
+文字列リストにある該当の「テキスト」要素を選択し、「編集」ボタンをタップします。
+表示されたダイアログの入力フォームに「ABC」と入力して「OK」ボタンをタップします。（大文字を入力する場合は`Caps`を有効にします）
+
+<!-- <img src="./images/quickstart_text_edit_input.png"  width="400px"/> -->
+
+<table class="noframe">
+<tr>
+<td style="padding:0px"><img src="./images/quickstart_text_edit.png" width="350px" /></td>
+<td style="padding:0px; width:5px"></td>
+<td style="padding:0px"><img src="./images/quickstart_text_edit_input.png" width="350px" /></td>
+</tr>
+</table>
+
+
+次に「シリアル番号」要素を追加します。「シリアル番号」をタップすると文字列リストに追加されます。
+プレビューには各要素が連結された文字列が表示されます。
+
+<img src="./images/quickstart_add_serial_element.png" width="460px"/>
+
+
+**フォントの編集**<br>
 
 フォントの「選択」ボタンをタップし、「輪郭線」フォントから「Arial Unicode MS」を選択します。
 
 
-<img src="./images/quickstart_text_font_select.png"  width="300px"/>
+<img src="./images/quickstart_text_font_select.png" width="260px"/>
 
-テキスト修正ダイアログ画面右上の「OK」ボタンをタップして編集画面に戻ります。
+テキスト修正ダイアログ画面右上の「OK」ボタンをタップしてホーム画面に戻ります。
+
+
+<div style="page-break-before:always"></div>
+
+
+<div class="subentry">オブジェクトの編集</div>
+
+ここでは作成したオブジェクトに対して位置や大きさの調整、塗りつぶしなどの設定を行います。
+
 
 **オブジェクトの選択**<br>
 グラフィックビューに表示されているテキストオブジェクトをタップすると、オブジェクトが選択状態になります。
@@ -57,37 +99,58 @@
 テキストオブジェクトが選択された状態で、位置を X:0 / Y:0 に設定します。<br>
 ※コントロールパネルの「中央揃え」をタップすることでも同等の操作が可能です。
 
-<img src="./images/quickstart_text_position_edit.png"  width="300px"/>
+<img src="./images/quickstart_text_position_edit.png"  width="540px"/>
+
+
 
 **塗潰し設定**<br>
 テキストオブジェクトが選択された状態で、コントロールパネルの「塗潰し」をタップします。
-表示されたダイアログで下記の設定を行います。
+表示されたダイアログで下記の設定を行います。パラメータの詳細は  [塗りつぶし](#塗りつぶし)  をご確認ください。
 
 
-<img src="./images/quickstart_text_fill_edit.png"  width="300px"/>
+<img src="./images/quickstart_text_fill_edit.png"  width="540px"/>
+
+<!-- <div class="fixed-table">
 
 | 項目 | 設定 |
-|:---:|---|
+|:---:|:--:|
 | 塗潰し有効 | 有効 |
-| 塗潰し角度 | 0.00|
-| 線間隔 | 0.15 |
+| 塗潰し角度 | 0.00 度 |
+| 線間隔 | 0.15 mm |
 | 輪郭 | 有効 |
 | 塗潰し種類 | 通常 |
 
+</div> -->
+
 <!-- 設定を行うと、グラフィックビューに塗りつぶされた状態のテキストが表示されます。 -->
+
+
+<div style="page-break-before:always"></div>
 
 ## パラメータ設定
 
-コントロールパネルの パラメータ「変更」ボタンをタップします。
-表示されたパラメータ設定画面で下記の設定を行います。
+コントロールパネルの パラメータ「変更」ボタンをタップします。表示されたパラメータ設定画面で加工パラメータを設定します。各設定項目の詳細は [加工パラメータ](#加工パラメータ)  をご確認ください。
 
-<img src="./images/quickstart_parameter_edit.png"  width="300px"/>
+<img src="./images/quickstart_parameter_edit.png"  width="520px"/>
+
+
+**参考パラメータ表**
+
+<div class="fixed-table">
 
 | 項目 | ステンレス（参考） | MDF（参考） | ABS樹脂 |
-|:---:|---|---|---|
+|:---:|:--:|:--:|:--:|
 | 加工速度 | 1000 | 100 | 2000 |
 | パワー | 60 | 50 | 20 |
 | 周波数 | 30 | 50 | 30 |
+
+</div>
+
+
+<div class="annotation">
+加工パラメータは加工素材や加工内容、加工の要求仕様等に応じて調整を行なってください。
+</div>
+
 
 
 ## 加工操作
@@ -95,11 +158,11 @@
 安定した場所に素材を設置し、ハンドガンをしっかりと保持して素材に押し付けます。
 ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
 
-<img src="./images/quickstart_status_bar_idle.png"  width="300px"/>
+<img src="./images/quickstart_status_bar_idle.png"  width="450px"/>
 
-<img src="./images/quickstart_status_bar_marking.png"  width="300px"/>
+<img src="./images/quickstart_status_bar_marking.png"  width="450px"/>
 
-<span class="strongred">マーキング状態では、ハンドガンのトリガー入力でレーザー照射されます。十分に注意してください。</div>
+<span class="strongred">マーキングモードでは、ハンドガンのトリガー入力でレーザー照射されます。十分に注意してください。</div>
 
 刻印位置に赤色のガイド光が表示されるので、位置を確認しながら微調整を行います。
 
@@ -108,8 +171,12 @@
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
 
 
+<div style="page-break-before:always"></div>
+
 
 ## データ保存
 
 作成したファイルを内部に保存します。
 メニューバーの「保存」または「別名保存」をタップし、ファイル名を入力して「OK」をタップします。
+
+<img src="./images/quickstart_save_project.png"  width="450px"/>

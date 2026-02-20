@@ -13,8 +13,9 @@
 1. バーコードスキャナを加工機のUSBポートに接続します。
 2. 設定 > 通信設定を開き、各項目を設定します。
 
-<img src="./images/screen_setting_scanner_connection.png"  width="400px"/>
+<img src="./images/screen_setting_scanner_connection.png"  width="500px"/>
 
+<div class="fixed-table">
 
  項目 | 設定 |
 |:---:|---|
@@ -23,20 +24,32 @@
 | 起動時にクリア | 有効 |
 | デバッグモード | 有効 |
 
+</div>
+
 ※設定を行ったら、「再起動」をタップしてデバイスを再起動してください。
+
+
+<div style="page-break-before:always"></div>
+
 
 <div class="subentry">
 システム設定 - バーコードスキャナ
 </div>
 
-<img src="./images/screen_setting_scanner_access.png"  width="400px"/>
-<img src="./images/screen_setting_scanner.png"  width="400px"/>
+<img src="./images/screen_setting_scanner_access.png"  width="500px"/>
+<img src="./images/screen_setting_scanner.png"  width="500px"/>
 
+<div class="fixed-table">
 
  項目 | 設定 |
 |:---:|---|
 | 起動状態 | 起動 |
 | システム起動後に自動開始 | 有効 |
+
+</div>
+
+
+<div style="page-break-before:always"></div>
 
 
 ### 使用方法
@@ -44,9 +57,12 @@
 1. テキスト要素の「外部データ」を追加し、「編集」ボタンをタップします。
 2. 変数名称（Variable name）を`sv1`に設定します。
 
-<img src="./images/screen_setting_scanner_howto.png"  width="400px"/>
+<img src="./images/screen_setting_scanner_howto.png"  width="500px"/>
 
 この状態でバーコードリーダーでコードを読み取ると、上記のテキスト要素の文字列が読み取った文字列に変更されます。
+
+
+<div style="page-break-before:always"></div>
 
 
 ## レンズの校正方法
@@ -54,7 +70,7 @@
 レンズの校正作業は設定画面の「エリア」ページで行います。
 
 
-<img src="./images/screen_setting_area_setting.png"  width="400px"/>
+<img src="./images/screen_setting_area_setting.png"  width="500px"/>
 
 <div class="danger">
 レーザーが照射されます。この項目を操作する前に周囲の環境や加工素材の設置状況を十分に確認してください。
@@ -63,6 +79,8 @@
 ### 事前設定
 
 下記の各項目の値を設定します。
+
+<div class="fixed-table">
 
 **エリア設定**
 
@@ -85,6 +103,8 @@
 |:---:|---|
 | 軸1 反転 | 有効 |
 | 軸1 反転 | 無効 |
+
+</div>
 
 設定が完了したら、黒画用紙などの刻印素材を設置し、「テスト加工」をタップして校正用の図形を加工します。
 ここで加工された「ABC」の文字の向きや「+Y」「+X」の方向を確認します。

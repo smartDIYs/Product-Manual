@@ -2,9 +2,9 @@
 
 ## 加工パラメータ
 
-マーキングファイルが読み込まれた状態で、画面左の「設定」→「加工パラメータ」 を選択すると、現在の加工ファイルのパラメータを変更できます。デフォルト値の変更も可能です。
+マーキングファイルが読み込まれた状態で、画面左の「設定」→「加工パラメータ」 を選択すると、現在の加工ファイルのパラメータを変更できます。また、ファイルを新規作成した際に適用されるデフォルト値の設定も可能です。
 
-<img src="./images/screen_setting_process_parameter.png"  width="300px"/>
+<img src="./images/screen_setting_process_parameter.png"  width="560px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -21,14 +21,17 @@
 | 照射モード | 単点の照射モードを選択します。<br>連続照射：設定した点照射時間の間、レーザーを連続照射します。<br>パルス照射：パルス単位で照射します。加工箇所への熱影響を抑えたい場合に使用します。 |
 
 
+<div style="page-break-before:always"></div>
+
+
 <div class="subentry">高度なパラメータ</div>
 
 この項目は使用しません。
 
 
-**遅延設定について**
+<div class="subentry">遅延設定について</div>
 
-加工品質が満足いかない場合、遅延時間の設定を改善することで加工品質が改善される場合があります。
+加工品質に課題がある場合、遅延時間を調整することで加工品質が改善される場合があります。
 加工結果を観察し、下記に該当する場合は該当の遅延パラメータを調整してください。
 
 <div class="annotation">
@@ -43,40 +46,49 @@
 
 **ジャンプ遅延 が短すぎる場合**
 : ジャンプ遅延 が短すぎると、ジャンプ後にスキャンヘッドの位置が安定する前に最初のマーキングが開始され、このような振動（ぶれ）現象が発生します。
-<img src="./images/parameter/_jump_delay_is_too_short.jpg"  width="240px"/>
+<img src="./images/parameter/_jump_delay_is_too_short.jpg"  width="300px"/>
 
 **ジャンプ遅延 が長すぎる場合**
 : ジャンプ遅延 が長すぎると、マーキング品質に顕著な変化はありませんが、マーキング時間だけが長くなります。
 
 **出力オン遅延 が短すぎる場合**
 : 出力オン遅延 が短すぎると、パスの開始時点でスキャンヘッドが所定の速度に達していない状態でレーザーが照射されるため、加工ラインの始点が焦げたような状態になります。
-<img src="./images/parameter/_laser_on_delay_is_too_short.jpg"  width="240px"/>
+<img src="./images/parameter/_laser_on_delay_is_too_short.jpg"  width="300px"/>
 
 **出力オン遅延 が長すぎる場合**
 : 出力オン遅延 が長すぎると、パス始点でレーザー光が遅れて照射されるため、加工ラインの始点がマーキングされません。
-<img src="./images/parameter/_laser_on_delay_is_too_long.jpg"  width="240px"/>
+<img src="./images/parameter/_laser_on_delay_is_too_long.jpg"  width="300px"/>
 
 **出力オフ遅延 が短すぎる場合**
 : 出力オフ遅延 が短すぎると、スキャンヘッドがパス終端に達する前に、次の加工動作の制御によってレーザーが消灯してしまいます。その結果、各加工ラインが最後までマーキングされなくなります。
-<img src="./images/parameter/_laser_off_delay_is_too_short.jpg"  width="240px"/>
+<img src="./images/parameter/_laser_off_delay_is_too_short.jpg"  width="300px"/>
 
 **出力オフ遅延 が長すぎる場合**
 : Laser off delay が長すぎると、スキャンヘッドがパス終端に到達した後もレーザーが照射され続けます。その結果、加工ラインの終端部分が焦げたようになります。
-<img src="./images/parameter/_laser_off_delay_is_too_long.jpg"  width="240px"/>
+<img src="./images/parameter/_laser_off_delay_is_too_long.jpg"  width="300px"/>
 
 <!-- **マーキング遅延 について**
 値を大きくしても顕著な品質変化はありませんが、値が大きいほどマーキング時間は長くなります。 -->
 
 **コーナー遅延 が短すぎる場合**
 : コーナー遅延 が短すぎると、スキャンヘッドがパス終端に達していない状態で次の動作制御が開始され、折り返し部分に丸みが生じます。
-<img src="./images/parameter/_corner_delay_is_too_short.jpg"  width="240px"/>
+<img src="./images/parameter/_corner_delay_is_too_short.jpg"  width="300px"/>
 
 **コーナー遅延 が長すぎる場合**
 : コーナー遅延 が長すぎると、次の動作制御の開始時にスキャンヘッドの動作が非常に遅くなり、折り返し部分が焦げたようになります。
-<img src="./images/parameter/_corner_delay_is_too_long.jpg"  width="240px"/>
+<img src="./images/parameter/_corner_delay_is_too_long.jpg"  width="300px"/>
+
+
+<div style="page-break-before:always"></div>
 
 
 ## エリア
+
+ここでは加工エリアの設定やレンズの歪み補正を行うことができます。
+
+
+<img src="./images/screen_setting_area_setting.png"  width="540px"/>
+
 
 ### ガルバノミラーのキャリブレーション
 
@@ -91,9 +103,7 @@
 
 <div class="subentry">補正</div>
 
-ここではレンズの歪み補正の値を設定できます。
-
-補正方法については[レンズの校正方法](#レンズの校正方法)をご参照ください。
+ここではレンズの歪み補正の値を設定できます。補正方法については[レンズの校正方法](#レンズの校正方法)をご参照ください。
 
 | 項目 | 説明 |
 |:---:|---|
@@ -104,11 +114,16 @@
 | スケール | スケールを補正する調整値です。図形サイズと加工サイズから補正値を自動計算する機能が備わっています。 |
 
 
+<div style="page-break-before:always"></div>
+
+
 <div class="subentry">動作確認</div>
 
 <div class="danger">
 レーザーが照射されます。この項目を操作する前に周囲の環境や加工素材の設置状況を十分に確認してください。
 </div>
+
+<div class="fixed-table">
 
 | 項目 | 説明 |
 |:---:|---|
@@ -116,6 +131,7 @@
 | 連続トリガ | デバッグ用の機能です。使用しません。 |
 | パラメータ | テストパターンの加工パラメータを設定します。 |
 
+</div>
 
 <div class="subentry">レーザーテスト</div>
 
@@ -144,9 +160,9 @@
 | 焦点 | この項目は使用しません。 |
 
 
-補正方法については〇〇をご参照ください。<TODO:トラブルシューティング等>
+<!-- 補正方法については〇〇をご参照ください。<TODO:トラブルシューティング等> -->
 
-<div class="subentry">赤色ガイド光のキャリブレーション方法</div>
+**赤色ガイド光のキャリブレーション方法**
 
 赤色ガイド光のキャリブレーション方法は次のとおりです。
 
@@ -173,9 +189,7 @@
 
 この項目では、操作を行うユーザーごとに権限とパスワードを設定できます。この操作を行うには管理者ユーザーでログインしてください。
 
-<img src="./images/_user_rights.jpg"  width="300px"/>
-
-<img src="./images/screen_setting_user_rights.png"  width="300px"/>
+<img src="./images/screen_setting_user_rights.png"  width="540px"/>
 
 
 **設定例**
@@ -197,15 +211,26 @@
 
 システム内のフォントを管理します。フォントの追加、削除、エクスポートが可能です。
 
-<div class="annotation">
-フォント追加後はシステムが自動的に再起動します。
+**フォントの追加方法**
+
+1. 追加するフォントデータ（.ttf）が保存された USBメモリ を本体に接続します。
+2. 「フォントの追加」ボタンをタップし、「種類」を **すべてのファイル** に設定します。
+3. 表示されたフォントデータを選択し、「OK」ボタンをタップします。
+
+<div class="annotation" style="display:block">
+・フォントはTrueType（*.ttf）のみ対応しています。<br>
+・フォント追加後はシステムが自動的に再起動します。
 </div>
+
+
+<div style="page-break-before:always"></div>
+
 
 ## システム設定
 
 ここではシステム全般の設定を行うことができます。**設定の変更を行う場合は再起動が必要です。**
 
-<img src="./images/screen_setting_system_setting.png"  width="300px"/>
+<img src="./images/screen_setting_system_setting.png"  width="540px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -216,7 +241,7 @@
 | システムフォントサイズ | システムフォントのサイズを設定します。 |
 | System unit | 長さの表示単位を mm/inch から選択できます。 |
 | 言語 | システムの表示言語を選択できます。 |
-| 自動ファイル読み込み | 起動時に前回使用したファイルを開くか尋ねます。 |
+| 自動ファイル読込 | 起動時に前回使用したファイルを開くか尋ねます。 |
 | 起動時加工モード | 起動後、自動的にマーキングモードに移行します。 |
 | 生産ラインログ | この機能は使用しません。 |
 | 自動保存しない | チェックを入れると、加工時にファイルが自動保存されなくなります。 |
