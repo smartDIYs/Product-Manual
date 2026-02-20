@@ -16,7 +16,6 @@ puppeteer:
 
 <div style="height:120px"></div>
 <div align="center">
-<!-- <img src="./images/__title_photo.jpg" width="580px"> -->
 <img src="images/LM100P.webp" width=480px />
 </div>
 <div style="height:120px"></div>

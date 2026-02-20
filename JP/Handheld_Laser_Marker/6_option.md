@@ -7,7 +7,7 @@
 まず、「設定 > システム設定 > メニュー表示」で **生産ライン** を有効にします。有効にすると左メニューに「生産ライン」が追加されます。
 
 
-<img src="./images/screen_setting_enable_pline.png"  width="500px"/>
+<img src="./images/screen/screen_setting_enable_pline.png"  width="500px"/>
 
 
 <div class="subentry">
@@ -18,7 +18,7 @@
 
 <div class="img-float-right">
 
-<img src="./images/screen_setting_pline_setting.png"  width="380px"/>
+<img src="./images/screen/screen_setting_pline_setting.png"  width="380px"/>
 
 | 項目 | 設定 |
 |:---:|---|
@@ -44,7 +44,7 @@
 
 <div class="img-float-right">
 
-<img src="./images/screen_setting_pline_setting_other.png"  width="380px"/>
+<img src="./images/screen/screen_setting_pline_setting_other.png"  width="380px"/>
 
 | 項目 | 設定 |
 |:---:|---|
@@ -61,7 +61,7 @@
 
 <div class="img-float-right">
 
-<img src="./images/screen_setting_pline_setting_mode.png"  width="380px"/>
+<img src="./images/screen/screen_setting_pline_setting_mode.png"  width="380px"/>
 
 | 項目 | 設定 |
 |:---:|---|

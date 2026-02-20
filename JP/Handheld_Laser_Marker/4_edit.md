@@ -3,7 +3,7 @@
 ここでは、ファイルに追加できる刻印データの種類や設定方法を説明します。
 追加できるものには、テキスト、図形（点・線・円・矩形）、バーコード、QRコードなどが含まれます。
 
-<img src="images/screen_object_panel_hz.png" width="360px" />
+<img src="images/screen/screen_object_panel_hz.png" width="360px" />
 
 
 
@@ -15,7 +15,7 @@
 
 「点」を選択するとグラフィックエリアの座標（X:5, Y:5） に点が配置されます。コントロールパネル等で任意の位置に移動させてください。
 
-<img src="./images/screen_object_add_draw_dot.png"  width="500px"/>
+<img src="./images/screen/screen_object_add_draw_dot.png"  width="500px"/>
 
 <div class="annotation">
 
@@ -32,7 +32,7 @@
 
 <div class="img-float-left">
 
-<img src="./images/screen_object_add_line.png"  width="300px"/>
+<img src="./images/screen/screen_object_add_line.png"  width="300px"/>
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -51,7 +51,7 @@
 ### 円形
 「円形」を選択するとグラフィックエリアの中心に直径20mmの円が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
 
-<img src="./images/screen_object_add_circle.png"  width="450px"/>
+<img src="./images/screen/screen_object_add_circle.png"  width="450px"/>
 
 ### 矩形
 「矩形」を選択するとグラフィックエリアの中心に一辺20mmの矩形が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
@@ -64,7 +64,7 @@
 「ファイル」を選択すると下記のダイアログが表示されます。サポートされる形式は dxf, plt, jpg, png, bmp です。
 ファイルが見つからない場合は、「種類」が適切に設定されているかご確認ください。
 
-<img src="./images/screen_object_add_file.png"  width="320px"/>
+<img src="./images/screen/screen_object_add_file.png"  width="320px"/>
 
 <div class="annotation">
 ラスタ画像は、インポート後にコントロールパネルの「編集」機能から 解像度や明るさ・コントラスト、色の反転などの設定を行うことができます。
@@ -78,7 +78,7 @@
 「テキスト」を選択すると、テキスト編集画面が表示されます。
 新規作成時には空のテキスト（固定文字列）要素が自動的に追加されています。
 
-<img src="images/screen_object_add_text.png" width=500px />
+<img src="images/screen/screen_object_add_text.png" width=500px />
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -121,7 +121,7 @@
 
 
 **フォントの種類**
-<img src="images/screen_object_font_list.png" width=280px />
+<img src="images/screen/screen_object_font_list.png" width=280px />
 
 <div class="annotation">
 
@@ -142,7 +142,7 @@
 通常の文字列（固定文字列）のテキスト要素です。「テキスト」ボタンをタップするとテキスト要素が追加されます。
 文字列リストに追加された要素を選択した状態で「編集」ボタンをタップし、任意の文字列を入力します。
 
-<img src="images/screen_object_add_text_fixed.png" width=420px />
+<img src="images/screen/screen_object_add_text_fixed.png" width=420px />
 
 
 ### シリアル番号
@@ -150,7 +150,7 @@
 加工ごとに番号をカウントアップするテキスト要素です。同じ番号を複数回繰り返すことも可能です。
 「シリアル番号」ボタンをタップすると、デフォルト内容「0000」のシリアル番号が追加されます。
 
-<img src="images/screen_object_add_text_serial.png" width=480px />
+<img src="images/screen/screen_object_add_text_serial.png" width=480px />
 
 
 <div style="page-break-before:always"></div>
@@ -160,7 +160,7 @@
 
 文字列リストのシリアル番号要素を選択して編集ボタンをクリックすると、下図の編集画面が表示されます。
 
-<img src="images/screen_object_add_text_serial_edit.png" width=380px />
+<img src="images/screen/screen_object_add_text_serial_edit.png" width=380px />
 
 | 項目 | 説明 |
 |:---:|---|
@@ -204,9 +204,9 @@
 
 <table class="noframe">
 <tr>
-<td style="padding:0"><img src="./images/screen_object_add_text_date.png"  width="350px"/></td>
+<td style="padding:0"><img src="./images/screen/screen_object_add_text_date.png"  width="350px"/></td>
 <td style="width:10px"></td>
-<td style="padding:0"><img src="./images/screen_object_add_text_time.png" width="350px"/></td>
+<td style="padding:0"><img src="./images/screen/screen_object_add_text_time.png" width="350px"/></td>
 </tr>
 <tr style="text-align:center">
 <td>日付</td><td></td><td>時刻</td>
@@ -217,14 +217,14 @@
 
 文字列リストの日付または時刻要素を選択して「編集」ボタンをタップすると、日付／時刻編集画面がポップアップ表示されます。
 
-<img src="./images/screen_object_add_text_datetime_edit.png" width="420px"/>
+<img src="./images/screen/screen_object_add_text_datetime_edit.png" width="420px"/>
 
 | 項目 | 説明 |
 |:---:|---|
 | 形式選択 | システム内蔵の日時フォーマットが用意されており、そのまま選択して使用できます。 |
 | 形式の修正 | 日時フォーマットを編集します。区切り記号や、年月日の並び順などを変更できます。 |
 | 時間オフセット | 年・月・日・時・分・秒を現在時刻を基準として増減させることができます。例えば、「日」の値に1を加えると翌日、「日」の値を -1 にすると前日となります。他の項目も同様です。 |
-| 凡例型式 | 時間変数のカスタム表現を設定します。（2026 → 0x7E8など）<br>「設定」ボタンをタップして表示されるダイアログの「カスタマイズを有効にする」にチェックを入れ、対象の項目（年・月・日等）および対象数値を選択して「フォーマットの変更」をタップします。編集内容はプロジェクトファイル内でのみ有効です。<!--<img src="./images/object_panel/_add_text_daytime_custom_format.jpg" width="300px"/>--> |
+| 凡例型式 | 時間変数のカスタム表現を設定します。（2026 → 0x7E8など）<br>「設定」ボタンをタップして表示されるダイアログの「カスタマイズを有効にする」にチェックを入れ、対象の項目（年・月・日等）および対象数値を選択して「フォーマットの変更」をタップします。編集内容はプロジェクトファイル内でのみ有効です。 |
 | 名称 | この項目は使用しません。 |
 | 保証期間（日） | この項目は使用しません。 |
 
@@ -239,7 +239,7 @@
 刻印する文字列をファイルから読み込みます。
 「ファイル」ボタンをクリックし、テキストファイルまたはExcelファイルを選択して項目を追加します。
 
-<img src="./images/screen_object_add_text_file.png" width="420px"/>
+<img src="./images/screen/screen_object_add_text_file.png" width="420px"/>
 
 <div class="caution">
 行ごとに文字数が異なる場合、文字が加工エリアからはみ出した場合に加工不良が発生するリスクがあります。<br>
@@ -253,7 +253,7 @@
 
 <div class="img-float-left">
 
-<img src="./images/screen_object_add_text_file_text.png" width="320px"/>
+<img src="./images/screen/screen_object_add_text_file_text.png" width="320px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -275,7 +275,7 @@
 
 <div class="img-float-left">
 
-<img src="./images/screen_object_add_text_file_excel.png" width="320px"/>
+<img src="./images/screen/screen_object_add_text_file_excel.png" width="320px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -298,13 +298,11 @@
 現在時刻に応じて刻印する文字列を切り替えるテキスト要素です。更新のタイミングは「マーキングモードに移行したタイミング」または「前の刻印が終了したタイミング」です。
 「プラン」ボタンをタップして作成し、「編集」ボタンをタップして具体的な設定を行います。
 
-<!-- <img src="./images/object_panel/_add_text_plan.jpg"  width="300px"/> -->
-
 <table class="noframe" style="width:auto" >
 <tr>
-<td style="padding:0"><img src="./images/screen_object_add_text_plan.png"  width="340px"/></td>
+<td style="padding:0"><img src="./images/screen/screen_object_add_text_plan.png"  width="340px"/></td>
 <td style="width:10px"></td>
-<td style="padding:0"><img src="./images/screen_object_add_text_plan_modify.png" width="280px"/></td>
+<td style="padding:0"><img src="./images/screen/screen_object_add_text_plan_modify.png" width="280px"/></td>
 </tr>
 </table>
 
@@ -363,7 +361,7 @@ VINコード形式での文字列生成をサポートします。
 「バーコード」ボタンをタップすると編集画面がポップアップします。
 テキストボックスをタップするとテキスト編集画面が表示され、 [テキスト](#テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとバーコードが更新されます。
 
-<img src="./images/screen_object_add_barcode.png"  width="500px"/>
+<img src="./images/screen/screen_object_add_barcode.png"  width="500px"/>
 
 <div class="subentry">
 コード種類
@@ -380,7 +378,7 @@ VINコード形式での文字列生成をサポートします。
 | 左右枠線（左右長さ） | バーコードの左右端に枠線を追加し、その線幅（mm）を設定します。上下枠線が0以外のとき枠線の線幅は統一されます。 |
 
 
-<img src="./images/screen_barcode_inversion.png"  width="380px"/>
+<img src="./images/screen/screen_barcode_inversion.png"  width="380px"/>
 
 
 <div style="page-break-before:always"></div>
@@ -414,7 +412,7 @@ VINコード形式での文字列生成をサポートします。
 「QRコード」ボタンをタップと編集画面がポップアップします。
 テキストボックスをタップするとテキスト編集画面が表示され、 [テキスト](#テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとQRコードが更新されます。
 
-<img src="./images/screen_object_add_qrcode.png"  width="500px"/>
+<img src="./images/screen/screen_object_add_qrcode.png"  width="500px"/>
 
 <div class="subentry">
 コード種類
@@ -431,7 +429,7 @@ VINコード形式での文字列生成をサポートします。
 | 左右枠線 | バーコードの左右端に枠線を追加し、その線幅（mm）を設定します。上下長さが0以外のとき枠線の線幅は統一されます。 |
 | Clear Wrap | この機能は使用しません。 |
 
-<img src="./images/screen_qrcode_inversion.png"  width="380px"/>
+<img src="./images/screen/screen_qrcode_inversion.png"  width="380px"/>
 
 
 <div style="page-break-before:always"></div>
@@ -465,7 +463,7 @@ VINコード形式での文字列生成をサポートします。
 「待機時間」をタップすると編集画面が表示され、待機時間を設定できます。
 必要に応じてオブジェクトリストなどで加工順序を変更し、遅延を入れたいオブジェクトの直前に「待機時間」を配置してください。
 
-<img src="./images/screen_object_add_delayer_edit.png"  width="500px"/>
+<img src="./images/screen/screen_object_add_delayer_edit.png"  width="500px"/>
 
 ## 出力ポート
 この機能は使用しません。

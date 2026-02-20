@@ -4,7 +4,7 @@
 
 マーキングファイルが読み込まれた状態で、画面左の「設定」→「加工パラメータ」 を選択すると、現在の加工ファイルのパラメータを変更できます。また、ファイルを新規作成した際に適用されるデフォルト値の設定も可能です。
 
-<img src="./images/screen_setting_process_parameter.png"  width="560px"/>
+<img src="./images/screen/screen_setting_process_parameter.png"  width="560px"/>
 
 | 項目 | 説明 |
 |:---:|---|
@@ -87,7 +87,7 @@
 ここでは加工エリアの設定やレンズの歪み補正を行うことができます。
 
 
-<img src="./images/screen_setting_area_setting.png"  width="540px"/>
+<img src="./images/screen/screen_setting_area_setting.png"  width="540px"/>
 
 
 ### ガルバノミラーのキャリブレーション
@@ -189,7 +189,7 @@
 
 この項目では、操作を行うユーザーごとに権限とパスワードを設定できます。この操作を行うには管理者ユーザーでログインしてください。
 
-<img src="./images/screen_setting_user_rights.png"  width="540px"/>
+<img src="./images/screen/screen_setting_user_rights.png"  width="540px"/>
 
 
 **設定例**
@@ -230,7 +230,7 @@
 
 ここではシステム全般の設定を行うことができます。**設定の変更を行う場合は再起動が必要です。**
 
-<img src="./images/screen_setting_system_setting.png"  width="540px"/>
+<img src="./images/screen/screen_setting_system_setting.png"  width="540px"/>
 
 | 項目 | 説明 |
 |:---:|---|
