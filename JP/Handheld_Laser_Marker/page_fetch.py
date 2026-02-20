@@ -17,6 +17,11 @@ OUT_JSON = ROOT / "page_numbers.json"
 SKIP_PAGES = {2, 3}  # 1始まりで 2,3 ページを除外
 RE_HEADING = re.compile(r'^\s*(\d+(?:[\.．]\d+){0,2})(?:[\.．])?\s+(.+?)\s*$')
 
+EXTRA_TRANSLATE = str.maketrans({
+    "⻑": "長",  # CJK Radical Long
+    "⽂": "文",  # Kangxi radical (文)
+})
+
 # --- 比較用ノーマライズ ---
 def normalize_for_match(s: str) -> str:
     # 1) NFKC（部首/互換形・全角英数記号・全角ドット/スペース等を正規化）
@@ -27,6 +32,10 @@ def normalize_for_match(s: str) -> str:
     s = s.replace(".", "").replace("．", "")
     # 4) すべての空白類（半角/全角/NBSP 等）を除去
     s = re.sub(r'[\s\u00A0\u2000-\u200D\u202F\u205F\u3000]+', "", s)
+    # 互換文字を通常文字へ（全角英数/互換漢字/部首系なども寄ることがある）
+    s = unicodedata.normalize("NFKC", s)
+    # NFKCで取り切れないものがあれば追加置換（保険）
+    s = s.translate(EXTRA_TRANSLATE)
     return s
 
 # --- README.md の TOC からホワイトリスト（オリジナル→比較キー） ---
