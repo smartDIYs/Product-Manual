@@ -1,30 +1,38 @@
 # クイックスタート
 
+## 本体の起動
+
+電源ケーブルをコンセントに接続し、本体側面の電源スイッチをオンにします。緊急停止ボタンが押されいる場合は矢印の向きに回して解除してください。
+
+<img src="./images/photos/power_switch.jpg"  width="380px"/>
+
 ## ログイン
 
 ログインボタンをタップするとログインダイアログが表示されます。必要に応じてログインを行なってください。
 
-<img src="./images/quickstart_login.png" width="480px"/>
+<img src="./images/quickstart_login.png" width="540px"/>
 
 
 <div class="annotation">
-管理者の初期パスワード：123<br>
+管理者の初期パスワードは「123」です。<br>
 
-ログインユーザー（または未ログイン状態）ごとに操作を制限することも可能です。詳細は [ユーザー管理](#ユーザー管理) をご確認ください。
+ログインユーザー（または未ログイン）ごとに操作を制限することも可能です。詳細は [ユーザー管理](#ユーザー管理) をご確認ください。
 
 </div>
+
+
+<div style="page-break-before:always"></div>
+
 
 ## 新規ファイルの作成
 
 メニューバーの「新規」ボタンをタップして新規ファイルを開きます。
 
-<img src="./images/quickstart_new_file.png" width="480px"/>
+<img src="./images/quickstart_new_file.png" width="540px"/>
 
 <div class="annotation">
 「編集中のファイルを保存しますか？」と表示された場合、「OK」をタップすると現在のファイルの変更内容が保存されます。「キャンセル」をタップすると変更内容が破棄されます。
 </div>
-
-
 
 
 ## データ作成
@@ -40,6 +48,10 @@
 その他、各要素の詳細は [テキスト](#テキスト) をご確認ください。
 
 </div>
+
+**加工例**
+
+<img src="./images/photos/handgun_result.jpg"  width="300px"/>
 
 
 <div style="page-break-before:always"></div>
@@ -107,7 +119,6 @@
 テキストオブジェクトが選択された状態で、コントロールパネルの「塗潰し」をタップします。
 表示されたダイアログで下記の設定を行います。パラメータの詳細は  [塗りつぶし](#塗りつぶし)  をご確認ください。
 
-
 <img src="./images/quickstart_text_fill_edit.png"  width="540px"/>
 
 <!-- <div class="fixed-table">
@@ -148,30 +159,56 @@
 
 
 <div class="annotation">
-加工パラメータは加工素材や加工内容、加工の要求仕様等に応じて調整を行なってください。
+加工パラメータは加工素材や加工内容、要求品質等に応じて調整を行なってください。
 </div>
 
+
+<div style="page-break-before:always"></div>
 
 
 ## 加工操作
 
-安定した場所に素材を設置し、ハンドガンをしっかりと保持して素材に押し付けます。
-ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
+<table class="noframe">
+<tr>
+<td style="padding:0px"><img src="./images/photos/handgun_switch.jpg" width="350px" /></td>
+<td style="padding:0px; width:5px"></td>
+<td style="padding:0px"><img src="./images/photos/handgun_trigger.jpg" width="350px" /></td>
+</tr>
+<td style="text-align:center;">起動ボタン</td>
+<td></td>
+<td style="text-align:center;">トリガー</td>
+</table>
 
+ハンドガンを地面に向けた状態で起動ボタンをオンにし、手で保持しながら素材に押し当てます。
+次に、ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
+
+**操作モード**
 <img src="./images/quickstart_status_bar_idle.png"  width="450px"/>
 
+**マーキングモード**
 <img src="./images/quickstart_status_bar_marking.png"  width="450px"/>
 
-<span class="strongred">マーキングモードでは、ハンドガンのトリガー入力でレーザー照射されます。十分に注意してください。</div>
+<div class="danger">
+<span class="strongred">マーキングモードでは、ハンドガンのトリガー入力でレーザー照射されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。</span>
+</div>
 
-刻印位置に赤色のガイド光が表示されるので、位置を確認しながら微調整を行います。
 
-トリガーを入力すると加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。
+刻印位置に赤色のガイド光が表示されるので、位置を確認しながら配置を調整します。
+
+
+<img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
+
+トリガーを引くと加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。
+
+<div style="page-break-before:always"></div>
+
+
+位置を変えながら複数回刻印を行うと、刻印ごとにシリアル番号がカウントアップされます。
+
+<img src="./images/photos/handgun_result.jpg"  width="380px"/>
 
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
 
-
-<div style="page-break-before:always"></div>
 
 
 ## データ保存
@@ -180,3 +217,8 @@
 メニューバーの「保存」または「別名保存」をタップし、ファイル名を入力して「OK」をタップします。
 
 <img src="./images/quickstart_save_project.png"  width="450px"/>
+
+
+## 終了操作
+
+本体側面の電源ボタンを切ります。ハンドガンも同時にオフになります。
