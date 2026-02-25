@@ -1,5 +1,7 @@
 # クイックスタート
 
+この章では、ログインから加工、保存、終了までの基本操作を順番に説明します。
+
 ## 本体の起動
 
 電源ケーブルをコンセントに接続し、本体側面の電源スイッチをオンにします。緊急停止ボタンが押されいる場合は矢印の向きに回して解除してください。
@@ -182,30 +184,36 @@
 ハンドガンを地面に向けた状態で起動ボタンをオンにし、手で保持しながら素材に押し当てます。
 次に、ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
 
+<div style="margin: 30px 10px 40px">
+
 **操作モード**
-<img src="./images/quickstart_status_bar_idle.png"  width="450px"/>
+<img src="./images/quickstart_status_bar_idle.png"  width="540px"/>
+
+<br>
 
 **マーキングモード**
-<img src="./images/quickstart_status_bar_marking.png"  width="450px"/>
+<img src="./images/quickstart_status_bar_marking.png"  width="540px"/>
+
+</div>
 
 <div class="danger">
-<span class="strongred">マーキングモードでは、ハンドガンのトリガー入力でレーザー照射されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。</span>
+マーキングモードでは、ハンドガンのトリガーを引くと加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
+
+また、<span class="strongred">操作モードやハンドガンの起動ボタンがオフの状態でも、テストマーキングや強制照射などの機能ではレーザーが照射される場合があります。</span>モードや起動スイッチの状態だけで安全と判断せず、操作前に必ず照射方向・周囲の安全を確認してください。
 </div>
 
 
-刻印位置に赤色のガイド光が表示されるので、位置を確認しながら配置を調整します。
+<div style="page-break-before:always"></div>
+
+赤色のガイド光で刻印位置を確認しながら、配置を微調整してください。
 
 
 <img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
 
-トリガーを引くと加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。
-
-<div style="page-break-before:always"></div>
-
-
+トリガーを引くと加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。<br>
 位置を変えながら複数回刻印を行うと、刻印ごとにシリアル番号がカウントアップされます。
 
-<img src="./images/photos/handgun_result.jpg"  width="380px"/>
+<img src="./images/photos/handgun_result.jpg"  width="300px"/>
 
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
 

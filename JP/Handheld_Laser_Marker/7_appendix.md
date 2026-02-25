@@ -70,7 +70,7 @@
 <img src="./images/screen/screen_setting_area_setting.png"  width="500px"/>
 
 <div class="danger">
-レーザーが照射されます。この項目を操作する前に周囲の環境や加工素材の設置状況を十分に確認してください。
+この手順ではレーザーが照射されます。実行前に、周囲の安全と加工素材の設置状態を十分に確認してください。
 </div>
 
 ### 事前設定
