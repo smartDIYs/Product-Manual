@@ -105,6 +105,8 @@
 | 行間隔 | 複数行の場合、テキスト内の行間（mm）を設定できます。 |
 | 文字揃え | 複数行の場合、行の整列方法を設定できます。 |
 
+<div style="page-break-before:always"></div>
+
 <div class="subentry">
 ログ機能
 </div>

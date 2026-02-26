@@ -349,50 +349,70 @@ puppeteer:
 	<span class="dots"></span>
 	<span class="page-number">52</span>
 </a>
+<a class="toc-item toc-section-subitem" href="#611-本体設定">
+	<span>6.1.1 本体設定</span>
+	<span class="dots"></span>
+	<span class="page-number">52</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#612-使用方法">
+	<span>6.1.2 使用方法</span>
+	<span class="dots"></span>
+	<span class="page-number">54</span>
+</a>
 <a class="toc-item toc-section-item" href="#62-マグネットカバー">
 	<span>6.2 マグネットカバー</span>
 	<span class="dots"></span>
-	<span class="page-number">53</span>
+	<span class="page-number">54</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#621-本体設定">
+	<span>6.2.1 本体設定</span>
+	<span class="dots"></span>
+	<span class="page-number">54</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#622-使用方法">
+	<span>6.2.2 使用方法</span>
+	<span class="dots"></span>
+	<span class="page-number">54</span>
 </a>
 <a class="toc-item" href="#7-付録">
 	<span>7. 付録</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-item" href="#71-バーコードスキャナの使い方">
 	<span>7.1 バーコードスキャナの使い方</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#711-設定方法">
 	<span>7.1.1 設定方法</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#712-使用方法">
 	<span>7.1.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">55</span>
+	<span class="page-number">56</span>
 </a>
 <a class="toc-item toc-section-item" href="#72-レンズの校正方法">
 	<span>7.2 レンズの校正方法</span>
 	<span class="dots"></span>
-	<span class="page-number">56</span>
+	<span class="page-number">57</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#721-事前設定">
 	<span>7.2.1 事前設定</span>
 	<span class="dots"></span>
-	<span class="page-number">56</span>
+	<span class="page-number">57</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#722-歪み補正">
 	<span>7.2.2 歪み補正</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">58</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#723-大きさ補正">
 	<span>7.2.3 大きさ補正</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">58</span>
 </a>
 
 
@@ -1179,12 +1199,12 @@ E：削除、入力方式の切り替え
 <td style="padding:0px; width:5px"></td>
 <td style="padding:0px"><img src="./images/photos/handgun_trigger.jpg" width="350px" /></td>
 </tr>
-<td style="text-align:center;">起動ボタン</td>
+<td style="text-align:center;">セキュリティボタン</td>
 <td></td>
 <td style="text-align:center;">トリガー</td>
 </table>
 
-ハンドガンを地面に向けた状態で起動ボタンをオンにし、手で保持しながら素材に押し当てます。
+ハンドガンを地面に向けた状態でセキュリティボタンにし、手で保持しながら素材に押し当てます。
 次に、ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
 
 <div style="margin: 30px 10px 40px">
@@ -1202,7 +1222,7 @@ E：削除、入力方式の切り替え
 <div class="danger">
 マーキングモードでは、ハンドガンのトリガーを引くと加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
 
-また、<span class="strongred">操作モードやハンドガンの起動ボタンがオフの状態でも、テストマーキングや強制照射などの機能ではレーザーが照射される場合があります。</span>モードや起動スイッチの状態だけで安全と判断せず、操作前に必ず照射方向・周囲の安全を確認してください。
+また、<span class="strongred">操作モードやハンドガンのセキュリティボタンがオフの状態でも、テストマーキングや強制照射などの機能ではレーザーが照射される場合があります。</span>モードや起動スイッチの状態だけで安全と判断せず、操作前に必ず照射方向・周囲の安全を確認してください。
 </div>
 
 
@@ -1341,6 +1361,8 @@ E：削除、入力方式の切り替え
 | 文字間隔 | 文字同士の間隔（mm）を指定します。「字送り」を有効にすると文字の字送りを指定できます。 |
 | 行間隔 | 複数行の場合、テキスト内の行間（mm）を設定できます。 |
 | 文字揃え | 複数行の場合、行の整列方法を設定できます。 |
+
+<div style="page-break-before:always"></div>
 
 <div class="subentry">
 ログ機能
@@ -1837,7 +1859,7 @@ VINコード形式での文字列生成をサポートします。
 <div class="subentry">動作確認</div>
 
 <div class="danger">
-この操作では、ハンドガンの起動状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
+この操作では、ハンドガンの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
 </div>
 
 <div class="fixed-table">
@@ -1853,7 +1875,7 @@ VINコード形式での文字列生成をサポートします。
 <div class="subentry">レーザーテスト</div>
 
 <div class="danger">
-この操作では、ハンドガンの起動状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
+この操作では、ハンドガンの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
 </div>
 
 強制発行機能ではレーザーが正常に発光しているかをテストできます。この機能は光路の調整やキャリブレーションにも使用できます。 **「強制照射」** をタップするとレーザーが出力され、レーザーを停止するには **「消灯」** ボタンをタップする必要があります（自動停止しません）。
@@ -1984,7 +2006,7 @@ VINコード形式での文字列生成をサポートします。
 | 項目 | ボタン機能 |
 |:---:|---|
 | ガイドライト | 赤色ライトでガイド表示します。 |
-| テスト加工 | 現在選択されているデータをマーキングします。マーキング後、ステータスバーでマーキング時間を確認できます。<br><div class="danger">この操作では、マーキング状態やハンドガンの起動状態の有無に関わらず、ボタンをタップした瞬間にレーザーが照射されます。</div> |
+| テスト加工 | 現在選択されているデータをマーキングします。マーキング後、ステータスバーでマーキング時間を確認できます。<br><span class="strongred">この操作では、マーキング状態やハンドガンの動作状態の有無に関わらず、ボタンをタップした瞬間にレーザーが照射されます。</span> |
 | 生産ライン | オプションの長文刻印カバーを使用する場合に設定します。 |
 | 中央座標 | 中央揃えを行った際の基準点（中央座標）を設定します。 |
 
@@ -2023,19 +2045,23 @@ VINコード形式での文字列生成をサポートします。
 
 ## 6.1 長文刻印カバー
 
-長文刻印カバーを使用して加工範囲を超える長いテキストを刻印する場合は、システムの設定を変更する必要があります。
+加工エリアを超える長い文字列を刻印する場合に使用します。図形にも対応していますが、文字や図形の単体の幅が大きい場合は加工できない場合があります。
+
+
+### 6.1.1 本体設定
+
+長文刻印カバーを使用して加工エリアを超える長いテキストを刻印する場合は、システムの設定を変更する必要があります。
 
 まず、「設定 > システム設定 > メニュー表示」で **生産ライン** を有効にします。有効にすると左メニューに「生産ライン」が追加されます。
 
 
 <img src="./images/screen/screen_setting_enable_pline.png"  width="500px"/>
 
-
 <div class="subentry">
 生産ライン
 </div>
 
-メニューバーの「生産ライン」ボタンをタップし、下記通り設定します。
+メニューバーの「生産ライン」ボタンをタップし、下記の通り設定します。
 
 <div class="img-float-right">
 
@@ -2061,7 +2087,7 @@ VINコード形式での文字列生成をサポートします。
 生産ライン > その他の設定
 </div>
 
-次に、生産ライン設定ページの「他のパラメータ」ボタンをタップし、下記通り設定します。
+次に、生産ライン設定ページの「他のパラメータ」ボタンをタップし、下記の通り設定します。
 
 <div class="img-float-right">
 
@@ -2069,7 +2095,11 @@ VINコード形式での文字列生成をサポートします。
 
 | 項目 | 設定 |
 |:---:|---|
+| エッジ距離 | 12.00 |
+| 範囲 X1 | 80 |
+| 範囲 X2 | 100 |
 | 加工の即時停止 | 有効 |
+| 開始遅延 | 0 |
 
 </div>
 
@@ -2078,7 +2108,7 @@ VINコード形式での文字列生成をサポートします。
 加工モード
 </div>
 
-最後に、加工モードページの各項目を下記通り設定します。
+加工モードページの各項目を下記の通り設定します。
 
 <div class="img-float-right">
 
@@ -2089,17 +2119,55 @@ VINコード形式での文字列生成をサポートします。
 | 検出機 | 有効 |
 | 高出力・低出力 | 高出力 |
 | ペダルモード | トリガー |
+| ペダル間隔 | 0 |
 | 加工モード | 通常モード |
+| センサ距離 | 0.0 |
+
+</div>
+
+
+<div class="subentry">
+ガイド表示
+</div>
+
+必要に応じて、ガイド光の表示方法を変更します。
+「設定 > エリア > ガイドライト」をタップし、「フライモード」を有効にします。
+
+
+<div style="page-break-before:always"></div>
+
+
+### 6.1.2 使用方法
+
+ステータスバーの「ガイド」ボタンをタップするとガイド光が表示されます。<br>
+位置の確認・調整を行なったら「スタート」ボタンをタップし、ハンドガンのトリガーを引きます。<br>
+ハンドガンを素材に押し当てながら右方向に動かすと、文字が順に加工されていきます。
+
+<img src="./images/photos/longchar_guide.jpg"  width="480px"/>
+
+
+<div class="annotation" style="display:block; margin-top:20px">
+
+<b>通常設定へ戻す場合</b><br>
+
+生産ライン設定の「パイプラインの方向」を「停止」にします。<br>
+また、「設定 > エリア > ガイドライト」の「フライモード」を無効にします。
 
 </div>
 
 
 
+
 ## 6.2 マグネットカバー
+
+内蔵された電磁石により、磁性のある素材に対して固定しやすくなります。<br>
+マグネットによる固定は補助的なものです。作業中はハンドガンから手を離さないようにしてください。
+
+### 6.2.1 本体設定
 
 マグネットカバーを使用する場合、本体設定を変更する必要はありません。<br>
 
-**動作について**
+### 6.2.2 使用方法
 
 マグネットは電磁石のため、ハンドガンの起動中に磁力が働きます。
 ハンドガンの電源、または本体電源をオフにすると、磁力は失われます。
