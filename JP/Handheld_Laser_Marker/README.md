@@ -59,360 +59,370 @@ puppeteer:
 	<span class="dots"></span>
 	<span class="page-number">4</span>
 </a>
-<a class="toc-item toc-section-item" href="#13-製品仕様">
-	<span>1.3 製品仕様</span>
+<a class="toc-item toc-section-item" href="#13-製品保証">
+	<span>1.3 製品保証</span>
 	<span class="dots"></span>
 	<span class="page-number">6</span>
 </a>
-<a class="toc-item" href="#2-画面構成">
-	<span>2. 画面構成</span>
+<a class="toc-item toc-section-item" href="#14-製品仕様">
+	<span>1.4 製品仕様</span>
 	<span class="dots"></span>
 	<span class="page-number">7</span>
 </a>
-<a class="toc-item toc-section-item" href="#21-サイドバー">
-	<span>2.1 サイドバー</span>
+<a class="toc-item" href="#2-ハードウェアセットアップ">
+	<span>2. ハードウェアセットアップ</span>
 	<span class="dots"></span>
 	<span class="page-number">8</span>
 </a>
-<a class="toc-item toc-section-item" href="#22-ステータスバー">
-	<span>2.2 ステータスバー</span>
-	<span class="dots"></span>
-	<span class="page-number">8</span>
-</a>
-<a class="toc-item toc-section-item" href="#23-メニューバー">
-	<span>2.3 メニューバー</span>
+<a class="toc-item" href="#3-画面構成">
+	<span>3. 画面構成</span>
 	<span class="dots"></span>
 	<span class="page-number">9</span>
 </a>
-<a class="toc-item toc-section-item" href="#24-グラフィックビュー操作">
-	<span>2.4 グラフィックビュー操作</span>
+<a class="toc-item toc-section-item" href="#31-サイドバー">
+	<span>3.1 サイドバー</span>
 	<span class="dots"></span>
-	<span class="page-number">12</span>
+	<span class="page-number">10</span>
 </a>
-<a class="toc-item toc-section-item" href="#25-コントロールパネル">
-	<span>2.5 コントロールパネル</span>
+<a class="toc-item toc-section-item" href="#32-ステータスバー">
+	<span>3.2 ステータスバー</span>
 	<span class="dots"></span>
-	<span class="page-number">12</span>
+	<span class="page-number">10</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#251-移動変形">
-	<span>2.5.1 移動・変形</span>
+<a class="toc-item toc-section-item" href="#33-メニューバー">
+	<span>3.3 メニューバー</span>
 	<span class="dots"></span>
-	<span class="page-number">12</span>
+	<span class="page-number">11</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#252-その他の操作">
-	<span>2.5.2 その他の操作</span>
-	<span class="dots"></span>
-	<span class="page-number">13</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#253-リスト">
-	<span>2.5.3 リスト</span>
+<a class="toc-item toc-section-item" href="#34-グラフィックビュー操作">
+	<span>3.4 グラフィックビュー操作</span>
 	<span class="dots"></span>
 	<span class="page-number">14</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#254-円弧文字">
-	<span>2.5.4 円弧文字</span>
+<a class="toc-item toc-section-item" href="#35-コントロールパネル">
+	<span>3.5 コントロールパネル</span>
+	<span class="dots"></span>
+	<span class="page-number">14</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#351-移動変形">
+	<span>3.5.1 移動・変形</span>
+	<span class="dots"></span>
+	<span class="page-number">14</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#352-その他の操作">
+	<span>3.5.2 その他の操作</span>
 	<span class="dots"></span>
 	<span class="page-number">15</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#255-塗りつぶし">
-	<span>2.5.5 塗りつぶし</span>
+<a class="toc-item toc-section-subitem" href="#353-リスト">
+	<span>3.5.3 リスト</span>
 	<span class="dots"></span>
 	<span class="page-number">16</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#256-配列">
-	<span>2.5.6 配列</span>
+<a class="toc-item toc-section-subitem" href="#354-円弧文字">
+	<span>3.5.4 円弧文字</span>
+	<span class="dots"></span>
+	<span class="page-number">17</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#355-塗りつぶし">
+	<span>3.5.5 塗りつぶし</span>
 	<span class="dots"></span>
 	<span class="page-number">18</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#257-プロパティ">
-	<span>2.5.7 プロパティ</span>
-	<span class="dots"></span>
-	<span class="page-number">19</span>
-</a>
-<a class="toc-item toc-section-item" href="#26-オブジェクトパネル">
-	<span>2.6 オブジェクトパネル</span>
-	<span class="dots"></span>
-	<span class="page-number">19</span>
-</a>
-<a class="toc-item toc-section-item" href="#27-文字入力">
-	<span>2.7 文字入力</span>
+<a class="toc-item toc-section-subitem" href="#356-配列">
+	<span>3.5.6 配列</span>
 	<span class="dots"></span>
 	<span class="page-number">20</span>
 </a>
-<a class="toc-item" href="#3-クイックスタート">
-	<span>3. クイックスタート</span>
+<a class="toc-item toc-section-subitem" href="#357-プロパティ">
+	<span>3.5.7 プロパティ</span>
 	<span class="dots"></span>
 	<span class="page-number">21</span>
 </a>
-<a class="toc-item toc-section-item" href="#31-本体の起動">
-	<span>3.1 本体の起動</span>
+<a class="toc-item toc-section-item" href="#36-オブジェクトパネル">
+	<span>3.6 オブジェクトパネル</span>
 	<span class="dots"></span>
 	<span class="page-number">21</span>
 </a>
-<a class="toc-item toc-section-item" href="#32-ログイン">
-	<span>3.2 ログイン</span>
-	<span class="dots"></span>
-	<span class="page-number">21</span>
-</a>
-<a class="toc-item toc-section-item" href="#33-新規ファイルの作成">
-	<span>3.3 新規ファイルの作成</span>
+<a class="toc-item toc-section-item" href="#37-文字入力">
+	<span>3.7 文字入力</span>
 	<span class="dots"></span>
 	<span class="page-number">22</span>
 </a>
-<a class="toc-item toc-section-item" href="#34-データ作成">
-	<span>3.4 データ作成</span>
+<a class="toc-item" href="#4-クイックスタート">
+	<span>4. クイックスタート</span>
 	<span class="dots"></span>
-	<span class="page-number">22</span>
+	<span class="page-number">23</span>
 </a>
-<a class="toc-item toc-section-item" href="#35-パラメータ設定">
-	<span>3.5 パラメータ設定</span>
+<a class="toc-item toc-section-item" href="#41-本体の起動">
+	<span>4.1 本体の起動</span>
 	<span class="dots"></span>
-	<span class="page-number">25</span>
+	<span class="page-number">23</span>
 </a>
-<a class="toc-item toc-section-item" href="#36-加工操作">
-	<span>3.6 加工操作</span>
+<a class="toc-item toc-section-item" href="#42-ログイン">
+	<span>4.2 ログイン</span>
 	<span class="dots"></span>
-	<span class="page-number">26</span>
+	<span class="page-number">23</span>
 </a>
-<a class="toc-item toc-section-item" href="#37-データ保存">
-	<span>3.7 データ保存</span>
+<a class="toc-item toc-section-item" href="#43-新規ファイルの作成">
+	<span>4.3 新規ファイルの作成</span>
+	<span class="dots"></span>
+	<span class="page-number">24</span>
+</a>
+<a class="toc-item toc-section-item" href="#44-データ作成">
+	<span>4.4 データ作成</span>
+	<span class="dots"></span>
+	<span class="page-number">24</span>
+</a>
+<a class="toc-item toc-section-item" href="#45-パラメータ設定">
+	<span>4.5 パラメータ設定</span>
 	<span class="dots"></span>
 	<span class="page-number">27</span>
 </a>
-<a class="toc-item toc-section-item" href="#38-終了操作">
-	<span>3.8 終了操作</span>
-	<span class="dots"></span>
-	<span class="page-number">27</span>
-</a>
-<a class="toc-item" href="#4-編集">
-	<span>4. 編集</span>
+<a class="toc-item toc-section-item" href="#46-加工操作">
+	<span>4.6 加工操作</span>
 	<span class="dots"></span>
 	<span class="page-number">28</span>
 </a>
-<a class="toc-item toc-section-item" href="#41-図形">
-	<span>4.1 図形</span>
-	<span class="dots"></span>
-	<span class="page-number">28</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#411-点">
-	<span>4.1.1 点</span>
-	<span class="dots"></span>
-	<span class="page-number">28</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#412-直線">
-	<span>4.1.2 直線</span>
-	<span class="dots"></span>
-	<span class="page-number">29</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#413-円形">
-	<span>4.1.3 円形</span>
-	<span class="dots"></span>
-	<span class="page-number">29</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#414-矩形">
-	<span>4.1.4 矩形</span>
-	<span class="dots"></span>
-	<span class="page-number">29</span>
-</a>
-<a class="toc-item toc-section-item" href="#42-ファイル">
-	<span>4.2 ファイル</span>
+<a class="toc-item toc-section-item" href="#47-データ保存">
+	<span>4.7 データ保存</span>
 	<span class="dots"></span>
 	<span class="page-number">30</span>
 </a>
-<a class="toc-item toc-section-item" href="#43-テキスト">
-	<span>4.3 テキスト</span>
+<a class="toc-item toc-section-item" href="#48-終了操作">
+	<span>4.8 終了操作</span>
+	<span class="dots"></span>
+	<span class="page-number">30</span>
+</a>
+<a class="toc-item" href="#5-編集">
+	<span>5. 編集</span>
 	<span class="dots"></span>
 	<span class="page-number">31</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#431-テキスト">
-	<span>4.3.1 テキスト</span>
+<a class="toc-item toc-section-item" href="#51-図形">
+	<span>5.1 図形</span>
+	<span class="dots"></span>
+	<span class="page-number">31</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#511-点">
+	<span>5.1.1 点</span>
+	<span class="dots"></span>
+	<span class="page-number">31</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#512-直線">
+	<span>5.1.2 直線</span>
+	<span class="dots"></span>
+	<span class="page-number">32</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#513-円形">
+	<span>5.1.3 円形</span>
+	<span class="dots"></span>
+	<span class="page-number">32</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#514-矩形">
+	<span>5.1.4 矩形</span>
+	<span class="dots"></span>
+	<span class="page-number">32</span>
+</a>
+<a class="toc-item toc-section-item" href="#52-ファイル">
+	<span>5.2 ファイル</span>
 	<span class="dots"></span>
 	<span class="page-number">33</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#432-シリアル番号">
-	<span>4.3.2 シリアル番号</span>
+<a class="toc-item toc-section-item" href="#53-テキスト">
+	<span>5.3 テキスト</span>
 	<span class="dots"></span>
-	<span class="page-number">33</span>
+	<span class="page-number">34</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#433-日付時刻">
-	<span>4.3.3 日付・時刻</span>
-	<span class="dots"></span>
-	<span class="page-number">35</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#434-ファイル">
-	<span>4.3.4 ファイル</span>
+<a class="toc-item toc-section-subitem" href="#531-テキスト">
+	<span>5.3.1 テキスト</span>
 	<span class="dots"></span>
 	<span class="page-number">36</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#435-プラン">
-	<span>4.3.5 プラン</span>
+<a class="toc-item toc-section-subitem" href="#532-シリアル番号">
+	<span>5.3.2 シリアル番号</span>
+	<span class="dots"></span>
+	<span class="page-number">36</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#533-日付時刻">
+	<span>5.3.3 日付・時刻</span>
 	<span class="dots"></span>
 	<span class="page-number">38</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#436-外部データ">
-	<span>4.3.6 外部データ</span>
+<a class="toc-item toc-section-subitem" href="#534-ファイル">
+	<span>5.3.4 ファイル</span>
 	<span class="dots"></span>
 	<span class="page-number">39</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#437-ランダムコード">
-	<span>4.3.7 ランダムコード</span>
+<a class="toc-item toc-section-subitem" href="#535-プラン">
+	<span>5.3.5 プラン</span>
 	<span class="dots"></span>
-	<span class="page-number">39</span>
+	<span class="page-number">41</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#438-VINコード">
-	<span>4.3.8 VINコード</span>
-	<span class="dots"></span>
-	<span class="page-number">39</span>
-</a>
-<a class="toc-item toc-section-item" href="#44-バーコード">
-	<span>4.4 バーコード</span>
-	<span class="dots"></span>
-	<span class="page-number">40</span>
-</a>
-<a class="toc-item toc-section-item" href="#45-QRコード">
-	<span>4.5 QRコード</span>
+<a class="toc-item toc-section-subitem" href="#536-外部データ">
+	<span>5.3.6 外部データ</span>
 	<span class="dots"></span>
 	<span class="page-number">42</span>
 </a>
-<a class="toc-item toc-section-item" href="#46-待機時間">
-	<span>4.6 待機時間</span>
+<a class="toc-item toc-section-subitem" href="#537-ランダムコード">
+	<span>5.3.7 ランダムコード</span>
+	<span class="dots"></span>
+	<span class="page-number">42</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#538-VINコード">
+	<span>5.3.8 VINコード</span>
+	<span class="dots"></span>
+	<span class="page-number">42</span>
+</a>
+<a class="toc-item toc-section-item" href="#54-バーコード">
+	<span>5.4 バーコード</span>
 	<span class="dots"></span>
 	<span class="page-number">43</span>
 </a>
-<a class="toc-item toc-section-item" href="#47-出力ポート">
-	<span>4.7 出力ポート</span>
+<a class="toc-item toc-section-item" href="#55-QRコード">
+	<span>5.5 QRコード</span>
 	<span class="dots"></span>
-	<span class="page-number">43</span>
+	<span class="page-number">45</span>
 </a>
-<a class="toc-item" href="#5-設定">
-	<span>5. 設定</span>
+<a class="toc-item toc-section-item" href="#56-待機時間">
+	<span>5.6 待機時間</span>
 	<span class="dots"></span>
-	<span class="page-number">44</span>
+	<span class="page-number">46</span>
 </a>
-<a class="toc-item toc-section-item" href="#51-加工パラメータ">
-	<span>5.1 加工パラメータ</span>
+<a class="toc-item toc-section-item" href="#57-出力ポート">
+	<span>5.7 出力ポート</span>
 	<span class="dots"></span>
-	<span class="page-number">44</span>
+	<span class="page-number">46</span>
 </a>
-<a class="toc-item toc-section-item" href="#52-エリア">
-	<span>5.2 エリア</span>
-	<span class="dots"></span>
-	<span class="page-number">47</span>
-</a>
-<a class="toc-item toc-section-subitem" href="#521-ガルバノミラーのキャリブレーション">
-	<span>5.2.1 ガルバノミラーのキャリブレーション</span>
+<a class="toc-item" href="#6-設定">
+	<span>6. 設定</span>
 	<span class="dots"></span>
 	<span class="page-number">47</span>
 </a>
-<a class="toc-item toc-section-item" href="#53-レーザー">
-	<span>5.3 レーザー</span>
+<a class="toc-item toc-section-item" href="#61-加工パラメータ">
+	<span>6.1 加工パラメータ</span>
 	<span class="dots"></span>
-	<span class="page-number">49</span>
+	<span class="page-number">47</span>
 </a>
-<a class="toc-item toc-section-item" href="#54-ユーザー管理">
-	<span>5.4 ユーザー管理</span>
-	<span class="dots"></span>
-	<span class="page-number">49</span>
-</a>
-<a class="toc-item toc-section-item" href="#55-フォント管理">
-	<span>5.5 フォント管理</span>
-	<span class="dots"></span>
-	<span class="page-number">49</span>
-</a>
-<a class="toc-item toc-section-item" href="#56-システム設定">
-	<span>5.6 システム設定</span>
+<a class="toc-item toc-section-item" href="#62-エリア">
+	<span>6.2 エリア</span>
 	<span class="dots"></span>
 	<span class="page-number">50</span>
 </a>
-<a class="toc-item toc-section-item" href="#57-IO_設定">
-	<span>5.7 IO 設定</span>
+<a class="toc-item toc-section-subitem" href="#621-ガルバノミラーのキャリブレーション">
+	<span>6.2.1 ガルバノミラーのキャリブレーション</span>
 	<span class="dots"></span>
-	<span class="page-number">51</span>
+	<span class="page-number">50</span>
 </a>
-<a class="toc-item toc-section-item" href="#58-通信設定">
-	<span>5.8 通信設定</span>
-	<span class="dots"></span>
-	<span class="page-number">51</span>
-</a>
-<a class="toc-item toc-section-item" href="#59-システム情報">
-	<span>5.9 システム情報</span>
-	<span class="dots"></span>
-	<span class="page-number">51</span>
-</a>
-<a class="toc-item" href="#6-オプション">
-	<span>6. オプション</span>
+<a class="toc-item toc-section-item" href="#63-レーザー">
+	<span>6.3 レーザー</span>
 	<span class="dots"></span>
 	<span class="page-number">52</span>
 </a>
-<a class="toc-item toc-section-item" href="#61-長文刻印カバー">
-	<span>6.1 長文刻印カバー</span>
+<a class="toc-item toc-section-item" href="#64-ユーザー管理">
+	<span>6.4 ユーザー管理</span>
 	<span class="dots"></span>
 	<span class="page-number">52</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#611-本体設定">
-	<span>6.1.1 本体設定</span>
+<a class="toc-item toc-section-item" href="#65-フォント管理">
+	<span>6.5 フォント管理</span>
 	<span class="dots"></span>
 	<span class="page-number">52</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#612-使用方法">
-	<span>6.1.2 使用方法</span>
+<a class="toc-item toc-section-item" href="#66-システム設定">
+	<span>6.6 システム設定</span>
+	<span class="dots"></span>
+	<span class="page-number">53</span>
+</a>
+<a class="toc-item toc-section-item" href="#67-IO_設定">
+	<span>6.7 IO 設定</span>
 	<span class="dots"></span>
 	<span class="page-number">54</span>
 </a>
-<a class="toc-item toc-section-item" href="#62-マグネットカバー">
-	<span>6.2 マグネットカバー</span>
+<a class="toc-item toc-section-item" href="#68-通信設定">
+	<span>6.8 通信設定</span>
 	<span class="dots"></span>
 	<span class="page-number">54</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#621-本体設定">
-	<span>6.2.1 本体設定</span>
+<a class="toc-item toc-section-item" href="#69-システム情報">
+	<span>6.9 システム情報</span>
 	<span class="dots"></span>
 	<span class="page-number">54</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#622-使用方法">
-	<span>6.2.2 使用方法</span>
-	<span class="dots"></span>
-	<span class="page-number">54</span>
-</a>
-<a class="toc-item" href="#7-付録">
-	<span>7. 付録</span>
+<a class="toc-item" href="#7-オプション">
+	<span>7. オプション</span>
 	<span class="dots"></span>
 	<span class="page-number">55</span>
 </a>
-<a class="toc-item toc-section-item" href="#71-バーコードスキャナの使い方">
-	<span>7.1 バーコードスキャナの使い方</span>
+<a class="toc-item toc-section-item" href="#71-長尺印字カバー">
+	<span>7.1 長尺印字カバー</span>
 	<span class="dots"></span>
 	<span class="page-number">55</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#711-設定方法">
-	<span>7.1.1 設定方法</span>
+<a class="toc-item toc-section-subitem" href="#711-本体設定">
+	<span>7.1.1 本体設定</span>
 	<span class="dots"></span>
 	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#712-使用方法">
 	<span>7.1.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">56</span>
+	<span class="page-number">57</span>
 </a>
-<a class="toc-item toc-section-item" href="#72-レンズの校正方法">
-	<span>7.2 レンズの校正方法</span>
+<a class="toc-item toc-section-item" href="#72-マグネットカバー">
+	<span>7.2 マグネットカバー</span>
 	<span class="dots"></span>
 	<span class="page-number">57</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#721-事前設定">
-	<span>7.2.1 事前設定</span>
+<a class="toc-item toc-section-subitem" href="#721-本体設定">
+	<span>7.2.1 本体設定</span>
 	<span class="dots"></span>
 	<span class="page-number">57</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#722-歪み補正">
-	<span>7.2.2 歪み補正</span>
+<a class="toc-item toc-section-subitem" href="#722-使用方法">
+	<span>7.2.2 使用方法</span>
+	<span class="dots"></span>
+	<span class="page-number">57</span>
+</a>
+<a class="toc-item" href="#8-付録">
+	<span>8. 付録</span>
 	<span class="dots"></span>
 	<span class="page-number">58</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#723-大きさ補正">
-	<span>7.2.3 大きさ補正</span>
+<a class="toc-item toc-section-item" href="#81-バーコードスキャナの使い方">
+	<span>8.1 バーコードスキャナの使い方</span>
 	<span class="dots"></span>
 	<span class="page-number">58</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#811-設定方法">
+	<span>8.1.1 設定方法</span>
+	<span class="dots"></span>
+	<span class="page-number">58</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#812-使用方法">
+	<span>8.1.2 使用方法</span>
+	<span class="dots"></span>
+	<span class="page-number">59</span>
+</a>
+<a class="toc-item toc-section-item" href="#82-レンズの校正方法">
+	<span>8.2 レンズの校正方法</span>
+	<span class="dots"></span>
+	<span class="page-number">60</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#821-事前設定">
+	<span>8.2.1 事前設定</span>
+	<span class="dots"></span>
+	<span class="page-number">60</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#822-歪み補正">
+	<span>8.2.2 歪み補正</span>
+	<span class="dots"></span>
+	<span class="page-number">61</span>
+</a>
+<a class="toc-item toc-section-subitem" href="#823-大きさ補正">
+	<span>8.2.3 大きさ補正</span>
+	<span class="dots"></span>
+	<span class="page-number">61</span>
 </a>
 
 
@@ -462,7 +472,7 @@ puppeteer:
 
 4. 本仕様書の規定外の制御・調整・操作手順を用いると、危険なレーザー放射に曝露するおそれがあります。
 
-5. 本製品に搭載されたレーザー開口部から放射されるレーザー放射レベルは、クラス1を超えています。
+5. 本製品のレーザー開口部から放射されるレーザー放射は、クラス4に該当します。
 
 6. 光学濃度 OD3 の保護メガネの着用を推奨します。
 
@@ -484,13 +494,13 @@ puppeteer:
 
 15. 本製品を電子レンジや加圧容器の中に入れないでください。
 
-16. 異常な状況下で、本製品の筐体にワイヤーやその他の金属物を差し込むことは禁止されています。短絡などにより、制御不能な危険を含む重大な結果を招くおそれがあります。
+16. 本製品の筐体にワイヤー等の金属物を差し込まないでください。短絡（ショート）などにより、誤動作や制御不能となり、重大な事故につながるおそれがあります。
 
 17. 本製品を叩いたり衝撃を与えないでください。本製品の上に重い物を載せないでください。
 
 18. 本製品のタッチスクリーンに汚れが付着した場合は、専用の静電容量式スクリーン用クリーナーを使用して拭き取ってください。
 
-19. 本製品の通気口にホコリがある場合は、ブラシを使用して清掃してください。（ひどく詰まっている場合は、アフターサービス担当者にご連絡ください）
+19. 本製品の通気口にホコリがある場合は、ブラシを使用して清掃してください。（ひどく詰まっている場合は、弊社サポートまでご連絡ください）
 
 20. 湿気の多い環境（海辺や水辺など）では、防湿袋を併用することを推奨します。水の侵入や浸水を防ぐためです。本製品内部に水が入っているのを確認した場合は、使用したり電源を入れたりしないでください。メンテナンスについては、アフターサービスにご連絡ください。
 
@@ -503,7 +513,7 @@ puppeteer:
 
 1. 本製品を保管する環境は乾燥した状態を保ってください。湿気の多い場所や、水漏れの可能性がある場所に長時間放置しないでください。
 
-1. 本製品を保管・輸送する際、ファイバケーブル（レーザー伝送ケーブル）には、強い引張り荷重をかけたり、無理に曲げたり、ねじったり、挟み込んだりしないでください。断線・出力低下・故障の原因となります。
+1. 本製品を保管・輸送する際、ファイバーケーブル（レーザー伝送ケーブル）には、強い引張り荷重をかけたり、無理に曲げたり、ねじったり、挟み込んだりしないでください。断線・出力低下・故障の原因となります。
 
 
 **製品のメンテナンス**
@@ -521,7 +531,86 @@ puppeteer:
 本製品を清掃する際は、乾いた柔らかい布などで拭き取ってください。より念入りな清掃を行う場合は、携帯電話やパソコン画面用の専用クリーナーの使用を推奨します。水などの導電性のある液体や腐食性の高い液体を、本製品に多量に付着させないでください。
 
 
-## 1.3 製品仕様
+## 1.3 製品保証
+
+<div class="subheading">初期不良・標準保証</div>
+
+<style>
+  .warranty-table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    font-size: 14px;
+  }
+  .warranty-table th,
+  .warranty-table td{
+    border: 1px solid #555;
+    padding: 8px 10px;
+    vertical-align: middle;
+  }
+  .warranty-table .colthead {
+    background: #e6e6e6;
+    text-align: center;
+    font-weight: 600;
+  }
+  .warranty-table .rowhead{
+    background: #e6e6e6;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .warranty-table .center{ text-align: center; }
+  .warranty-table .nowrap{ white-space: nowrap; }
+</style>
+
+<table class="warranty-table">
+  <tr class="colthead">
+    <td></td>
+    <td class="nowrap">期間</td>
+    <td class="nowrap">対応修理方式</td>
+    <td class="nowrap">検査・修理・部品費用</td>
+    <td class="nowrap">往復送料</td>
+  </tr>
+  <tr>
+    <td class="rowhead">初期不良</td>
+    <td class="center nowrap">30日</td>
+    <td class="center" rowspan="3">お客様にて修理、<br>または弊社での預かり修理</td>
+    <td class="center nowrap">無料</td>
+    <td class="center nowrap">弊社負担</td>
+  </tr>
+  <tr>
+    <td class="rowhead">標準保証</td>
+    <td class="center nowrap">1年間</td>
+    <td class="center nowrap">無料</td>
+    <td class="center nowrap">お客様負担</td>
+  </tr>
+  <tr>
+    <td class="rowhead">標準保証経過後</td>
+    <td class="center nowrap">2年目以降〜</td>
+    <td class="center nowrap">有料</td>
+    <td class="center nowrap">お客様負担</td>
+  </tr>
+</table>
+
+
+- 消耗品は初期不良を除き保証対象外です。
+- 標準保証は、製品の取扱説明書や注意事項に従って使用したにもかかわらず製品に故障・不具合が生じた場合を対象とします。お客様の過失により故障・不具合が生じた場合は、有償での対応となります。
+- 製品のメンテナンスやクリーニング、消耗品の交換などは、お客様自身で行っていただきます。
+- 故障・不具合が発生した場合は、お客様自身での修理対応となります。修理方法は PDF マニュアルや動画でご案内し、必要に応じてビデオ通話等にてご説明いたします。ただし、お客様にて修理が難しい箇所の故障・不具合の場合は、弊社に返送いただいての預かり修理となる場合があります。
+- 弊社スタッフがお客様に訪問して行う修理・メンテナンスは実施しておりません。
+- 修理に必要な工具や部品は、標準保証期間内であれば弊社から無料で発送します。標準保証期間経過後の場合は、ご購入いただきます。
+- 弊社は、故障・不具合を、写真・動画で確認します。
+- 保証期間は、製品がお客様の元へ到着した日から起算するものとします。
+- 標準保証期間経過後の検査及び修理費用は、1 時間あたり 4,000 円 ( 税別 ) となります。
+
+<div class="subheading">延長保証</div>
+
+延長保証とは、購入時に所定の保証料を支払ったお客様に対し、延長保証期間中に当社製品等に発生した故障（通常使用による故障に限ります）について、無償にて消耗品を除く部品の修理又は交換をするサービスをいいます。
+詳細については購入時に付属している延長保証証明書をご覧ください（延長保証購入者のみ付属しています）。
+
+
+
+## 1.4 製品仕様
 
 <!--型番:MFPN-20M-0.7-->
 
@@ -538,7 +627,6 @@ puppeteer:
 | 最小線幅 | 0.03mm（条件により変動） |
 | 繰り返し精度 | 0.01mm |
 | 位置決め | 赤色ガイド光（可視光） |
-| フォント | 簡体中国語・英語・数字・繁体字などの標準文字ライブラリ |
 | 対応ファイル形式 | BMP / DXF / PNG / JPEG / PLT |
 | バーコード | CODE 2-Of-5 Interleaved / CODE39 / CODE128 / QR / Codabar / CODE93 / UPC-A / UPC-E / EAN-14 / ITF-14 / EAN128 |
 | 制御・操作 | 本体一体型（内蔵コントローラ / 8インチ静電容量式タッチスクリーン） |
@@ -547,6 +635,8 @@ puppeteer:
 | 保管環境 | -20 ～ 45℃ （推奨: 20 ～ 25℃）
 | 動作環境 | 0 〜 40℃（推奨: 20 ～ 25℃）
 | 本体質量 | 6〜6.8kg |
+| サイズ | 本体: 高さ271.5 × 幅310 × 奥行180mm<br>ハンドガン: 高さ292.4 × 幅188.1 × 奥行251.9mm |
+
 
 <!-- | 項目 | 概要 |
 |:--:|---|
@@ -577,10 +667,26 @@ puppeteer:
 | 印字速度 | 800文字（材質および印字内容による） |
 -->
 
-
 <div style="page-break-before:always"></div>
 
-# 2. 画面構成
+# 2. ハードウェアセットアップ
+
+<div class="caution" style="display:block">
+カバーを取り付ける際は、本体の電源を必ずお切りください。
+</div>
+
+
+カバーの凹部と、ハンドガンのトリガー側にある突起を合わせて差し込みます。
+
+<img src="images/scan/conver_insertion.jpg" height=300px />
+
+付属の4本のネジで固定します。使用中にネジが緩まないよう、必ず確実に固定してください。<br>
+固定が不十分な場合、接触不良の原因となることがあります。
+
+<img src="images/scan/screw_mouting.jpg" width=260px />
+<div style="page-break-before:always"></div>
+
+# 3. 画面構成
 
 ホーム画面は次の要素によって構成されています。
 
@@ -608,17 +714,17 @@ puppeteer:
 <div style="page-break-before:always"></div>
 
 
-## 2.1 サイドバー
+## 3.1 サイドバー
 
 | 項目 | 説明 |
 |:---:|-----|
 | HOME | ホーム画面を表示します。 |
-| 設定 | 設定画面を表示します。詳細は [5. 設定](#5-設定) の項目をご参照ください。 |
+| 設定 | 設定画面を表示します。詳細は [6. 設定](#6-設定) の項目をご参照ください。 |
 | 再起動 | システムを再起動します。 |
-| ログイン | 任意のユーザーでログインします。ユーザーの追加や権限の設定は [5.4 ユーザー管理](#54-ユーザー管理) をご参照ください。 |
+| ログイン | 任意のユーザーでログインします。ユーザーの追加や権限の設定は [6.4 ユーザー管理](#64-ユーザー管理) をご参照ください。 |
 
 
-## 2.2 ステータスバー
+## 3.2 ステータスバー
 
 <img src="images/screen/screen_status_bar.png" width=540px />
 
@@ -690,7 +796,7 @@ puppeteer:
 
 
 
-## 2.3 メニューバー
+## 3.3 メニューバー
 
 <img src="images/screen/screen_menu_bar.png" width=480px />
 
@@ -762,10 +868,10 @@ puppeteer:
 | 結合解除 | ベクター図形やテキスト内容を、単一のベクター図形（パス）ごとに分解します。 |
 | パス化 | テキストをベクターパスに変換します。 |
 | その他設定 | オブジェクトの回転角度を設定したり、オブジェクト内の線の交差部分の重なりを削除できます。（テキストの場合は「N_YH1」フォントのみ交差削除に対応しています） |
-| 配列 | 選択したオブジェクトを複数行・複数列にコピーして配置します。再編集が必要な場合は [2.5 コントロールパネル](#25-コントロールパネル) の「配列」機能を使用してください。 |
+| 配列 | 選択したオブジェクトを複数行・複数列にコピーして配置します。再編集が必要な場合は [3.5 コントロールパネル](#35-コントロールパネル) の「配列」機能を使用してください。 |
 
 
-## 2.4 グラフィックビュー操作
+## 3.4 グラフィックビュー操作
 
 <img src="./images/screen/screen_view_control.png"  width="380px"/>
 
@@ -782,9 +888,9 @@ puppeteer:
 </div>
 
 
-## 2.5 コントロールパネル
+## 3.5 コントロールパネル
 
-### 2.5.1 移動・変形
+### 3.5.1 移動・変形
 
 <img src="./images/screen/screen_control_panel_transform.png"  width="380px"/>
 
@@ -800,7 +906,7 @@ puppeteer:
 | 中央揃え | 選択中のオブジェクトの中心を加工エリアの中心座標に移動させます。 |
 
 
-### 2.5.2 その他の操作
+### 3.5.2 その他の操作
 
 <img src="./images/screen/screen_control_panel_tools.png"  width="380px"/>
 
@@ -813,7 +919,7 @@ puppeteer:
 | 評価 | 単位時間あたりの最大加工数の推定値を表示します。 |
 | リスト | オブジェクトをリスト表示します。選択操作や並べ替え操作などを行うこともできます。 |
 | 塗潰し | 図形の塗りつぶしを設定できます。 |
-| 配列 | オブジェクトを指定間隔に並べて配置します。ここで設定した配列は再編集が可能です。<br>要素を複製したい場合は [2.3 メニューバー](#23-メニューバー) の「配列」機能を使用してください。 |
+| 配列 | オブジェクトを指定間隔に並べて配置します。ここで設定した配列は再編集が可能です。<br>要素を複製したい場合は [3.3 メニューバー](#33-メニューバー) の「配列」機能を使用してください。 |
 | 円弧文字 | 選択中のテキストオブジェクトを円弧テキストに変更できます。 |
 
 
@@ -821,7 +927,7 @@ puppeteer:
 <div style="page-break-before:always"></div>
 
 
-### 2.5.3 リスト
+### 3.5.3 リスト
 
 <img src="./images/screen/screen_object_list.png"  width="540px"/>
 
@@ -848,7 +954,7 @@ puppeteer:
 <img src="./images/control_panel/marking_order.jpg"  width="300px"/> -->
 
 
-### 2.5.4 円弧文字
+### 3.5.4 円弧文字
 
 <img src="./images/screen/screen_arc_text.png"  width="340px"/>
 
@@ -867,7 +973,7 @@ puppeteer:
 <img src="./images/screen/screen_arc_text_example.png"  width="360px"/>
 
 
-### 2.5.5 塗りつぶし
+### 3.5.5 塗りつぶし
 
 <img src="./images/screen/screen_fill.png"  width="540px"/>
 
@@ -915,7 +1021,7 @@ puppeteer:
 <div style="page-break-before:always"></div>
 
 
-### 2.5.6 配列
+### 3.5.6 配列
 
 同一の要素を複数加工する場合に使用します。ここで設定した配列は再編集が可能です。
 
@@ -956,7 +1062,7 @@ puppeteer:
 
 
 
-### 2.5.7 プロパティ
+### 3.5.7 プロパティ
 
 <img src="./images/screen/screen_control_panel_properties.png"  width="320px"/>
 
@@ -976,13 +1082,13 @@ puppeteer:
 
 
 
-## 2.6 オブジェクトパネル
+## 3.6 オブジェクトパネル
 
 <div class="img-float-left">
 
 <img src="./images/screen/screen_object_panel.png"  width="50px"/>
 
-ここには加工オブジェクトの作成ツールが並んでいます。詳細は  [4. 編集](#4-編集) の項目をご確認ください。
+ここには加工オブジェクトの作成ツールが並んでいます。詳細は  [5. 編集](#5-編集) の項目をご確認ください。
 
 | 項目 | 説明 |
 |:---:|-----|
@@ -1000,7 +1106,7 @@ puppeteer:
 <div style="page-break-before:always"></div>
 
 
-## 2.7 文字入力
+## 3.7 文字入力
 
 画面上の入力フォームをタップするとソフトウェアキーボードが表示されます。数値やアルファベットの入力が可能です。日本語はひらがな・カタカナ文字のみ入力できます（漢字変換はできません）。
 
@@ -1021,17 +1127,17 @@ E：削除、入力方式の切り替え
 
 <div style="page-break-before:always"></div>
 
-# 3. クイックスタート
+# 4. クイックスタート
 
 この章では、ログインから加工、保存、終了までの基本操作を順番に説明します。
 
-## 3.1 本体の起動
+## 4.1 本体の起動
 
 電源ケーブルをコンセントに接続し、本体側面の電源スイッチをオンにします。緊急停止ボタンが押されいる場合は矢印の向きに回して解除してください。
 
 <img src="./images/photos/power_switch.jpg"  width="380px"/>
 
-## 3.2 ログイン
+## 4.2 ログイン
 
 ログインボタンをタップするとログインダイアログが表示されます。必要に応じてログインを行なってください。
 
@@ -1041,7 +1147,7 @@ E：削除、入力方式の切り替え
 <div class="annotation">
 管理者の初期パスワードは「123」です。<br>
 
-ログインユーザー（または未ログイン）ごとに操作を制限することも可能です。詳細は [5.4 ユーザー管理](#54-ユーザー管理) をご確認ください。
+ログインユーザー（または未ログイン）ごとに操作を制限することも可能です。詳細は [6.4 ユーザー管理](#64-ユーザー管理) をご確認ください。
 
 </div>
 
@@ -1049,7 +1155,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-## 3.3 新規ファイルの作成
+## 4.3 新規ファイルの作成
 
 メニューバーの「新規」ボタンをタップして新規ファイルを開きます。
 
@@ -1060,7 +1166,7 @@ E：削除、入力方式の切り替え
 </div>
 
 
-## 3.4 データ作成
+## 4.4 データ作成
 
 <div class="subentry">オブジェクトの作成</div>
 
@@ -1070,7 +1176,7 @@ E：削除、入力方式の切り替え
 <div class="annotation">
 
 「テキスト」要素は固定文字列を表現します。「シリアル番号」要素は加工ごとにカウントアップを行う可変文字列を表現します。
-その他、各要素の詳細は [4.3.1 テキスト](#431-テキスト) をご確認ください。
+その他、各要素の詳細は [5.3.1 テキスト](#531-テキスト) をご確認ください。
 
 </div>
 
@@ -1142,7 +1248,7 @@ E：削除、入力方式の切り替え
 
 **塗潰し設定**<br>
 テキストオブジェクトが選択された状態で、コントロールパネルの「塗潰し」をタップします。
-表示されたダイアログで下記の設定を行います。パラメータの詳細は  [2.5.5 塗りつぶし](#255-塗りつぶし)  をご確認ください。
+表示されたダイアログで下記の設定を行います。パラメータの詳細は  [3.5.5 塗りつぶし](#355-塗りつぶし)  をご確認ください。
 
 <img src="./images/quickstart_text_fill_edit.png"  width="540px"/>
 
@@ -1163,9 +1269,9 @@ E：削除、入力方式の切り替え
 
 <div style="page-break-before:always"></div>
 
-## 3.5 パラメータ設定
+## 4.5 パラメータ設定
 
-コントロールパネルの パラメータ「変更」ボタンをタップします。表示されたパラメータ設定画面で加工パラメータを設定します。各設定項目の詳細は [5.1 加工パラメータ](#51-加工パラメータ)  をご確認ください。
+コントロールパネルの パラメータ「変更」ボタンをタップします。表示されたパラメータ設定画面で加工パラメータを設定します。各設定項目の詳細は [6.1 加工パラメータ](#61-加工パラメータ)  をご確認ください。
 
 <img src="./images/quickstart_parameter_edit.png"  width="520px"/>
 
@@ -1174,11 +1280,11 @@ E：削除、入力方式の切り替え
 
 <div class="fixed-table">
 
-| 項目 | ステンレス（参考） | MDF（参考） | ABS樹脂 |
-|:---:|:--:|:--:|:--:|
-| 加工速度 | 1000 | 100 | 2000 |
-| パワー | 60 | 50 | 20 |
-| 周波数 | 30 | 50 | 30 |
+| 素材 | 加工速度 | パワー | 周波数 |
+|:---|:---:|:---:|:---:|
+| ステンレス | 1000 | 60 | 30 |
+| MDF | 100 | 50 | 50 |
+| ABS樹脂 | 2000 | 20 | 30 |
 
 </div>
 
@@ -1191,58 +1297,122 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-## 3.6 加工操作
+## 4.6 加工操作
 
-<table class="noframe">
-<tr>
-<td style="padding:0px"><img src="./images/photos/handgun_switch.jpg" width="350px" /></td>
-<td style="padding:0px; width:5px"></td>
-<td style="padding:0px"><img src="./images/photos/handgun_trigger.jpg" width="350px" /></td>
-</tr>
-<td style="text-align:center;">セキュリティボタン</td>
-<td></td>
-<td style="text-align:center;">トリガー</td>
+<span class="subheading">各部位の説明</div>
+
+<div class="subentry">セキュリティボタン</div>
+
+<div class="img-float-left">
+
+<img src="./images/photos/handgun_switch.jpg" width="320px" />
+セキュリティボタンを押すとハンドガンが起動し、照明やファンが作動します。（マグネットカバーの場合は電磁石も作動します）<br>
+再度ボタンを押すとハンドガンが停止します。<br>
+トリガーを引いて加工を行う場合は、ハンドガンが起動している必要があります。
+
+</div>
+
+
+<div class="subentry">ステータスランプ</div>
+
+<div class="img-float-left">
+
+<table class="noframe" style="float:left; width:auto; margin:0 20px 0 0;">
+  <tr>
+    <td style="padding:0; line-height:0; font-size:0;">
+      <img src="./images/photos/handgun_led_green.jpg" width="150" style="margin:0;">
+    </td>
+    <td style="width:20px; padding:0; margin:0px"></td>
+    <td style="padding:0;">
+      <img src="./images/photos/handgun_led_red.jpg" width="150" style="margin:0;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:0;">起動中</td>
+    <td style="width:0px; padding:0; margin:0px"></td>
+    <td style="text-align:center; padding:0;">加工中</td>
+  </tr>
 </table>
 
-ハンドガンを地面に向けた状態でセキュリティボタンにし、手で保持しながら素材に押し当てます。
+ハンドガンが起動中はLEDが緑色に点灯し、加工中は赤色に点灯します。
+
+</div>
+
+
+<div class="subentry">トリガー</div>
+
+<div class="img-float-left">
+
+<img src="./images/photos/handgun_trigger_zoom.jpg" width="320px" />
+
+トリガーを引く際は中央部分をしっかりと奥まで押し込んでください。<br>
+
+</div>
+
+
+
+<div style="page-break-before:always"></div>
+
+
+<span class="subheading">基本手順</div>
+
+**ハンドガンを起動**
+
+ハンドガンをしっかりと保持し、加工素材や安全な方向に向けた状態で、セキュリティボタンを押してハンドガンを起動します。
+
+
+**マーキングモードへの切り替え**
+
 次に、ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
 
 <div style="margin: 30px 10px 40px">
 
-**操作モード**
-<img src="./images/quickstart_status_bar_idle.png"  width="540px"/>
+操作モード
+<img src="./images/quickstart_status_bar_idle.png"  width="540px" style="margin-bottom:15px" />
 
-<br>
-
-**マーキングモード**
+マーキングモード
 <img src="./images/quickstart_status_bar_marking.png"  width="540px"/>
 
 </div>
 
 <div class="danger">
-マーキングモードでは、ハンドガンのトリガーを引くと加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
+マーキングモードでは、ハンドガンのトリガーを引くと直ちに加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
 
-また、<span class="strongred">操作モードやハンドガンのセキュリティボタンがオフの状態でも、テストマーキングや強制照射などの機能ではレーザーが照射される場合があります。</span>モードや起動スイッチの状態だけで安全と判断せず、操作前に必ず照射方向・周囲の安全を確認してください。
+また、<span class="strongred">操作モード中やハンドガンが停止中の状態であっても、テストマーキングや強制照射などの機能によってレーザーが照射される場合があります。</span>モードやLEDの状態のみで安全と判断せず、操作前には必ず照射方向と周囲の安全を確認してください。
 </div>
+
+
+**位置の調整**
+
+
+赤色のガイド光で刻印位置を確認しながら、配置を微調整してください。
+
+<img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
+
+
+
 
 
 <div style="page-break-before:always"></div>
 
-赤色のガイド光で刻印位置を確認しながら、配置を微調整してください。
 
+**加工開始**
 
-<img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
-
-トリガーを引くと加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。<br>
+トリガーを引くと加工が始まります。トリガーの中央部分をしっかりと奥まで押し込んでください。<br>
+加工中はハンドガンをしっかり保持し、揺らさないように注意してください。<br>
 位置を変えながら複数回刻印を行うと、刻印ごとにシリアル番号がカウントアップされます。
 
 <img src="./images/photos/handgun_result.jpg"  width="300px"/>
 
+
+**加工終了**
+
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
+また、必要に応じてハンドガンを停止します。
 
 
 
-## 3.7 データ保存
+## 4.7 データ保存
 
 作成したファイルを内部に保存します。
 メニューバーの「保存」または「別名保存」をタップし、ファイル名を入力して「OK」をタップします。
@@ -1250,12 +1420,12 @@ E：削除、入力方式の切り替え
 <img src="./images/quickstart_save_project.png"  width="450px"/>
 
 
-## 3.8 終了操作
+## 4.8 終了操作
 
 本体側面の電源ボタンを切ります。ハンドガンも同時にオフになります。
 <div style="page-break-before:always"></div>
 
-# 4. 編集
+# 5. 編集
 
 ここでは、ファイルに追加できる刻印データの種類や設定方法を説明します。
 追加できるものには、テキスト、図形（点・線・円・矩形）、バーコード、QRコードなどが含まれます。
@@ -1264,11 +1434,11 @@ E：削除、入力方式の切り替え
 
 
 
-## 4.1 図形
+## 5.1 図形
 
 プリセット図形（直線、点線、点、円、矩形）を描画できます。
 
-### 4.1.1 点
+### 5.1.1 点
 
 「点」を選択するとグラフィックエリアの座標（X:5, Y:5） に点が配置されます。コントロールパネル等で任意の位置に移動させてください。
 
@@ -1276,7 +1446,7 @@ E：削除、入力方式の切り替え
 
 <div class="annotation">
 
-「点」を加工する場合、照射時間は加工パラメータの「単点照射時間」で設定します。照射方法を「パルス照射」または「連続照射」から選択することもできます。詳細は [5.1 加工パラメータ](#51-加工パラメータ) をご確認ください。
+「点」を加工する場合、照射時間は加工パラメータの「単点照射時間」で設定します。照射方法を「パルス照射」または「連続照射」から選択することもできます。詳細は [6.1 加工パラメータ](#61-加工パラメータ) をご確認ください。
 
 </div>
 
@@ -1284,7 +1454,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-### 4.1.2 直線
+### 5.1.2 直線
 「直線」を選択すると下記のダイアログが表示されます。直線の長さやタイプなどを設定できます。
 
 <div class="img-float-left">
@@ -1305,19 +1475,19 @@ E：削除、入力方式の切り替え
 <img src="./images/illusts/illusts_line_types.png"  width="420px"/>
 
 
-### 4.1.3 円形
+### 5.1.3 円形
 「円形」を選択するとグラフィックエリアの中心に直径20mmの円が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
 
 <img src="./images/screen/screen_object_add_circle.png"  width="450px"/>
 
-### 4.1.4 矩形
+### 5.1.4 矩形
 「矩形」を選択するとグラフィックエリアの中心に一辺20mmの矩形が配置されます。コントロールパネル等で任意の位置や大きさに設定してください。
 
 
 <div style="page-break-before:always"></div>
 
 
-## 4.2 ファイル
+## 5.2 ファイル
 「ファイル」を選択すると下記のダイアログが表示されます。サポートされる形式は dxf, plt, jpg, png, bmp です。
 ファイルが見つからない場合は、「種類」が適切に設定されているかご確認ください。
 
@@ -1331,7 +1501,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-## 4.3 テキスト
+## 5.3 テキスト
 「テキスト」を選択すると、テキスト編集画面が表示されます。
 新規作成時には空のテキスト（固定文字列）要素が自動的に追加されています。
 
@@ -1395,7 +1565,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-### 4.3.1 テキスト
+### 5.3.1 テキスト
 
 固定の文字列を刻印するためのテキスト要素です。「テキスト」ボタンをタップするとテキスト要素が追加されます。
 文字列リストに追加された要素を選択した状態で「編集」ボタンをタップし、任意の文字列を入力します。
@@ -1403,7 +1573,7 @@ E：削除、入力方式の切り替え
 <img src="images/screen/screen_object_add_text_fixed.png" width=420px />
 
 
-### 4.3.2 シリアル番号
+### 5.3.2 シリアル番号
 
 加工ごとに番号をカウントアップするテキスト要素です。同じ番号を複数回繰り返すことも可能です。
 「シリアル番号」ボタンをタップすると、デフォルト内容「0000」のシリアル番号が追加されます。
@@ -1456,7 +1626,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-### 4.3.3 日付・時刻
+### 5.3.3 日付・時刻
 
 システムの日付または時刻を文字列として扱うテキスト要素です。「マーキングモードへの移行時」または「前回刻印終了時」で文字列が更新されます。
 
@@ -1492,7 +1662,7 @@ E：削除、入力方式の切り替え
 <span class="strongred">加工開始時に時刻情報は更新されない</span>ため、マーキングモードで長時間アイドル状態が続いた場合は一度マーキングモードを停止し、再度マーキングモードに切り替えてください。
 </div>
 
-### 4.3.4 ファイル
+### 5.3.4 ファイル
 
 刻印する文字列をファイルから読み込みます。
 「ファイル」ボタンをタップし、テキストファイルまたはExcelファイルを選択して項目を追加します。
@@ -1552,7 +1722,7 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-### 4.3.5 プラン
+### 5.3.5 プラン
 現在時刻に応じて刻印する文字列を切り替えるテキスト要素です。更新のタイミングは「マーキングモードへの移行時」または「前回刻印終了時」です。
 「プラン」ボタンをタップして作成し、「編集」ボタンをタップして具体的な設定を行います。
 
@@ -1593,11 +1763,11 @@ E：削除、入力方式の切り替え
 <div style="page-break-before:always"></div>
 
 
-### 4.3.6 外部データ
-バーコードスキャナを使用して文字列を入力する場合に使用します。詳細は [7.1 バーコードスキャナの使い方](#71-バーコードスキャナの使い方) をご確認ください。
+### 5.3.6 外部データ
+バーコードスキャナを使用して文字列を入力する場合に使用します。詳細は [8.1 バーコードスキャナの使い方](#81-バーコードスキャナの使い方) をご確認ください。
 
 
-### 4.3.7 ランダムコード
+### 5.3.7 ランダムコード
 刻印文字列をランダムに生成するテキスト要素です。
 「ランダムコード」ボタンをタップして作成し、「編集」ボタンをタップして具体的な設定を行います。
 
@@ -1612,16 +1782,16 @@ E：削除、入力方式の切り替え
 </div>
 
 
-### 4.3.8 VINコード
+### 5.3.8 VINコード
 VINコード形式での文字列生成をサポートします。
 
 
 <div style="page-break-before:always"></div>
 
 
-## 4.4 バーコード
+## 5.4 バーコード
 「バーコード」ボタンをタップすると編集画面がポップアップします。
-テキストボックスをタップするとテキスト編集画面が表示され、 [4.3.1 テキスト](#431-テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとバーコードが更新されます。
+テキストボックスをタップするとテキスト編集画面が表示され、 [5.3.1 テキスト](#531-テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとバーコードが更新されます。
 
 <img src="./images/screen/screen_object_add_barcode.png"  width="500px"/>
 
@@ -1655,7 +1825,7 @@ VINコード形式での文字列生成をサポートします。
 | 文字内容表示 | チェックを入れると、バーコード内容のテキストを刻印します。 |
 | フォント | テキストのフォントを設定できます。 |
 | 加工パラメータ | テキストのマーキングパラメータを個別に設定できます。 |
-| 文字塗りつぶし | テキストの塗りつぶしを設定できます。詳細は [2.5.5 塗りつぶし](#255-塗りつぶし) の項目をご参照ください。 |
+| 文字塗りつぶし | テキストの塗りつぶしを設定できます。詳細は [3.5.5 塗りつぶし](#355-塗りつぶし) の項目をご参照ください。 |
 | 文字高さ | フォントの大きさを設定します。 |
 | 文字幅 | 文字の幅（横方向のスケール）を設定します。 |
 | 間隔 | 文字同士の間隔を設定します。 |
@@ -1670,9 +1840,9 @@ VINコード形式での文字列生成をサポートします。
 <div style="page-break-before:always"></div>
 
 
-## 4.5 QRコード
+## 5.5 QRコード
 「QRコード」ボタンをタップすると編集画面がポップアップします。
-テキストボックスをタップするとテキスト編集画面が表示され、 [4.3.1 テキスト](#431-テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとQRコードが更新されます。
+テキストボックスをタップするとテキスト編集画面が表示され、 [5.3.1 テキスト](#531-テキスト) 項目で紹介した文字列機能が利用できます。設定完了後にOK（確認画面）をタップするとQRコードが更新されます。
 
 <img src="./images/screen/screen_object_add_qrcode.png"  width="500px"/>
 
@@ -1706,7 +1876,7 @@ VINコード形式での文字列生成をサポートします。
 | 文字内容表示 | チェックを入れると、バーコード内容のテキストを刻印します。 |
 | フォント | テキストのフォントを設定できます。 |
 | 加工パラメータ | テキストのマーキングパラメータを個別に設定できます。 |
-| 文字塗潰し | テキストの塗りつぶしを設定できます。詳細は [2.5.5 塗りつぶし](#255-塗りつぶし) の項目をご参照ください。 |
+| 文字塗潰し | テキストの塗りつぶしを設定できます。詳細は [3.5.5 塗りつぶし](#355-塗りつぶし) の項目をご参照ください。 |
 | 文字高さ | フォントの大きさを設定します。 |
 | 文字幅 | 文字の幅（横方向のスケール）を設定します。 |
 | 間隔 | 文字同士の間隔を設定します。 |
@@ -1719,7 +1889,7 @@ VINコード形式での文字列生成をサポートします。
 
 
 
-## 4.6 待機時間
+## 5.6 待機時間
 複数のオブジェクトを加工する場合、各オブジェクトの加工完了から次のオブジェクトの加工開始までの待機時間を挿入できます。
 
 「待機時間」をタップすると編集画面が表示され、待機時間を設定できます。
@@ -1727,7 +1897,7 @@ VINコード形式での文字列生成をサポートします。
 
 <img src="./images/screen/screen_object_add_delayer_edit.png"  width="500px"/>
 
-## 4.7 出力ポート
+## 5.7 出力ポート
 この機能は本製品では使用しません。
 
 <!-- 出力時間と出力ポートを設定します。この機能はカスタマイズされた機種向けの機能です。 -->
@@ -1736,9 +1906,9 @@ VINコード形式での文字列生成をサポートします。
 
 <div style="page-break-before:always"></div>
 
-# 5. 設定
+# 6. 設定
 
-## 5.1 加工パラメータ
+## 6.1 加工パラメータ
 
 マーキングファイルが読み込まれた状態で、画面左の「設定」→「加工パラメータ」 を選択すると、現在の加工ファイルのパラメータを変更できます。また、ファイルを新規作成した際に適用されるデフォルト値の設定も可能です。
 
@@ -1821,7 +1991,7 @@ VINコード形式での文字列生成をサポートします。
 <div style="page-break-before:always"></div>
 
 
-## 5.2 エリア
+## 6.2 エリア
 
 ここでは加工エリアの設定やレンズの歪み補正を行うことができます。
 
@@ -1829,7 +1999,7 @@ VINコード形式での文字列生成をサポートします。
 <img src="./images/screen/screen_setting_area_setting.png"  width="540px"/>
 
 
-### 5.2.1 ガルバノミラーのキャリブレーション
+### 6.2.1 ガルバノミラーのキャリブレーション
 
 <div class="subentry">表示領域</div>
 
@@ -1842,7 +2012,7 @@ VINコード形式での文字列生成をサポートします。
 
 <div class="subentry">補正</div>
 
-ここではレンズの歪み補正の値を設定できます。補正方法については[7.2 レンズの校正方法](#72-レンズの校正方法)をご参照ください。
+ここではレンズの歪み補正の値を設定できます。補正方法については[8.2 レンズの校正方法](#82-レンズの校正方法)をご参照ください。
 
 | 項目 | 説明 |
 |:---:|---|
@@ -1891,7 +2061,7 @@ VINコード形式での文字列生成をサポートします。
 |:---:|---|
 | フレーム表示 | 有効の場合、すべての加工オブジェクトを含むバウンディングボックス（矩形）を表示します。無効の場合は各オブジェクトのアウトラインを表示します。 |
 | ガイド表示速度 | 赤色ガイド光の走査速度を設定します。 |
-| フライモード | フライトマーキングの開始位置のみを表示します。長文刻印カバーを使用する場合に設定します。 |
+| フライモード | フライトマーキングの開始位置のみを表示します。長尺印字カバーを使用する場合に設定します。 |
 | 赤色光パラメータ | 赤色ガイド光に関するパラメータを設定します。 |
 | 位置 | ガイド光によるプレビュー表示の各軸オフセット値を設定します。 |
 | 縮尺 | プレビュー表示の縮尺を設定します。 |
@@ -1915,16 +2085,16 @@ VINコード形式での文字列生成をサポートします。
 
 
 <div class="subentry">パラメータ管理</div>
-作成した補正パラメータは保存・読み込みが可能です。保存時はUSBメモリに保存されるため、あらかじめUSBメモリを本体に接続してください。
+補正パラメータやシステム設定などの内容などを保存・読み込みすることができます。
+保存時はUSBメモリに保存されるため、あらかじめUSBメモリを本体に接続してください。
 
 
-
-## 5.3 レーザー
+## 6.3 レーザー
 
 **この項目は変更しないでください。**
 
 
-## 5.4 ユーザー管理
+## 6.4 ユーザー管理
 
 この項目では、操作を行うユーザーごとに権限とパスワードを設定できます。この操作を行うには管理者ユーザーでログインしてください。
 
@@ -1946,7 +2116,7 @@ VINコード形式での文字列生成をサポートします。
 </table> -->
 
 
-## 5.5 フォント管理
+## 6.5 フォント管理
 
 システム内のフォントを管理します。フォントの追加、削除、エクスポートが可能です。
 
@@ -1965,7 +2135,7 @@ VINコード形式での文字列生成をサポートします。
 <div style="page-break-before:always"></div>
 
 
-## 5.6 システム設定
+## 6.6 システム設定
 
 ここではシステム全般の設定を行うことができます。**設定の変更を行う場合は再起動が必要です。**
 
@@ -2007,21 +2177,21 @@ VINコード形式での文字列生成をサポートします。
 |:---:|---|
 | ガイドライト | 赤色ライトでガイド表示します。 |
 | テスト加工 | 現在選択されているデータをマーキングします。マーキング後、ステータスバーでマーキング時間を確認できます。<br><span class="strongred">この操作では、マーキング状態やハンドガンの動作状態の有無に関わらず、ボタンをタップした瞬間にレーザーが照射されます。</span> |
-| 生産ライン | オプションの長文刻印カバーを使用する場合に設定します。 |
+| 生産ライン | オプションの長尺印字カバーを使用する場合に設定します。 |
 | 中央座標 | 中央揃えを行った際の基準点（中央座標）を設定します。 |
 
 
-## 5.7 IO 設定
+## 6.7 IO 設定
 
 この項目は使用しません。
 
 
-## 5.8 通信設定
+## 6.8 通信設定
 
-バーコードスキャナを使用する場合に設定します。詳細は [7.1 バーコードスキャナの使い方](#71-バーコードスキャナの使い方) をご参照ください。
+バーコードスキャナを使用する場合に設定します。詳細は [8.1 バーコードスキャナの使い方](#81-バーコードスキャナの使い方) をご参照ください。
 
 
-## 5.9 システム情報
+## 6.9 システム情報
 
 システムの関連情報が表示されます。
 
@@ -2041,16 +2211,16 @@ VINコード形式での文字列生成をサポートします。
 
 <div style="page-break-before:always"></div>
 
-# 6. オプション
+# 7. オプション
 
-## 6.1 長文刻印カバー
+## 7.1 長尺印字カバー
 
 加工エリアを超える長い文字列を刻印する場合に使用します。図形にも対応していますが、文字や図形の単体の幅が大きい場合は加工できない場合があります。
 
 
-### 6.1.1 本体設定
+### 7.1.1 本体設定
 
-長文刻印カバーを使用して加工エリアを超える長いテキストを刻印する場合は、システムの設定を変更する必要があります。
+長尺印字カバーを使用して加工エリアを超える長いテキストを刻印する場合は、システムの設定を変更する必要があります。
 
 まず、「設定 > システム設定 > メニュー表示」で **生産ライン** を有効にします。有効にすると左メニューに「生産ライン」が追加されます。
 
@@ -2137,7 +2307,7 @@ VINコード形式での文字列生成をサポートします。
 <div style="page-break-before:always"></div>
 
 
-### 6.1.2 使用方法
+### 7.1.2 使用方法
 
 ステータスバーの「ガイド」ボタンをタップするとガイド光が表示されます。<br>
 位置の確認・調整を行なったら「スタート」ボタンをタップし、ハンドガンのトリガーを引きます。<br>
@@ -2158,34 +2328,34 @@ VINコード形式での文字列生成をサポートします。
 
 
 
-## 6.2 マグネットカバー
+## 7.2 マグネットカバー
 
 内蔵された電磁石により、磁性のある素材に対して固定しやすくなります。<br>
 マグネットによる固定は補助的なものです。作業中はハンドガンから手を離さないようにしてください。
 
-### 6.2.1 本体設定
+### 7.2.1 本体設定
 
 マグネットカバーを使用する場合、本体設定を変更する必要はありません。<br>
 
-### 6.2.2 使用方法
+### 7.2.2 使用方法
 
 マグネットは電磁石のため、ハンドガンの起動中に磁力が働きます。
-ハンドガンの電源、または本体電源をオフにすると、磁力は失われます。
+ハンドガンのセキュリティボタン、または本体電源をオフにすると、磁力は失われます。
 
 <div class="caution">
 電源を操作する前に、ハンドガンを安定した場所に置いてください。
-磁力が失われると、ハンドガンが外れたり落下したりするおそれがあります。
+磁力が失われると、ハンドガンが倒れたり落下したりするおそれがあります。
 </div>
 
 <div style="page-break-before:always"></div>
 
-# 7. 付録
+# 8. 付録
 
-## 7.1 バーコードスキャナの使い方
+## 8.1 バーコードスキャナの使い方
 
 バーコードスキャナを使用する場合は、システムの設定を変更する必要があります。
 
-### 7.1.1 設定方法
+### 8.1.1 設定方法
 
 <div class="subentry">
 通信設定
@@ -2230,7 +2400,7 @@ VINコード形式での文字列生成をサポートします。
 
 
 
-### 7.1.2 使用方法
+### 8.1.2 使用方法
 
 1. テキスト要素の「外部データ」を追加し、「編集」ボタンをタップします。
 2. 変数名称（Variable name）を`sv1`に設定します。
@@ -2243,7 +2413,7 @@ VINコード形式での文字列生成をサポートします。
 <div style="page-break-before:always"></div>
 
 
-## 7.2 レンズの校正方法
+## 8.2 レンズの校正方法
 
 レンズの校正作業は設定画面の「エリア」ページで行います。
 
@@ -2254,7 +2424,7 @@ VINコード形式での文字列生成をサポートします。
 この手順ではレーザーが照射されます。実行前に、周囲の安全と加工素材の設置状態を十分に確認してください。
 </div>
 
-### 7.2.1 事前設定
+### 8.2.1 事前設定
 
 下記の各項目の値を設定します。
 
@@ -2287,7 +2457,7 @@ VINコード形式での文字列生成をサポートします。
 設定が完了したら、黒画用紙などの刻印素材を設置し、「テスト加工」をタップして校正用の図形を加工します。
 ここで加工された「ABC」の文字の向きや「+Y」「+X」の方向を確認します。
 
-### 7.2.2 歪み補正
+### 8.2.2 歪み補正
 
 テスト加工で加工された外側の四角形を確認し、歪み方に応じて「樽型」「シアー型」「台形型」の歪みを補正します。
 各項目について、**X方向は軸2、Y方向は軸1** の項目へ補正値を入力します。
@@ -2300,7 +2470,7 @@ VINコード形式での文字列生成をサポートします。
 
 それぞれの歪みについて補正を行います。
 
-### 7.2.3 大きさ補正
+### 8.2.3 大きさ補正
 
 上記の歪みが改善されたあと、大きさ補正を行います。
 

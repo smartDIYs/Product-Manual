@@ -151,11 +151,11 @@
 
 <div class="fixed-table">
 
-| 項目 | ステンレス（参考） | MDF（参考） | ABS樹脂 |
-|:---:|:--:|:--:|:--:|
-| 加工速度 | 1000 | 100 | 2000 |
-| パワー | 60 | 50 | 20 |
-| 周波数 | 30 | 50 | 30 |
+| 素材 | 加工速度 | パワー | 周波数 |
+|:---|:---:|:---:|:---:|
+| ステンレス | 1000 | 60 | 30 |
+| MDF | 100 | 50 | 50 |
+| ABS樹脂 | 2000 | 20 | 30 |
 
 </div>
 
@@ -170,52 +170,116 @@
 
 ## 加工操作
 
-<table class="noframe">
-<tr>
-<td style="padding:0px"><img src="./images/photos/handgun_switch.jpg" width="350px" /></td>
-<td style="padding:0px; width:5px"></td>
-<td style="padding:0px"><img src="./images/photos/handgun_trigger.jpg" width="350px" /></td>
-</tr>
-<td style="text-align:center;">セキュリティボタン</td>
-<td></td>
-<td style="text-align:center;">トリガー</td>
+<span class="subheading">各部位の説明</div>
+
+<div class="subentry">セキュリティボタン</div>
+
+<div class="img-float-left">
+
+<img src="./images/photos/handgun_switch.jpg" width="320px" />
+セキュリティボタンを押すとハンドガンが起動し、照明やファンが作動します。（マグネットカバーの場合は電磁石も作動します）<br>
+再度ボタンを押すとハンドガンが停止します。<br>
+トリガーを引いて加工を行う場合は、ハンドガンが起動している必要があります。
+
+</div>
+
+
+<div class="subentry">ステータスランプ</div>
+
+<div class="img-float-left">
+
+<table class="noframe" style="float:left; width:auto; margin:0 20px 0 0;">
+  <tr>
+    <td style="padding:0; line-height:0; font-size:0;">
+      <img src="./images/photos/handgun_led_green.jpg" width="150" style="margin:0;">
+    </td>
+    <td style="width:20px; padding:0; margin:0px"></td>
+    <td style="padding:0;">
+      <img src="./images/photos/handgun_led_red.jpg" width="150" style="margin:0;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:0;">起動中</td>
+    <td style="width:0px; padding:0; margin:0px"></td>
+    <td style="text-align:center; padding:0;">加工中</td>
+  </tr>
 </table>
 
-ハンドガンを地面に向けた状態でセキュリティボタンにし、手で保持しながら素材に押し当てます。
+ハンドガンが起動中はLEDが緑色に点灯し、加工中は赤色に点灯します。
+
+</div>
+
+
+<div class="subentry">トリガー</div>
+
+<div class="img-float-left">
+
+<img src="./images/photos/handgun_trigger_zoom.jpg" width="320px" />
+
+トリガーを引く際は中央部分をしっかりと奥まで押し込んでください。<br>
+
+</div>
+
+
+
+<div style="page-break-before:always"></div>
+
+
+<span class="subheading">基本手順</div>
+
+**ハンドガンを起動**
+
+ハンドガンをしっかりと保持し、加工素材や安全な方向に向けた状態で、セキュリティボタンを押してハンドガンを起動します。
+
+
+**マーキングモードへの切り替え**
+
 次に、ステータスバーの「START」ボタンをタップし、マーキングモードに切り替えます。<br>
 
 <div style="margin: 30px 10px 40px">
 
-**操作モード**
-<img src="./images/quickstart_status_bar_idle.png"  width="540px"/>
+操作モード
+<img src="./images/quickstart_status_bar_idle.png"  width="540px" style="margin-bottom:15px" />
 
-<br>
-
-**マーキングモード**
+マーキングモード
 <img src="./images/quickstart_status_bar_marking.png"  width="540px"/>
 
 </div>
 
 <div class="danger">
-マーキングモードでは、ハンドガンのトリガーを引くと加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
+マーキングモードでは、ハンドガンのトリガーを引くと直ちに加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
 
-また、<span class="strongred">操作モードやハンドガンのセキュリティボタンがオフの状態でも、テストマーキングや強制照射などの機能ではレーザーが照射される場合があります。</span>モードや起動スイッチの状態だけで安全と判断せず、操作前に必ず照射方向・周囲の安全を確認してください。
+また、<span class="strongred">操作モード中やハンドガンが停止中の状態であっても、テストマーキングや強制照射などの機能によってレーザーが照射される場合があります。</span>モードやLEDの状態のみで安全と判断せず、操作前には必ず照射方向と周囲の安全を確認してください。
 </div>
+
+
+**位置の調整**
+
+
+赤色のガイド光で刻印位置を確認しながら、配置を微調整してください。
+
+<img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
+
+
+
 
 
 <div style="page-break-before:always"></div>
 
-赤色のガイド光で刻印位置を確認しながら、配置を微調整してください。
 
+**加工開始**
 
-<img src="./images/photos/handgun_guidelight.jpg"  width="450px"/>
-
-トリガーを引くと加工が始まります。加工中はハンドガンをしっかり保持し、揺れないように注意してください。<br>
+トリガーを引くと加工が始まります。トリガーの中央部分をしっかりと奥まで押し込んでください。<br>
+加工中はハンドガンをしっかり保持し、揺らさないように注意してください。<br>
 位置を変えながら複数回刻印を行うと、刻印ごとにシリアル番号がカウントアップされます。
 
 <img src="./images/photos/handgun_result.jpg"  width="300px"/>
 
+
+**加工終了**
+
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
+また、必要に応じてハンドガンを停止します。
 
 
 

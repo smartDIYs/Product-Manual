@@ -8,6 +8,10 @@
       "title": "概要"
     },
     {
+      "file": "11_hardware.md",
+      "title": "ハードウェアセットアップ"
+    },
+    {
       "file": "2_screen.md",
       "title": "画面構成"
     },
