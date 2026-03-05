@@ -47,382 +47,397 @@ puppeteer:
 <a class="toc-item" href="#1-概要">
 	<span>1. 概要</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">5</span>
 </a>
 <a class="toc-item toc-section-item" href="#11-はじめに">
 	<span>1.1 はじめに</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">5</span>
 </a>
-<a class="toc-item toc-section-item" href="#12-製品安全使用ガイドライン">
-	<span>1.2 製品安全使用ガイドライン</span>
+<a class="toc-item toc-section-item" href="#12-安全上のご注意">
+	<span>1.2 安全上のご注意</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">5</span>
 </a>
 <a class="toc-item toc-section-item" href="#13-製品保証">
 	<span>1.3 製品保証</span>
 	<span class="dots"></span>
-	<span class="page-number">6</span>
+	<span class="page-number">8</span>
 </a>
-<a class="toc-item toc-section-item" href="#14-製品仕様">
-	<span>1.4 製品仕様</span>
+<a class="toc-item toc-section-item" href="#14-免責事項について">
+	<span>1.4 免責事項について</span>
 	<span class="dots"></span>
-	<span class="page-number">7</span>
+	<span class="page-number">8</span>
+</a>
+<a class="toc-item toc-section-item" href="#15-製品仕様">
+	<span>1.5 製品仕様</span>
+	<span class="dots"></span>
+	<span class="page-number">9</span>
 </a>
 <a class="toc-item" href="#2-ハードウェアセットアップ">
 	<span>2. ハードウェアセットアップ</span>
 	<span class="dots"></span>
-	<span class="page-number">8</span>
+	<span class="page-number">10</span>
+</a>
+<a class="toc-item toc-section-item" href="#21-カバー取り付け方法">
+	<span>2.1 カバー取り付け方法</span>
+	<span class="dots"></span>
+	<span class="page-number">10</span>
+</a>
+<a class="toc-item toc-section-item" href="#22-インナーフレーム取り付け方法">
+	<span>2.2 インナーフレーム取り付け方法</span>
+	<span class="dots"></span>
+	<span class="page-number">11</span>
 </a>
 <a class="toc-item" href="#3-画面構成">
 	<span>3. 画面構成</span>
 	<span class="dots"></span>
-	<span class="page-number">9</span>
+	<span class="page-number">12</span>
 </a>
 <a class="toc-item toc-section-item" href="#31-サイドバー">
 	<span>3.1 サイドバー</span>
 	<span class="dots"></span>
-	<span class="page-number">10</span>
+	<span class="page-number">13</span>
 </a>
 <a class="toc-item toc-section-item" href="#32-ステータスバー">
 	<span>3.2 ステータスバー</span>
 	<span class="dots"></span>
-	<span class="page-number">10</span>
+	<span class="page-number">13</span>
 </a>
 <a class="toc-item toc-section-item" href="#33-メニューバー">
 	<span>3.3 メニューバー</span>
 	<span class="dots"></span>
-	<span class="page-number">11</span>
+	<span class="page-number">14</span>
 </a>
 <a class="toc-item toc-section-item" href="#34-グラフィックビュー操作">
 	<span>3.4 グラフィックビュー操作</span>
 	<span class="dots"></span>
-	<span class="page-number">14</span>
+	<span class="page-number">17</span>
 </a>
 <a class="toc-item toc-section-item" href="#35-コントロールパネル">
 	<span>3.5 コントロールパネル</span>
 	<span class="dots"></span>
-	<span class="page-number">14</span>
+	<span class="page-number">17</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#351-移動変形">
 	<span>3.5.1 移動・変形</span>
 	<span class="dots"></span>
-	<span class="page-number">14</span>
+	<span class="page-number">17</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#352-その他の操作">
 	<span>3.5.2 その他の操作</span>
 	<span class="dots"></span>
-	<span class="page-number">15</span>
+	<span class="page-number">18</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#353-リスト">
 	<span>3.5.3 リスト</span>
 	<span class="dots"></span>
-	<span class="page-number">16</span>
+	<span class="page-number">19</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#354-円弧文字">
 	<span>3.5.4 円弧文字</span>
 	<span class="dots"></span>
-	<span class="page-number">17</span>
+	<span class="page-number">20</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#355-塗りつぶし">
 	<span>3.5.5 塗りつぶし</span>
 	<span class="dots"></span>
-	<span class="page-number">18</span>
+	<span class="page-number">21</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#356-配列">
 	<span>3.5.6 配列</span>
 	<span class="dots"></span>
-	<span class="page-number">20</span>
+	<span class="page-number">23</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#357-プロパティ">
 	<span>3.5.7 プロパティ</span>
 	<span class="dots"></span>
-	<span class="page-number">21</span>
+	<span class="page-number">24</span>
 </a>
 <a class="toc-item toc-section-item" href="#36-オブジェクトパネル">
 	<span>3.6 オブジェクトパネル</span>
 	<span class="dots"></span>
-	<span class="page-number">21</span>
+	<span class="page-number">24</span>
 </a>
 <a class="toc-item toc-section-item" href="#37-文字入力">
 	<span>3.7 文字入力</span>
 	<span class="dots"></span>
-	<span class="page-number">22</span>
+	<span class="page-number">25</span>
 </a>
 <a class="toc-item" href="#4-クイックスタート">
 	<span>4. クイックスタート</span>
 	<span class="dots"></span>
-	<span class="page-number">23</span>
+	<span class="page-number">26</span>
 </a>
 <a class="toc-item toc-section-item" href="#41-本体の起動">
 	<span>4.1 本体の起動</span>
 	<span class="dots"></span>
-	<span class="page-number">23</span>
+	<span class="page-number">26</span>
 </a>
 <a class="toc-item toc-section-item" href="#42-ログイン">
 	<span>4.2 ログイン</span>
 	<span class="dots"></span>
-	<span class="page-number">23</span>
+	<span class="page-number">26</span>
 </a>
 <a class="toc-item toc-section-item" href="#43-新規ファイルの作成">
 	<span>4.3 新規ファイルの作成</span>
 	<span class="dots"></span>
-	<span class="page-number">24</span>
+	<span class="page-number">27</span>
 </a>
 <a class="toc-item toc-section-item" href="#44-データ作成">
 	<span>4.4 データ作成</span>
 	<span class="dots"></span>
-	<span class="page-number">24</span>
+	<span class="page-number">27</span>
 </a>
 <a class="toc-item toc-section-item" href="#45-パラメータ設定">
 	<span>4.5 パラメータ設定</span>
 	<span class="dots"></span>
-	<span class="page-number">27</span>
+	<span class="page-number">30</span>
 </a>
 <a class="toc-item toc-section-item" href="#46-加工操作">
 	<span>4.6 加工操作</span>
 	<span class="dots"></span>
-	<span class="page-number">28</span>
+	<span class="page-number">31</span>
 </a>
 <a class="toc-item toc-section-item" href="#47-データ保存">
 	<span>4.7 データ保存</span>
 	<span class="dots"></span>
-	<span class="page-number">30</span>
+	<span class="page-number">33</span>
 </a>
 <a class="toc-item toc-section-item" href="#48-終了操作">
 	<span>4.8 終了操作</span>
 	<span class="dots"></span>
-	<span class="page-number">30</span>
+	<span class="page-number">33</span>
 </a>
 <a class="toc-item" href="#5-編集">
 	<span>5. 編集</span>
 	<span class="dots"></span>
-	<span class="page-number">31</span>
+	<span class="page-number">34</span>
 </a>
 <a class="toc-item toc-section-item" href="#51-図形">
 	<span>5.1 図形</span>
 	<span class="dots"></span>
-	<span class="page-number">31</span>
+	<span class="page-number">34</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#511-点">
 	<span>5.1.1 点</span>
 	<span class="dots"></span>
-	<span class="page-number">31</span>
+	<span class="page-number">34</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#512-直線">
 	<span>5.1.2 直線</span>
 	<span class="dots"></span>
-	<span class="page-number">32</span>
+	<span class="page-number">35</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#513-円形">
 	<span>5.1.3 円形</span>
 	<span class="dots"></span>
-	<span class="page-number">32</span>
+	<span class="page-number">35</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#514-矩形">
 	<span>5.1.4 矩形</span>
 	<span class="dots"></span>
-	<span class="page-number">32</span>
+	<span class="page-number">35</span>
 </a>
 <a class="toc-item toc-section-item" href="#52-ファイル">
 	<span>5.2 ファイル</span>
 	<span class="dots"></span>
-	<span class="page-number">33</span>
+	<span class="page-number">36</span>
 </a>
 <a class="toc-item toc-section-item" href="#53-テキスト">
 	<span>5.3 テキスト</span>
 	<span class="dots"></span>
-	<span class="page-number">34</span>
+	<span class="page-number">37</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#531-テキスト">
 	<span>5.3.1 テキスト</span>
 	<span class="dots"></span>
-	<span class="page-number">36</span>
+	<span class="page-number">39</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#532-シリアル番号">
 	<span>5.3.2 シリアル番号</span>
 	<span class="dots"></span>
-	<span class="page-number">36</span>
+	<span class="page-number">39</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#533-日付時刻">
 	<span>5.3.3 日付・時刻</span>
 	<span class="dots"></span>
-	<span class="page-number">38</span>
+	<span class="page-number">41</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#534-ファイル">
 	<span>5.3.4 ファイル</span>
 	<span class="dots"></span>
-	<span class="page-number">39</span>
+	<span class="page-number">42</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#535-プラン">
 	<span>5.3.5 プラン</span>
 	<span class="dots"></span>
-	<span class="page-number">41</span>
+	<span class="page-number">44</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#536-外部データ">
 	<span>5.3.6 外部データ</span>
 	<span class="dots"></span>
-	<span class="page-number">42</span>
+	<span class="page-number">45</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#537-ランダムコード">
 	<span>5.3.7 ランダムコード</span>
 	<span class="dots"></span>
-	<span class="page-number">42</span>
+	<span class="page-number">45</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#538-VINコード">
 	<span>5.3.8 VINコード</span>
 	<span class="dots"></span>
-	<span class="page-number">42</span>
+	<span class="page-number">45</span>
 </a>
 <a class="toc-item toc-section-item" href="#54-バーコード">
 	<span>5.4 バーコード</span>
 	<span class="dots"></span>
-	<span class="page-number">43</span>
+	<span class="page-number">46</span>
 </a>
 <a class="toc-item toc-section-item" href="#55-QRコード">
 	<span>5.5 QRコード</span>
 	<span class="dots"></span>
-	<span class="page-number">45</span>
+	<span class="page-number">48</span>
 </a>
 <a class="toc-item toc-section-item" href="#56-待機時間">
 	<span>5.6 待機時間</span>
 	<span class="dots"></span>
-	<span class="page-number">46</span>
+	<span class="page-number">49</span>
 </a>
 <a class="toc-item toc-section-item" href="#57-出力ポート">
 	<span>5.7 出力ポート</span>
 	<span class="dots"></span>
-	<span class="page-number">46</span>
+	<span class="page-number">49</span>
 </a>
 <a class="toc-item" href="#6-設定">
 	<span>6. 設定</span>
 	<span class="dots"></span>
-	<span class="page-number">47</span>
+	<span class="page-number">50</span>
 </a>
 <a class="toc-item toc-section-item" href="#61-加工パラメータ">
 	<span>6.1 加工パラメータ</span>
 	<span class="dots"></span>
-	<span class="page-number">47</span>
+	<span class="page-number">50</span>
 </a>
 <a class="toc-item toc-section-item" href="#62-エリア">
 	<span>6.2 エリア</span>
 	<span class="dots"></span>
-	<span class="page-number">50</span>
+	<span class="page-number">53</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#621-ガルバノミラーのキャリブレーション">
 	<span>6.2.1 ガルバノミラーのキャリブレーション</span>
 	<span class="dots"></span>
-	<span class="page-number">50</span>
+	<span class="page-number">53</span>
 </a>
 <a class="toc-item toc-section-item" href="#63-レーザー">
 	<span>6.3 レーザー</span>
 	<span class="dots"></span>
-	<span class="page-number">52</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-item" href="#64-ユーザー管理">
 	<span>6.4 ユーザー管理</span>
 	<span class="dots"></span>
-	<span class="page-number">52</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-item" href="#65-フォント管理">
 	<span>6.5 フォント管理</span>
 	<span class="dots"></span>
-	<span class="page-number">52</span>
+	<span class="page-number">55</span>
 </a>
 <a class="toc-item toc-section-item" href="#66-システム設定">
 	<span>6.6 システム設定</span>
 	<span class="dots"></span>
-	<span class="page-number">53</span>
+	<span class="page-number">56</span>
 </a>
 <a class="toc-item toc-section-item" href="#67-IO_設定">
 	<span>6.7 IO 設定</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">57</span>
 </a>
 <a class="toc-item toc-section-item" href="#68-通信設定">
 	<span>6.8 通信設定</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">57</span>
 </a>
 <a class="toc-item toc-section-item" href="#69-システム情報">
 	<span>6.9 システム情報</span>
 	<span class="dots"></span>
-	<span class="page-number">54</span>
+	<span class="page-number">57</span>
 </a>
 <a class="toc-item" href="#7-オプション">
 	<span>7. オプション</span>
 	<span class="dots"></span>
-	<span class="page-number">55</span>
+	<span class="page-number">58</span>
 </a>
 <a class="toc-item toc-section-item" href="#71-長尺印字カバー">
 	<span>7.1 長尺印字カバー</span>
 	<span class="dots"></span>
-	<span class="page-number">55</span>
+	<span class="page-number">58</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#711-本体設定">
 	<span>7.1.1 本体設定</span>
 	<span class="dots"></span>
-	<span class="page-number">55</span>
+	<span class="page-number">58</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#712-使用方法">
 	<span>7.1.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">60</span>
 </a>
 <a class="toc-item toc-section-item" href="#72-マグネットカバー">
 	<span>7.2 マグネットカバー</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">60</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#721-本体設定">
 	<span>7.2.1 本体設定</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">60</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#722-使用方法">
 	<span>7.2.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">57</span>
+	<span class="page-number">60</span>
 </a>
 <a class="toc-item" href="#8-付録">
 	<span>8. 付録</span>
 	<span class="dots"></span>
-	<span class="page-number">58</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item toc-section-item" href="#81-バーコードスキャナの使い方">
 	<span>8.1 バーコードスキャナの使い方</span>
 	<span class="dots"></span>
-	<span class="page-number">58</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#811-設定方法">
 	<span>8.1.1 設定方法</span>
 	<span class="dots"></span>
-	<span class="page-number">58</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#812-使用方法">
 	<span>8.1.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">59</span>
+	<span class="page-number">62</span>
 </a>
 <a class="toc-item toc-section-item" href="#82-レンズの校正方法">
 	<span>8.2 レンズの校正方法</span>
 	<span class="dots"></span>
-	<span class="page-number">60</span>
+	<span class="page-number">63</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#821-事前設定">
 	<span>8.2.1 事前設定</span>
 	<span class="dots"></span>
-	<span class="page-number">60</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#822-歪み補正">
 	<span>8.2.2 歪み補正</span>
 	<span class="dots"></span>
-	<span class="page-number">61</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#823-大きさ補正">
 	<span>8.2.3 大きさ補正</span>
 	<span class="dots"></span>
-	<span class="page-number">61</span>
+	<span class="page-number">4</span>
 </a>
 
 
@@ -434,101 +449,162 @@ puppeteer:
 
 ## 1.1 はじめに
 
-ご使用前に、本マニュアルを最後までお読みいただき、各機能を十分に理解したうえで操作してください。本製品の不適切な操作により、本人または第三者に危害が生じた場合、または製品の損傷や財産の損失が発生した場合であっても、当社は一切の法的責任を負いません。
-
-当社が提供または推奨していない部品は使用しないでください。本製品の取り付けおよび使用にあたっては、必ず当社の指示に厳格に従ってください。そうしない場合、当社のアフターサービスを受けることができません。
-
-
-## 1.2 製品安全使用ガイドライン
-
-本製品を不適切に使用すると、火災、物的損害、または人身傷害を引き起こすおそれがあります。ご使用の際は、必ず以下の安全ガイドラインに従ってください。
-
-**製品免責事項**
-
-すべての安全上の注意事項、警告メッセージ、利用規約、および免責事項をよくお読みください。使用前に、本製品の利用規約および免責事項、ならびに製品本体に貼付された黄色い警告ラベルをご確認ください。ユーザーは、本製品のすべての使用および操作について、全責任を負うものとします。
-ご利用の地域における関連法規を十分に理解してください。関連するすべての法令を理解し、それらを遵守した形で当社製品を使用することは、ユーザーの責任となります。
+この度は ポータブルファイバーレーザーマーカー LM100P をご購入いただきありがとうございます。<br>
+本マニュアルでは、製品を安全に操作するための注意事項や、加工を行うまでのセットアップ方法が記載されています。
+本マニュアルを読み、安全で快適な加工をお楽しみください。
 
 
+<!-- 素材の加工パラメータやソフトウェアの使い方・コツは、以下の製品サポートページ（QRコード／リンク）でご確認ください。<br>
+LM100P 製品サポートページ（https://www.smartdiys.com/support/product/lm100p/） -->
 
-**製品の使用について**
+
+## 1.2 安全上のご注意
+
+ご使用前に、本マニュアルを最後までお読みいただき、各機能を十分に理解したうえで操作してください。
+
+- 本製品を使用する前に本マニュアルを読み、使用者全員に確認してください。
+- ご使用に際しては、各種法令やルールを順守してお使いください。
+- 製品の操作、メンテナンス等は、危険性を熟知し十分な知識を有する方のみ行ってください。
+- レーザーから発せられる光による火災、やけど、目の損傷など十分に注意のうえ、ご使用ください。
+- 加工中、目、鼻、喉に異常を感じたら直ちに使用を中止してください。
+- 電源を入れている間は必ず保護メガネを着用し、その場合でも絶対にレーザー光を覗き込まないでください。
+- 何か異常が発生した場合は直ちに非常停止スイッチを押して加工機を停止させてください。
+- セットアップ時において指示があるまで絶対に電源を入れないでください。
+
+
+<!-- 本製品の不適切な操作により、本人または第三者に危害が生じた場合、または製品の損傷や財産の損失が発生した場合であっても、当社は一切の法的責任を負いません。 -->
+
+<!-- 当社が提供または推奨していない部品は使用しないでください。本製品の取り付けおよび使用にあたっては、必ず当社の指示に厳格に従ってください。そうしない場合、当社のアフターサービスを受けることができません。 -->
+
+<div class="subheading">レーザーの安全性</div>
+
+本製品に搭載されているレーザー発振機は class4 レーザー相当であり、火災・やけど・目の損傷を引き起こす可能性があります。使用前に以下を必ず確認してください。
+
 
 1. 装置を使用する前に、以下のレーザーラベルの貼付位置に注意し、説明をよくお読みください。
    <img src="images/_warning_labels.png" width=300px />
-2. 本製品の使用中は、レーザーを目や皮膚に直接照射しないでください。
+1. 本製品の使用中は、レーザーを目や皮膚に直接照射しないでください。
    <img src="images/_warning_labels2.png" width=300px />
-3. 本製品の動作中に放射されるレーザーの性能パラメータは、以下のとおりです。
-
-   <!-- |    | MFPN-20M-0.7 | MFPN-25M-0.6 | MFPN-30M-0.7 | MFPN-50M-1.1 |
-   | --- | --- | --- | --- | --- |
-   | パルス幅 | 90±10@27kHz | 100±20@40kHz | 100±20@40kHz | 100±10@45kHz |
-   | 繰返し周波数 | 27～60 kHz | 40～60 kHz | 40～60 kHz | 45～170 kHz |
-   | パルス幅 | モデル別によって異なる |||| -->
+1. 本製品の動作中に放射されるレーザーの性能パラメータは、以下のとおりです。
 
    <table style="width:auto">
    <tr><td>パルス幅</td><td>90±10@27kHz</td></tr>
    <tr><td>繰返し周波数</td><td>27～60 kHz</td></tr>
-   <!-- <tr><td>最大出力</td><td>？？？？？</td></tr> -->
    </table>
 
-4. 本仕様書の規定外の制御・調整・操作手順を用いると、危険なレーザー放射に曝露するおそれがあります。
-
-5. 本製品のレーザー開口部から放射されるレーザー放射は、クラス4に該当します。
-
-6. 光学濃度 OD3 の保護メガネの着用を推奨します。
-
-7. 本製品をいかなる液体にも接触させないでください。水中に浸したり、濡らしたりしないでください。雨天時や長期間湿度の高い環境下で本製品を使用しないでください。内部回路が短絡し、故障の原因となるおそれがあります。
-
-8. 非公式部品や指定外の部品を使用することは固く禁止されています。部品の交換が必要な場合は、必ず当社公式ウェブサイトで関連する購入情報をご確認いただくか、アフターサービス窓口までお問い合わせください。当社が提供していない製品を使用したことに起因する製品事故や故障について、当社は一切の責任を負いません。
-
-9.  本製品の他のモジュールを取り付けたり取り外したりする前に、必ず本製品の電源を切ってください。電源が入った状態でモジュールや各種部品を抜き差ししないでください。各種部品を損傷するおそれがあります。
-
-10. 周囲温度が高すぎる場合（60℃を超える場合）、装置内部の電子部品が異常発熱・故障し、動作不良や破損を引き起こすおそれがあります。周囲温度が低すぎる場合には、LCDディスプレイが表示不良となったり、装置の動作が不安定となり、通常の使用要件を満たせなくなる場合があります。装置が通常の動作温度範囲に戻れば、表示および動作が回復する場合があります。
-
-11. 強い静電気または強磁界環境下で本製品を使用することは禁止されています。異常動作が発生するおそれがあります。その場合、本製品の一部機能が誤動作し、重大な故障につながる可能性があります。
-
-12. 本製品を分解したり、鋭利な物で穴を開けたりすることは、いかなる方法であっても禁止されています。そうした行為により、本製品の機能が誤動作し、重大な故障を引き起こすおそれがあります。
-
-13. 本製品が高所からの落下や外部からの強い衝撃を受けた場合、本製品の機能に異常が生じ、故障の原因となることがあります。
-
-14. 使用中に本製品が誤って水中に落下した場合は、安全で開けた場所に移動し、完全に乾燥するまで製品から離れてください。乾燥後であっても再使用せず、本書に記載された廃棄方法に従って適切に処分してください。製品が発火した場合は、消火手段として次の順序での使用を推奨します：水またはミスト、砂、防炎シート（防火毛布）、粉末消火器、二酸化炭素消火器。
-
-15. 本製品を電子レンジや加圧容器の中に入れないでください。
-
-16. 本製品の筐体にワイヤー等の金属物を差し込まないでください。短絡（ショート）などにより、誤動作や制御不能となり、重大な事故につながるおそれがあります。
-
-17. 本製品を叩いたり衝撃を与えないでください。本製品の上に重い物を載せないでください。
-
-18. 本製品のタッチスクリーンに汚れが付着した場合は、専用の静電容量式スクリーン用クリーナーを使用して拭き取ってください。
-
-19. 本製品の通気口にホコリがある場合は、ブラシを使用して清掃してください。（ひどく詰まっている場合は、弊社サポートまでご連絡ください）
-
-20. 湿気の多い環境（海辺や水辺など）では、防湿袋を併用することを推奨します。水の侵入や浸水を防ぐためです。本製品内部に水が入っているのを確認した場合は、使用したり電源を入れたりしないでください。メンテナンスについては、アフターサービスにご連絡ください。
+1. 電源を入れている間は必ず保護メガネを着用し、その場合でも絶対にレーザー光を覗き込まないでください。
+1. 作業室内の人は全員必ず保護メガネを着用してください。
+1. レーザーを目や皮膚に直接照射しないでください。
+1. 本仕様書の規定外の制御・調整・操作手順を用いると、危険なレーザー放射に曝露するおそれがあります。
 
 
-**製品の保管および輸送について**
+<div class="subheading">設置・作業環境に関する注意事項</div>
 
-1. 本製品は子どもの手の届かない場所に保管してください。子どもが誤って触れたり電源を入れたりした場合、不適切な操作により重大な結果を招くおそれがあります。
+1. 本体およびハンドガンを不安定な場所に設置しないでください。高所からの落下や外部からの強い衝撃を受けた場合、本製品の機能に異常が生じ、故障の原因となることがあります。
+
+1. 本製品の他のモジュールを取り付ける際は、必ず本製品の電源を切ってください。電源が入った状態でモジュールや各種部品を抜き差ししないでください。各種部品を損傷するおそれがあります。
+
+1. 電源を入れている間は本製品を移動しないでください。また、本製品を移動する際は必ず電源を切ってください。
+
+1. 本製品に破損がある場合は使用しないでください。
+
+1. レーザー照射部が下方向以外の方向を向いた状態で、絶対に電源を入れないでください。
+
+1. レーザー光を加工対象物以外のモノや人に向けて照射しないでください。
+
+1. レーザー光を照射中に加工エリア内に体の一部を絶対に入れないでください。
+
+1. 反射する素材をレーザーの周囲に置かないでください。
+
+1. 加工中はハンドガンをしっかりと保持してください。
+
+1. 加工中は作業者以外は近づかないでください。
+
+1. お子様などを製品に近づけないでください。子どもが誤って触れたり電源を入れたりした場合、不適切な操作により重大な結果を招くおそれがあります。
+
+1. 非公式部品や指定外の部品を使用することは固く禁止されています。部品の交換が必要な場合は、必ず当社までお問い合わせください。当社が提供していない製品を使用したことに起因する製品事故や故障について、当社は一切の責任を負いません。
+
+1. 加工素材により煙や臭いが生じる場合があるため、十分な換気を行える環境で使用してください。煙やにおいが大量に出る場合は集塵機などを併用してご使用ください。
+
+1. 強い静電気または強磁界環境下で本製品を使用することは禁止されています。製品の誤動作により、重大な故障につながる可能性があります。
+
+1. 周囲温度が高すぎる場合（60℃を超える場合）、装置内部の電子部品が異常発熱・故障し、動作不良や破損を引き起こすおそれがあります。周囲温度が低すぎる場合には、LCDディスプレイが表示不良となったり、装置の動作が不安定となり、通常の使用要件を満たせなくなる場合があります。装置が通常の動作温度範囲に戻れば、表示および動作が回復する場合があります。
+
+1. 湿気の多い環境（海辺や水辺など）では、水の侵入や浸水を防ぐための防湿袋を併用することを推奨します。本製品内部に水が入っているのを確認した場合は、使用したり電源を入れたりしないでください。
+
+
+<div class="subheading">電気に関する注意事項</div>
+
+1. 本体および電源部分をぬらさないでください。雨天時や長期間湿度の高い環境下で本製品を使用しないでください。内部回路が短絡し、故障の原因となるおそれがあります。
+
+1. 本製品の筐体にワイヤー等の金属物を差し込まないでください。短絡（ショート）などにより、誤動作や制御不能となり、重大な事故につながるおそれがあります。
+
+1. 本製品の改造、およびお客様判断での修理はしないでください。
+
+1. 本製品を分解したり、鋭利な物で穴を開けたりすることは、いかなる方法であっても禁止されています。本製品の機能が誤動作し、重大な故障を引き起こすおそれがあります。
+
+1. ネジやナットが緩んだ状態で稼動させないでください。
+
+1. アースを必ず接地してください。
+
+1. 本製品の消費電力は 250W です。延長コードを使用する場合は定格容量にご注意ください。
+
+
+<div class="subheading">火災に関する注意事項</div>
+
+本製品は加工素材によっては炎が上がる場合があり、火災に繋がる可能性があります。
+
+1. 電源を入れている間は製品を放置しないでください。
+
+1. 燃えやすい素材やレーザー加工に適していない素材は加工しないでください。
+
+1. ガソリンやアルコールなど可燃性蒸気の発生源を本製品と同じ部屋に置かないでください。
+
+1. 可燃物や引火性物質を製品の近くに置かないでください。
+
+1. 加工後に作業場所から離れる際は、素材や周囲などから出火していないかよく確認してください。
+
+1. レーザーが素材に照射された際、小さなろうそくのような炎が上がる場合があります。レーザーが通過したあともこの炎が消えない場合には直ちに使用を中止してください。
+
+1. 素材によっては加工終了後高温のままになる場合があります。加工後の素材に触る際は十分注意してください。
+
+1. 使用中に本製品が誤って水中に落下した場合は、安全で開けた場所に移動し、完全に乾燥するまで製品から離れてください。乾燥後であっても再使用せず、各自治体で指定された廃棄方法に従って適切に処分してください。製品が発火した場合は、消火手段として *水またはミスト、砂、防炎シート（防火毛布）、粉末消火器、二酸化炭素消火器* の順序での使用を推奨します。
+
+
+<div class="subheading">素材に関する注意事項</div>
+
+1. 加工する素材に関して、事前に熱での加工により有害物質が発生しないことをご確認ください。例：塩化ビニルを含む素材は熱での加工により有害物質が発生します。
+
+1. レーザー加工を行っても安全かどうかわからない素材は加工しないでください。
+
+1. レーザー光が直接的に、又は鏡面体への反射などにより間接的に製品の外に出ないよう十分注意してください。
+
+
+<div class="subheading">保管および輸送に関する注意事項</div>
+
+1. 本製品は子どもの手の届かない場所に保管してください。
 
 1. 本製品を熱源の近く（高温の車内、火気、暖房機器など）に近づけないでください。
 
 1. 本製品を保管する環境は乾燥した状態を保ってください。湿気の多い場所や、水漏れの可能性がある場所に長時間放置しないでください。
 
-1. 本製品を保管・輸送する際、ファイバーケーブル（レーザー伝送ケーブル）には、強い引張り荷重をかけたり、無理に曲げたり、ねじったり、挟み込んだりしないでください。断線・出力低下・故障の原因となります。
-
-
-**製品のメンテナンス**
-
-1. 実際の使用状況に応じて、本製品の放熱孔に付着したホコリを取り除くなど、必要な清掃を行ってください。これにより、本製品の放熱効率を高い状態に保つことができます。
+1. 本製品を保管・輸送する際、ファイバーケーブル（レーザー伝送ケーブル）を強く引っ張ったり、無理に曲げたり、ねじったり、挟み込んだりしないでください。断線・出力低下・故障の原因となります。
 
 1. 保管環境温度は -20℃～45℃であり、最適な使用および保管環境温度は 20℃～25℃です。
 
 
-<!-- **搭乗に関する注意事項** -->
-<!-- 本製品を航空機内に持ち込むことはできません。 -->
+<div class="subheading">メンテナンス・清掃</div>
 
-**本製品の清掃方法**
+1. 汚れやほこりが付着した場合は、乾いた柔らかい布などで拭き取ってください。
 
-本製品を清掃する際は、乾いた柔らかい布などで拭き取ってください。より念入りな清掃を行う場合は、携帯電話やパソコン画面用の専用クリーナーの使用を推奨します。水などの導電性のある液体や腐食性の高い液体を、本製品に多量に付着させないでください。
+1. 通気口にホコリがある場合はブラシで清掃してください。
+
+1. タッチスクリーンの汚れは、静電容量式スクリーン用クリーナーを使用して拭き取ってください。
+
+1. 導電性のある液体や腐食性の高い液体を多量に付着させないでください。
+
+
+<div style="page-break-before:always"></div>
 
 
 ## 1.3 製品保証
@@ -609,8 +685,16 @@ puppeteer:
 詳細については購入時に付属している延長保証証明書をご覧ください（延長保証購入者のみ付属しています）。
 
 
+## 1.4 免責事項について
 
-## 1.4 製品仕様
+本製品の使用を理由とする破損・ケガ・事故・火災につきましては、いかなる責任も負いかねますのであらかじめご了承ください。
+また、当社は以下に記載する損害に関して、一切責任を負いません。
+- 本製品の使用または部品の不良などから生ずる付随的な損害
+- 本マニュアルに記載の「安全上のご注意」を守らないことにより生じた損害
+- 本製品の改造、または当社が関与しない機器やソフトウェアとの組み合わせが原因で生ずる損害
+
+
+## 1.5 製品仕様
 
 <!--型番:MFPN-20M-0.7-->
 
@@ -671,6 +755,8 @@ puppeteer:
 
 # 2. ハードウェアセットアップ
 
+## 2.1 カバー取り付け方法
+
 <div class="caution" style="display:block">
 カバーを取り付ける際は、本体の電源を必ずお切りください。
 </div>
@@ -680,10 +766,55 @@ puppeteer:
 
 <img src="images/scan/conver_insertion.jpg" height=300px />
 
-付属の4本のネジで固定します。使用中にネジが緩まないよう、必ず確実に固定してください。<br>
-固定が不十分な場合、接触不良の原因となることがあります。
+付属の「十字穴付き皿小ねじ」または「六角穴付き皿小ねじ」を使用して固定します。お好きな方をお使いください。<br>
+使用中にネジが緩まないよう、必ず確実に固定してください。固定が不十分な場合、接触不良の原因となることがあります。
+
+<img src="images/illusts/gpt_screw.png" width=140px />
 
 <img src="images/scan/screw_mouting.jpg" width=260px />
+
+
+
+
+## 2.2 インナーフレーム取り付け方法
+
+<img src="./images/photos/frame_problem_work.jpg"  width="300px"/>
+
+カバーの開口部より小さいワークに加工する場合、焦点距離を適切に確保することが難しくなくなります。
+このような場合は、標準カバーに取り付いているベースフレームにインナーフレームを組み込んで使用します。
+
+<div class="annotation" style="display:block">
+通常の開口幅は110mmです。<br>
+インナーフレームを使用すると 95 / 80 / 70 / 60 / 50 / 40 mm の幅に段階的に調整できます。
+</div>
+
+<table class="noframe" style="width:auto" >
+<tr>
+<td style="padding:0"><img src="./images/photos/frame_problem.jpg"  width="300px"/></td>
+<td style="width:5px"></td>
+<td style="padding:0"><img src="./images/photos/frame_problem_fix.jpg" width="300px"/></td>
+</tr>
+</table>
+
+
+標準カバーからベースフレームを取り外し、ベースフレームの十字マークにインナーフレームの穴を合わせてしっかりとはめ込みます。フレームの底面が揃う向きで取り付けてください。<br>
+再度ベースフレームを標準カバーに取り付けます。ベースフレームの取り付け向きに注意してください。
+
+
+<table class="noframe" style="width:auto" >
+<tr>
+<td style="padding:0"><img src="./images/photos/frame_base_screw.jpg"  width="300px"/></td>
+<td style="width:5px"></td>
+<td style="padding:0"><img src="./images/photos/frame_base_inner.jpg" width="300px"/></td>
+</tr>
+</table>
+
+
+<div class="caution" style="display:block">
+加工を行う前に、加工範囲がフレーム内に収まっていることを必ずご確認ください。
+</div>
+
+
 <div style="page-break-before:always"></div>
 
 # 3. 画面構成

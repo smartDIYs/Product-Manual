@@ -8,31 +8,31 @@
       "title": "概要"
     },
     {
-      "file": "11_hardware.md",
+      "file": "2_hardware.md",
       "title": "ハードウェアセットアップ"
     },
     {
-      "file": "2_screen.md",
+      "file": "3_screen.md",
       "title": "画面構成"
     },
     {
-      "file": "3_quickstart.md",
+      "file": "4_quickstart.md",
       "title": "クイックスタート"
     },
     {
-      "file": "4_edit.md",
+      "file": "5_edit.md",
       "title": "編集"
     },
     {
-      "file": "5_setting.md",
+      "file": "6_setting.md",
       "title": "設定"
     },
     {
-      "file": "6_option.md",
+      "file": "7_option.md",
       "title": "オプション"
     },
     {
-      "file": "7_appendix.md",
+      "file": "8_appendix.md",
       "title": "付録"
     },
     {
