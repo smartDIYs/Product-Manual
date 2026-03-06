@@ -1,0 +1,46 @@
+[
+    {
+      "file": "0_title_toc.md",
+      "title": "タイトル"
+    },
+    {
+      "file": "1_about.md",
+      "title": "概要"
+    },
+    {
+      "file": "2_hardware.md",
+      "title": "ハードウェア"
+    },
+    {
+      "file": "3_quickguide.md",
+      "title": "クイックガイド"
+    },
+    {
+      "file": "4_software.md",
+      "title": "ソフトウェア概要"
+    },
+    {
+      "file": "5_edit.md",
+      "title": "編集"
+    },
+    {
+      "file": "6_parameter.md",
+      "title": "パラメータ"
+    },
+    {
+      "file": "7_mark.md",
+      "title": "加工操作"
+    },
+    {
+      "file": "8_external.md",
+      "title": "コマンド制御"
+    },
+    {
+      "file": "9_appendix.md",
+      "title": "付録"
+    },
+    {
+      "file": "99_contact.md",
+      "title": "お問い合わせ"
+    }
+]
