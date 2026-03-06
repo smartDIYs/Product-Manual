@@ -57,7 +57,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#12-安全上のご注意">
 	<span>1.2 安全上のご注意</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">0</span>
 </a>
 <a class="toc-item toc-section-item" href="#13-製品保証">
 	<span>1.3 製品保証</span>
@@ -82,7 +82,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#21-部位部品名称">
 	<span>2.1 部位・部品名称</span>
 	<span class="dots"></span>
-	<span class="page-number">9</span>
+	<span class="page-number">0</span>
 </a>
 <a class="toc-item toc-section-item" href="#22-カバー取り付け方法">
 	<span>2.2 カバー取り付け方法</span>
@@ -372,7 +372,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#71-長尺印字カバー">
 	<span>7.1 長尺印字カバー</span>
 	<span class="dots"></span>
-	<span class="page-number">58</span>
+	<span class="page-number">0</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#711-本体設定">
 	<span>7.1.1 本体設定</span>
@@ -481,10 +481,10 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 本製品に搭載されているレーザー発振機は class4 レーザー相当であり、火災・やけど・目の損傷を引き起こす可能性があります。使用前に以下を必ず確認してください。
 
 
-1. 装置を使用する前に、以下のレーザーラベルの貼付位置に注意し、説明をよくお読みください。
-   <img src="images/_warning_labels.png" width=300px />
+1. 装置を使用する前に、以下のレーザーラベルの貼付位置を確認し、説明をよくお読みください。
+   <img src="images/illusts/illusts_warning_labels.png" height=74px />
 1. 本製品の使用中は、レーザーを目や皮膚に直接照射しないでください。
-   <img src="images/_warning_labels2.png" width=300px />
+   <img src="images/illusts/illusts_warning_labels2.png" height=88px />
 1. 本製品の動作中に放射されるレーザーの性能パラメータは、以下のとおりです。
 
    <table style="width:auto">
@@ -496,6 +496,9 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 1. 作業室内の人は全員必ず保護メガネを着用してください。
 1. レーザーを目や皮膚に直接照射しないでください。
 1. 本仕様書の規定外の制御・調整・操作手順を用いると、危険なレーザー放射に曝露するおそれがあります。
+
+
+<div style="page-break-before:always"></div>
 
 
 <div class="subheading">設置・作業環境に関する注意事項</div>
@@ -548,6 +551,9 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 1. アースを必ず接地してください。
 
 1. 本製品の消費電力は 250W です。延長コードを使用する場合は定格容量にご注意ください。
+
+
+<div style="page-break-before:always"></div>
 
 
 <div class="subheading">火災に関する注意事項</div>
@@ -757,7 +763,9 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 
 ## 2.1 部位・部品名称
 
-<img src="images/photos/product_names.jpg" width=640px />
+<img src="images/photos/product_names.jpg" width=600px />
+
+<br>
 
 <img src="images/photos/product_names_head.jpg" width=380px />
 

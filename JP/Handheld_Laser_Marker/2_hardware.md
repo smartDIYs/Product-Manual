@@ -2,7 +2,9 @@
 
 ## 部位・部品名称
 
-<img src="images/photos/product_names.jpg" width=640px />
+<img src="images/photos/product_names.jpg" width=600px />
+
+<br>
 
 <img src="images/photos/product_names_head.jpg" width=380px />
 

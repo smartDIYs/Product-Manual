@@ -34,10 +34,10 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 本製品に搭載されているレーザー発振機は class4 レーザー相当であり、火災・やけど・目の損傷を引き起こす可能性があります。使用前に以下を必ず確認してください。
 
 
-1. 装置を使用する前に、以下のレーザーラベルの貼付位置に注意し、説明をよくお読みください。
-   <img src="images/_warning_labels.png" width=300px />
+1. 装置を使用する前に、以下のレーザーラベルの貼付位置を確認し、説明をよくお読みください。
+   <img src="images/illusts/illusts_warning_labels.png" height=74px />
 1. 本製品の使用中は、レーザーを目や皮膚に直接照射しないでください。
-   <img src="images/_warning_labels2.png" width=300px />
+   <img src="images/illusts/illusts_warning_labels2.png" height=88px />
 1. 本製品の動作中に放射されるレーザーの性能パラメータは、以下のとおりです。
 
    <table style="width:auto">
@@ -49,6 +49,9 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 1. 作業室内の人は全員必ず保護メガネを着用してください。
 1. レーザーを目や皮膚に直接照射しないでください。
 1. 本仕様書の規定外の制御・調整・操作手順を用いると、危険なレーザー放射に曝露するおそれがあります。
+
+
+<div style="page-break-before:always"></div>
 
 
 <div class="subheading">設置・作業環境に関する注意事項</div>
@@ -101,6 +104,9 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 1. アースを必ず接地してください。
 
 1. 本製品の消費電力は 250W です。延長コードを使用する場合は定格容量にご注意ください。
+
+
+<div style="page-break-before:always"></div>
 
 
 <div class="subheading">火災に関する注意事項</div>
