@@ -1,5 +1,15 @@
 # ハードウェアセットアップ
 
+## 部位・部品名称
+
+<img src="images/photos/product_names.jpg" width=640px />
+
+<img src="images/photos/product_names_head.jpg" width=380px />
+
+
+<div style="page-break-before:always"></div>
+
+
 ## カバー取り付け方法
 
 <div class="caution" style="display:block">
@@ -7,7 +17,7 @@
 </div>
 
 
-カバーの凹部と、ハンドガンのトリガー側にある突起を合わせて差し込みます。
+カバーの凹部と、ガンヘッドのトリガー側にある突起を合わせて差し込みます。
 
 <img src="images/scan/conver_insertion.jpg" height=300px />
 

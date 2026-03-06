@@ -47,45 +47,50 @@ puppeteer:
 <a class="toc-item" href="#1-概要">
 	<span>1. 概要</span>
 	<span class="dots"></span>
-	<span class="page-number">5</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-item" href="#11-はじめに">
 	<span>1.1 はじめに</span>
 	<span class="dots"></span>
-	<span class="page-number">5</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-item" href="#12-安全上のご注意">
 	<span>1.2 安全上のご注意</span>
 	<span class="dots"></span>
-	<span class="page-number">5</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-item" href="#13-製品保証">
 	<span>1.3 製品保証</span>
 	<span class="dots"></span>
-	<span class="page-number">8</span>
+	<span class="page-number">7</span>
 </a>
 <a class="toc-item toc-section-item" href="#14-免責事項について">
 	<span>1.4 免責事項について</span>
 	<span class="dots"></span>
-	<span class="page-number">8</span>
+	<span class="page-number">7</span>
 </a>
 <a class="toc-item toc-section-item" href="#15-製品仕様">
 	<span>1.5 製品仕様</span>
 	<span class="dots"></span>
-	<span class="page-number">9</span>
+	<span class="page-number">8</span>
 </a>
 <a class="toc-item" href="#2-ハードウェアセットアップ">
 	<span>2. ハードウェアセットアップ</span>
 	<span class="dots"></span>
-	<span class="page-number">10</span>
+	<span class="page-number">9</span>
 </a>
-<a class="toc-item toc-section-item" href="#21-カバー取り付け方法">
-	<span>2.1 カバー取り付け方法</span>
+<a class="toc-item toc-section-item" href="#21-部位部品名称">
+	<span>2.1 部位・部品名称</span>
+	<span class="dots"></span>
+	<span class="page-number">9</span>
+</a>
+<a class="toc-item toc-section-item" href="#22-カバー取り付け方法">
+	<span>2.2 カバー取り付け方法</span>
 	<span class="dots"></span>
 	<span class="page-number">10</span>
 </a>
-<a class="toc-item toc-section-item" href="#22-インナーフレーム取り付け方法">
-	<span>2.2 インナーフレーム取り付け方法</span>
+<a class="toc-item toc-section-item" href="#23-インナーフレーム取り付け方法">
+	<span>2.3 インナーフレーム取り付け方法</span>
 	<span class="dots"></span>
 	<span class="page-number">11</span>
 </a>
@@ -324,11 +329,6 @@ puppeteer:
 	<span class="dots"></span>
 	<span class="page-number">53</span>
 </a>
-<a class="toc-item toc-section-subitem" href="#621-ガルバノミラーのキャリブレーション">
-	<span>6.2.1 ガルバノミラーのキャリブレーション</span>
-	<span class="dots"></span>
-	<span class="page-number">53</span>
-</a>
 <a class="toc-item toc-section-item" href="#63-レーザー">
 	<span>6.3 レーザー</span>
 	<span class="dots"></span>
@@ -427,17 +427,17 @@ puppeteer:
 <a class="toc-item toc-section-subitem" href="#821-事前設定">
 	<span>8.2.1 事前設定</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">63</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#822-歪み補正">
 	<span>8.2.2 歪み補正</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">64</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#823-大きさ補正">
 	<span>8.2.3 大きさ補正</span>
 	<span class="dots"></span>
-	<span class="page-number">4</span>
+	<span class="page-number">64</span>
 </a>
 
 
@@ -500,7 +500,7 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 
 <div class="subheading">設置・作業環境に関する注意事項</div>
 
-1. 本体およびハンドガンを不安定な場所に設置しないでください。高所からの落下や外部からの強い衝撃を受けた場合、本製品の機能に異常が生じ、故障の原因となることがあります。
+1. 本体およびガンヘッドを不安定な場所に設置しないでください。高所からの落下や外部からの強い衝撃を受けた場合、本製品の機能に異常が生じ、故障の原因となることがあります。
 
 1. 本製品の他のモジュールを取り付ける際は、必ず本製品の電源を切ってください。電源が入った状態でモジュールや各種部品を抜き差ししないでください。各種部品を損傷するおそれがあります。
 
@@ -516,7 +516,7 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 
 1. 反射する素材をレーザーの周囲に置かないでください。
 
-1. 加工中はハンドガンをしっかりと保持してください。
+1. 加工中はガンヘッドをしっかりと保持してください。
 
 1. 加工中は作業者以外は近づかないでください。
 
@@ -719,7 +719,7 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 | 保管環境 | -20 ～ 45℃ （推奨: 20 ～ 25℃）
 | 動作環境 | 0 〜 40℃（推奨: 20 ～ 25℃）
 | 本体質量 | 6〜6.8kg |
-| サイズ | 本体: 高さ271.5 × 幅310 × 奥行180mm<br>ハンドガン: 高さ292.4 × 幅188.1 × 奥行251.9mm |
+| サイズ | 本体: 高さ271.5 × 幅310 × 奥行180mm<br>ガンヘッド: 高さ292.4 × 幅188.1 × 奥行251.9mm |
 
 
 <!-- | 項目 | 概要 |
@@ -755,14 +755,24 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 
 # 2. ハードウェアセットアップ
 
-## 2.1 カバー取り付け方法
+## 2.1 部位・部品名称
+
+<img src="images/photos/product_names.jpg" width=640px />
+
+<img src="images/photos/product_names_head.jpg" width=380px />
+
+
+<div style="page-break-before:always"></div>
+
+
+## 2.2 カバー取り付け方法
 
 <div class="caution" style="display:block">
 カバーを取り付ける際は、本体の電源を必ずお切りください。
 </div>
 
 
-カバーの凹部と、ハンドガンのトリガー側にある突起を合わせて差し込みます。
+カバーの凹部と、ガンヘッドのトリガー側にある突起を合わせて差し込みます。
 
 <img src="images/scan/conver_insertion.jpg" height=300px />
 
@@ -776,7 +786,7 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 
 
 
-## 2.2 インナーフレーム取り付け方法
+## 2.3 インナーフレーム取り付け方法
 
 <img src="./images/photos/frame_problem_work.jpg"  width="300px"/>
 
@@ -1437,9 +1447,9 @@ E：削除、入力方式の切り替え
 <div class="img-float-left">
 
 <img src="./images/photos/handgun_switch.jpg" width="320px" />
-セキュリティボタンを押すとハンドガンが起動し、照明やファンが作動します。（マグネットカバーの場合は電磁石も作動します）<br>
-再度ボタンを押すとハンドガンが停止します。<br>
-トリガーを引いて加工を行う場合は、ハンドガンが起動している必要があります。
+セキュリティボタンを押すとガンヘッドが起動し、照明やファンが作動します。（マグネットカバーの場合は電磁石も作動します）<br>
+再度ボタンを押すとガンヘッドが停止します。<br>
+トリガーを引いて加工を行う場合は、ガンヘッドが起動している必要があります。
 
 </div>
 
@@ -1465,7 +1475,7 @@ E：削除、入力方式の切り替え
   </tr>
 </table>
 
-ハンドガンが起動中はLEDが緑色に点灯し、加工中は赤色に点灯します。
+ガンヘッドが起動中はLEDが緑色に点灯し、加工中は赤色に点灯します。
 
 </div>
 
@@ -1487,9 +1497,9 @@ E：削除、入力方式の切り替え
 
 <span class="subheading">基本手順</div>
 
-**ハンドガンを起動**
+**ガンヘッドを起動**
 
-ハンドガンをしっかりと保持し、加工素材や安全な方向に向けた状態で、セキュリティボタンを押してハンドガンを起動します。
+ガンヘッドをしっかりと保持し、加工素材や安全な方向に向けた状態で、セキュリティボタンを押してガンヘッドを起動します。
 
 
 **マーキングモードへの切り替え**
@@ -1507,9 +1517,9 @@ E：削除、入力方式の切り替え
 </div>
 
 <div class="danger">
-マーキングモードでは、ハンドガンのトリガーを引くと直ちに加工が開始されます。ハンドガンを倒したり、人体に向けたりしないよう十分に注意してください。<br>
+マーキングモードでは、ガンヘッドのトリガーを引くと直ちに加工が開始されます。ガンヘッドを倒したり、人体に向けたりしないよう十分に注意してください。<br>
 
-また、<span class="strongred">操作モード中やハンドガンが停止中の状態であっても、テストマーキングや強制照射などの機能によってレーザーが照射される場合があります。</span>モードやLEDの状態のみで安全と判断せず、操作前には必ず照射方向と周囲の安全を確認してください。
+また、<span class="strongred">操作モード中やガンヘッドが停止中の状態であっても、テストマーキングや強制照射などの機能によってレーザーが照射される場合があります。</span>モードやLEDの状態のみで安全と判断せず、操作前には必ず照射方向と周囲の安全を確認してください。
 </div>
 
 
@@ -1530,7 +1540,7 @@ E：削除、入力方式の切り替え
 **加工開始**
 
 トリガーを引くと加工が始まります。トリガーの中央部分をしっかりと奥まで押し込んでください。<br>
-加工中はハンドガンをしっかり保持し、揺らさないように注意してください。<br>
+加工中はガンヘッドをしっかり保持し、揺らさないように注意してください。<br>
 位置を変えながら複数回刻印を行うと、刻印ごとにシリアル番号がカウントアップされます。
 
 <img src="./images/photos/handgun_result.jpg"  width="300px"/>
@@ -1539,7 +1549,7 @@ E：削除、入力方式の切り替え
 **加工終了**
 
 加工が終わったら、ステータスバーの「STOP」ボタンをタップしてマーキング状態を解除します。
-また、必要に応じてハンドガンを停止します。
+また、必要に応じてガンヘッドを停止します。
 
 
 
@@ -1553,7 +1563,7 @@ E：削除、入力方式の切り替え
 
 ## 4.8 終了操作
 
-本体側面の電源ボタンを切ります。ハンドガンも同時にオフになります。
+本体側面の電源ボタンを切ります。ガンヘッドも同時にオフになります。
 <div style="page-break-before:always"></div>
 
 # 5. 編集
@@ -2130,7 +2140,7 @@ VINコード形式での文字列生成をサポートします。
 <img src="./images/screen/screen_setting_area_setting.png"  width="540px"/>
 
 
-### 6.2.1 ガルバノミラーのキャリブレーション
+<div class="subheading">ガルバノミラーのキャリブレーション</div>
 
 <div class="subentry">表示領域</div>
 
@@ -2160,7 +2170,7 @@ VINコード形式での文字列生成をサポートします。
 <div class="subentry">動作確認</div>
 
 <div class="danger">
-この操作では、ハンドガンの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
+この操作では、ガンヘッドの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
 </div>
 
 <div class="fixed-table">
@@ -2176,7 +2186,7 @@ VINコード形式での文字列生成をサポートします。
 <div class="subentry">レーザーテスト</div>
 
 <div class="danger">
-この操作では、ハンドガンの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
+この操作では、ガンヘッドの動作状態に関わらずレーザーが照射されます。照射方向・加工素材の設置状態・周囲の安全を十分に確認したうえで操作してください。
 </div>
 
 強制発行機能ではレーザーが正常に発光しているかをテストできます。この機能は光路の調整やキャリブレーションにも使用できます。 **「強制照射」** をタップするとレーザーが出力され、レーザーを停止するには **「消灯」** ボタンをタップする必要があります（自動停止しません）。
@@ -2307,7 +2317,7 @@ VINコード形式での文字列生成をサポートします。
 | 項目 | ボタン機能 |
 |:---:|---|
 | ガイドライト | 赤色ライトでガイド表示します。 |
-| テスト加工 | 現在選択されているデータをマーキングします。マーキング後、ステータスバーでマーキング時間を確認できます。<br><span class="strongred">この操作では、マーキング状態やハンドガンの動作状態の有無に関わらず、ボタンをタップした瞬間にレーザーが照射されます。</span> |
+| テスト加工 | 現在選択されているデータをマーキングします。マーキング後、ステータスバーでマーキング時間を確認できます。<br><span class="strongred">この操作では、マーキング状態やガンヘッドの動作状態の有無に関わらず、ボタンをタップした瞬間にレーザーが照射されます。</span> |
 | 生産ライン | オプションの長尺印字カバーを使用する場合に設定します。 |
 | 中央座標 | 中央揃えを行った際の基準点（中央座標）を設定します。 |
 
@@ -2441,8 +2451,8 @@ VINコード形式での文字列生成をサポートします。
 ### 7.1.2 使用方法
 
 ステータスバーの「ガイド」ボタンをタップするとガイド光が表示されます。<br>
-位置の確認・調整を行なったら「スタート」ボタンをタップし、ハンドガンのトリガーを引きます。<br>
-ハンドガンを素材に押し当てながら右方向に動かすと、文字が順に加工されていきます。
+位置の確認・調整を行なったら「スタート」ボタンをタップし、ガンヘッドのトリガーを引きます。<br>
+ガンヘッドを素材に押し当てながら右方向に動かすと、文字が順に加工されていきます。
 
 <img src="./images/photos/longchar_guide.jpg"  width="480px"/>
 
@@ -2462,7 +2472,7 @@ VINコード形式での文字列生成をサポートします。
 ## 7.2 マグネットカバー
 
 内蔵された電磁石により、磁性のある素材に対して固定しやすくなります。<br>
-マグネットによる固定は補助的なものです。作業中はハンドガンから手を離さないようにしてください。
+マグネットによる固定は補助的なものです。作業中はガンヘッドから手を離さないようにしてください。
 
 ### 7.2.1 本体設定
 
@@ -2470,12 +2480,12 @@ VINコード形式での文字列生成をサポートします。
 
 ### 7.2.2 使用方法
 
-マグネットは電磁石のため、ハンドガンの起動中に磁力が働きます。
-ハンドガンのセキュリティボタン、または本体電源をオフにすると、磁力は失われます。
+マグネットは電磁石のため、ガンヘッドの起動中に磁力が働きます。
+ガンヘッドのセキュリティボタン、または本体電源をオフにすると、磁力は失われます。
 
 <div class="caution">
-電源を操作する前に、ハンドガンを安定した場所に置いてください。
-磁力が失われると、ハンドガンが倒れたり落下したりするおそれがあります。
+電源を操作する前に、ガンヘッドを安定した場所に置いてください。
+磁力が失われると、ガンヘッドが倒れたり落下したりするおそれがあります。
 </div>
 
 <div style="page-break-before:always"></div>
