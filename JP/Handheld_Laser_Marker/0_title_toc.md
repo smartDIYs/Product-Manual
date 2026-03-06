@@ -11,7 +11,7 @@ puppeteer:
 
 <div style="color:#003649; font-weight:bold;" align="center">
 <span style="font-size:48pt;">LM100P</span><br>
-<span style="font-size:28pt;">操作マニュアル</span>
+<span style="font-size:28pt;">製品マニュアル</span>
 </div>
 
 <div style="height:120px"></div>
@@ -23,8 +23,8 @@ puppeteer:
 
 <div align="center">
 
-第 0 版 <br>
-発行日 2026年00月00日<br>
+第 1 版 <br>
+発行日 2026年03月06日<br>
 
 </div>
 

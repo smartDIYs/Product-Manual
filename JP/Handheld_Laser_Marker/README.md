@@ -11,7 +11,7 @@ puppeteer:
 
 <div style="color:#003649; font-weight:bold;" align="center">
 <span style="font-size:48pt;">LM100P</span><br>
-<span style="font-size:28pt;">操作マニュアル</span>
+<span style="font-size:28pt;">製品マニュアル</span>
 </div>
 
 <div style="height:120px"></div>
@@ -23,8 +23,8 @@ puppeteer:
 
 <div align="center">
 
-第 0 版 <br>
-発行日 2026年00月00日<br>
+第 1 版 <br>
+発行日 2026年03月06日<br>
 
 </div>
 
@@ -57,7 +57,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#12-安全上のご注意">
 	<span>1.2 安全上のご注意</span>
 	<span class="dots"></span>
-	<span class="page-number">0</span>
+	<span class="page-number">4</span>
 </a>
 <a class="toc-item toc-section-item" href="#13-製品保証">
 	<span>1.3 製品保証</span>
@@ -82,7 +82,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#21-部位部品名称">
 	<span>2.1 部位・部品名称</span>
 	<span class="dots"></span>
-	<span class="page-number">0</span>
+	<span class="page-number">9</span>
 </a>
 <a class="toc-item toc-section-item" href="#22-カバー取り付け方法">
 	<span>2.2 カバー取り付け方法</span>
@@ -372,7 +372,7 @@ puppeteer:
 <a class="toc-item toc-section-item" href="#71-長尺印字カバー">
 	<span>7.1 長尺印字カバー</span>
 	<span class="dots"></span>
-	<span class="page-number">0</span>
+	<span class="page-number">58</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#711-本体設定">
 	<span>7.1.1 本体設定</span>
