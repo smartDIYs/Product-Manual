@@ -384,60 +384,65 @@ puppeteer:
 	<span class="dots"></span>
 	<span class="page-number">60</span>
 </a>
+<a class="toc-item toc-section-subitem" href="#713-通常設定への切替">
+	<span>7.1.3 通常設定への切替</span>
+	<span class="dots"></span>
+	<span class="page-number">60</span>
+</a>
 <a class="toc-item toc-section-item" href="#72-マグネットカバー">
 	<span>7.2 マグネットカバー</span>
 	<span class="dots"></span>
-	<span class="page-number">60</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#721-本体設定">
 	<span>7.2.1 本体設定</span>
 	<span class="dots"></span>
-	<span class="page-number">60</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#722-使用方法">
 	<span>7.2.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">60</span>
+	<span class="page-number">61</span>
 </a>
 <a class="toc-item" href="#8-付録">
 	<span>8. 付録</span>
 	<span class="dots"></span>
-	<span class="page-number">61</span>
+	<span class="page-number">62</span>
 </a>
 <a class="toc-item toc-section-item" href="#81-バーコードスキャナの使い方">
 	<span>8.1 バーコードスキャナの使い方</span>
 	<span class="dots"></span>
-	<span class="page-number">61</span>
+	<span class="page-number">62</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#811-設定方法">
 	<span>8.1.1 設定方法</span>
 	<span class="dots"></span>
-	<span class="page-number">61</span>
+	<span class="page-number">62</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#812-使用方法">
 	<span>8.1.2 使用方法</span>
 	<span class="dots"></span>
-	<span class="page-number">62</span>
+	<span class="page-number">63</span>
 </a>
 <a class="toc-item toc-section-item" href="#82-レンズの校正方法">
 	<span>8.2 レンズの校正方法</span>
 	<span class="dots"></span>
-	<span class="page-number">63</span>
+	<span class="page-number">64</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#821-事前設定">
 	<span>8.2.1 事前設定</span>
 	<span class="dots"></span>
-	<span class="page-number">63</span>
+	<span class="page-number">64</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#822-歪み補正">
 	<span>8.2.2 歪み補正</span>
 	<span class="dots"></span>
-	<span class="page-number">64</span>
+	<span class="page-number">65</span>
 </a>
 <a class="toc-item toc-section-subitem" href="#823-大きさ補正">
 	<span>8.2.3 大きさ補正</span>
 	<span class="dots"></span>
-	<span class="page-number">64</span>
+	<span class="page-number">65</span>
 </a>
 
 
@@ -2414,6 +2419,7 @@ VINコード形式での文字列生成をサポートします。
 
 | 項目 | 設定 |
 |:---:|---|
+| 飛行補正方法 | スコープエッジ開始補正 |
 | エッジ距離 | 12.00 |
 | 範囲 X1 | 80 |
 | 範囲 X2 | 100 |
@@ -2438,9 +2444,10 @@ VINコード形式での文字列生成をサポートします。
 | 検出機 | 有効 |
 | 高出力・低出力 | 高出力 |
 | ペダルモード | トリガー |
-| ペダル間隔 | 0 |
+| ペダル間隔 | 10000 |
 | 加工モード | 通常モード |
 | センサ距離 | 0.0 |
+| TSBOT | 1.0 |
 
 </div>
 
@@ -2453,6 +2460,12 @@ VINコード形式での文字列生成をサポートします。
 「設定 > エリア > ガイドライト」をタップし、「フライモード」を有効にします。
 
 
+<div class="danger" style="display:block; margin-top:30px">
+設定が適切でない場合、「START」ボタンをタップした直後に加工が開始される場合があります。<br>
+設定変更後は必ず意図した動作が行われるか事前に確認してください。
+</div>
+
+
 <div style="page-break-before:always"></div>
 
 
@@ -2462,18 +2475,68 @@ VINコード形式での文字列生成をサポートします。
 位置の確認・調整を行なったら「スタート」ボタンをタップし、ガンヘッドのトリガーを引きます。<br>
 ガンヘッドを素材に押し当てながら右方向に動かすと、文字が順に加工されていきます。
 
-<img src="./images/photos/longchar_guide.jpg"  width="480px"/>
+<img src="./images/photos/longchar_guide.jpg"  width="440px"/>
 
 
-<div class="annotation" style="display:block; margin-top:20px">
+<!-- <div class="annotation" style="display:block; margin-top:20px">
 
 <b>通常設定へ戻す場合</b><br>
 
 生産ライン設定の「パイプラインの方向」を「停止」にします。<br>
-また、「設定 > エリア > ガイドライト」の「フライモード」を無効にします。
+加工モード設定の「加工モード」を「ジョグモード」にします。<br>
+加工モード設定の「ペダルモード」を「トリガー」にします。<br>
+加工モード設定の「開始遅延(ms)」を「50」にします。<br>
+「設定 > エリア > ガイドライト」の「フライモード」を無効にします。
+
+</div> -->
+
+
+
+### 7.1.3 通常設定への切替
+
+標準カバーを使用したり、エンコーダーの機能を無効にして加工する場合は下記の設定値に変更してください。
+
+
+<div class="subentry">
+生産ライン
+</div>
+
+<div class="fixed-table">
+
+| 項目 | 設定 |
+|:---:|---|
+| パイプラインの方向 | 停止 |
 
 </div>
 
+<div class="subentry">
+加工モード
+</div>
+
+<div class="fixed-table">
+
+| 項目 | 設定 |
+|:---:|---|
+| 検出機 | 有効 |
+| 高出力・低出力 | 高出力 |
+| ペダルモード | **トリガー** |
+| ペダル間隔 | 10000 |
+| 加工モード | **ジョグモード** |
+| 開始遅延 | 50 |
+| 赤色表示ライト | 有効 |
+
+</div>
+
+<div class="subentry">
+ガイド表示
+</div>
+
+「設定 > エリア > ガイドライト」をタップし、「フライモード」を無効にします。
+
+<div class="danger" style="display:block; margin-top:5px">
+設定が適切でない場合、「START」ボタンをタップした直後に加工が開始される場合があります。<br>
+設定変更後は必ず意図した動作が行われるか事前に確認してください。
+</div>
 
 
 
