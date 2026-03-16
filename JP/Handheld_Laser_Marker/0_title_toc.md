@@ -23,8 +23,8 @@ puppeteer:
 
 <div align="center">
 
-第 1 版 <br>
-発行日 2026年03月06日<br>
+第 2 版 <br>
+発行日 2026年03月16日<br>
 
 </div>
 
