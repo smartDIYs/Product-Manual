@@ -273,7 +273,8 @@ LM100P 製品サポートページ（https://www.smartdiys.com/support/product/l
 | 繰り返し精度 | 0.01mm |
 | 位置決め | 赤色ガイド光（可視光） |
 | 対応ファイル形式 | BMP / DXF / PNG / JPEG / PLT |
-| バーコード | CODE 2-Of-5 Interleaved / CODE39 / CODE128 / QR / Codabar / CODE93 / UPC-A / UPC-E / EAN-14 / ITF-14 / EAN128 |
+| バーコード | Code 39 / Code 93 / Code 128 / Codabar / Interleaved 2 of 5（ITF） / UPC-A / UPC-E / EAN-13 / ITF-14 / EAN-128 |
+| 二次元コード | QR Code / Micro QR Code / Data Matrix / PDF417 |
 | 制御・操作 | 本体一体型（内蔵コントローラ / 8インチ静電容量式タッチスクリーン） |
 | 電源 | AC100V 50/60Hz |
 | 総消費電力 | 145〜250W |
