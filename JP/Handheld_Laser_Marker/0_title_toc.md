@@ -24,7 +24,7 @@ puppeteer:
 <div align="center">
 
 第 3 版 <br>
-発行日 2026年07月08日<br>
+発行日 2026年7月8日<br>
 
 </div>
 
