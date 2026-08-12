@@ -1,0 +1,42 @@
+[
+    {
+      "file": "0_title_toc.md",
+      "title": "タイトル"
+    },
+    {
+      "file": "1_about.md",
+      "title": "概要"
+    },
+    {
+      "file": "2_hardware.md",
+      "title": "ハードウェアセットアップ"
+    },
+    {
+      "file": "3_screen.md",
+      "title": "画面構成"
+    },
+    {
+      "file": "4_quickstart.md",
+      "title": "クイックスタート"
+    },
+    {
+      "file": "5_edit.md",
+      "title": "編集"
+    },
+    {
+      "file": "6_setting.md",
+      "title": "設定"
+    },
+    {
+      "file": "7_option.md",
+      "title": "オプション"
+    },
+    {
+      "file": "8_appendix.md",
+      "title": "付録"
+    },
+    {
+      "file": "99_contact.md",
+      "title": "お問い合わせ"
+    }
+]
