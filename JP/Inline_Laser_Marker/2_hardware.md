@@ -5,7 +5,7 @@
 <!-- <div class="subheading">コネクタ③　外部インターフェイス ( センサー・PLC 接続 )</div> -->
 
 
-<img src="./images/_hardware_exif.jpg" width="140px"/>
+<img src="./images/hardware/_hardware_exif.jpg" width="140px"/>
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
@@ -31,8 +31,8 @@
 <th>出力</th>
 </tr>
 <tr>
-<td style="padding:20px"><img src="./images/_external_interface_input.png"  width="340px"/></td>
-<td style="padding:20px"><img src="./images/_external_interface_output.png" width="180px"/></td>
+<td style="padding:20px"><img src="./images/hardware/_external_interface_input.png"  width="340px"/></td>
+<td style="padding:20px"><img src="./images/hardware/_external_interface_output.png" width="180px"/></td>
 </tr>
 </table>
 
@@ -42,12 +42,12 @@
 接続するエンコーダの出力方式に応じて、コントローラのジャンパピン（画像赤枠部分）の設定を変更する必要があります。
 シングルエンド出力のエンコーダを接続する場合は左側、差動出力のエンコーダを接続する場合は右側に設定してください。
 
-<img src="./images/_encoder_jumper_pin.jpg" width="340px"/>
+<img src="./images/hardware/_encoder_jumper_pin.jpg" width="340px"/>
 
 
 <div class="subheading">シングルエンド入力</div>
 
-<img src="./images/_hardware_senc.jpg" width="140px"/>
+<img src="./images/hardware/_hardware_senc.jpg" width="140px"/>
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
@@ -59,7 +59,7 @@
 
 <div class="subheading">差動入力</div>
 
-<img src="./images/_hardware_denc.jpg" width="140px"/>
+<img src="./images/hardware/_hardware_denc.jpg" width="140px"/>
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
@@ -76,7 +76,7 @@
 
 ## 通信インターフェース仕様
 
-<img src="./images/_hardware_monitor.jpg" width="540px"/>
+<img src="./images/hardware/_hardware_monitor.jpg" width="540px"/>
 
 | ポート | 機能名 |
 |:--:| --- |
@@ -89,4 +89,4 @@
 <br>
 
 **シリアルポート RXD/TXD**
-<img src="./images/_serial_pin.png" width="200px"/>
+<img src="./images/hardware/_serial_pin.png" width="200px"/>

@@ -10,7 +10,7 @@
 注意: 未ログインの状態では、各設定の変更ができません。
 </div>
 
-<img src="./images/_quickguide_login.jpg" width="400px"/>
+<img src="./images/_quickguide_login.png" width="400px"/>
 
 
 ## 新規ドキュメントの作成
