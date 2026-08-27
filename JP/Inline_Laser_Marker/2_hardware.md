@@ -47,7 +47,9 @@
 
 <div class="subheading">シングルエンド入力</div>
 
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 <img src="./images/hardware/_hardware_senc.jpg" width="140px"/>
+<div>
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
@@ -56,10 +58,15 @@
 | 3 | VCC | エンコーダ電源用の5V出力。最大出力電流は200mAです。 |
 | 4 | GND | エンコーダ用GND |
 
+</div>
+</div>
+
 
 <div class="subheading">差動入力</div>
 
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 <img src="./images/hardware/_hardware_denc.jpg" width="140px"/>
+<div>
 
 | ピン番号 | 機能名 | 内容 |
 |:--:| --- | --- |
@@ -69,6 +76,9 @@
 | 4 | B- | エンコーダのB-信号入力 |
 | 5 | VCC | エンコーダ電源用の5V出力。最大出力電流は200mAです。 |
 | 6 | GND | エンコーダ用GND |
+
+</div>
+</div>
 
 
 <div style="page-break-before:always"></div>
