@@ -147,6 +147,13 @@
 
 <div style="page-break-before:always"></div>
 
+
+## フォントの追加
+
+パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
+<img src="./images/_add_font.png" width="400px"/>
+
+
 ## ユーザーデータのバックアップ
 
 あらかじめ USB メモリを本体パネルの USB ポートに接続します。<br>
@@ -165,9 +172,22 @@
 </table>
 
 
+<div style="page-break-before:always"></div>
 
-## フォントの追加
 
-パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
-<img src="./images/_add_font.png" width="400px"/>
+## ソフトウェアアップデート
 
+1. 下記URLから最新のアップデートファイルをダウンロードします。<br>
+[https://download.smartdiys.com/inlinelasermarker/update/](https://download.smartdiys.com/inlinelasermarker/update/)
+1. FAT32形式でフォーマットした空のUSBメモリに、アップデートファイルを保存します。
+1. USBメモリをタッチパネル背面のUSBポートに挿入します。
+1. 「パラメータ」タブから「システム」画面を開き、現在の「ソフトウェアバージョン」を確認します。<br>
+「ソフトウェアアップグレード」→「手動アップグレード」の順にタップします。<br>
+<img src="./images/software_update/1_upgrade_button.png" width="400px"/>
+1. USBメモリ内のアップデートファイルを選択し、「確定」をタップします。<br>
+<img src="./images/software_update/2_select_file.png" width="400px"/>
+1. 確認画面が表示されたら「はい」をタップし、アップデートが完了するまで待ちます。<br>
+※ アップデート中は、加工機の電源を切ったりUSBメモリを取り外したりしないでください。<br>
+<img src="./images/software_update/3_upgrade_confirm.png" width="160px"/>
+1. アップデートが完了すると、再起動の確認画面が表示されます。「はい」をタップして加工機を再起動します。
+1. 再起動後、「パラメータ」タブから「システム」画面を開き、「ソフトウェアバージョン」が、ダウンロードページに記載された最新バージョンに更新されていることを確認します。
