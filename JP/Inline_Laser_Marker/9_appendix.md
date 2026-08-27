@@ -179,7 +179,7 @@
 
 1. 下記URLから最新のアップデートファイルをダウンロードします。<br>
 [https://download.smartdiys.com/inlinelasermarker/update/](https://download.smartdiys.com/inlinelasermarker/update/)
-1. FAT32形式でフォーマットした空のUSBメモリに、アップデートファイルを保存します。
+1. 空のUSBメモリにアップデートファイルを保存します。<br>※ USBメモリはFAT32形式でのフォーマットを推奨します。
 1. USBメモリをタッチパネル背面のUSBポートに挿入します。
 1. 「パラメータ」タブから「システム」画面を開き、現在の「ソフトウェアバージョン」を確認します。<br>
 「ソフトウェアアップグレード」→「手動アップグレード」の順にタップします。<br>
