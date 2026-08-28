@@ -5,9 +5,16 @@
 本書は、加工機を制御する専用コントローラおよびソフトウェアのマニュアルです。<br>
 ご利用前に、加工機本体の製品マニュアルも必ずご確認ください。
 
-- [LM110C 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf)
-- [LM140R 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf)
-- [LM110U 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf)
+<div class="annotation" style="font-size:0.9em; padding: 5px 10px">
+
+**製品マニュアル**
+
+LM110C ｜ https://www.smartdiys.com/assets/pdf/fiber-laser-marking-machine-lm110c-manual.pdf
+<br>
+LM140R ｜ https://www.smartdiys.com/assets/pdf/co2-laser-marking-machine-lm140r-manual.pdf
+<br>
+LM110U ｜ https://www.smartdiys.com/assets/pdf/uv-laser-marking-machine-lm110u-jpt-manual.pdf
+</div>
 
 
 ## インラインレーザーマーカーシステムの特徴
@@ -15,7 +22,7 @@
 本製品は、スタンドアロンでの運用に必要な基本機能を備えたレーザーマーキングシステムです。<br>
 また、光電センサやエンコーダと連携することで、搬送ライン上を移動するワークへのマーキングにも対応します。
 
-<img src="./images/_about_line_example.png" width="700px"/>
+<img src="./images/_about_line_example.png" width="680px"/>
 
 **多様な加工開始トリガー**<br>
 光電トリガー、フットスイッチ、内部トリガーから選択可能。設備仕様や運用フローに応じて柔軟に切り替えられます。また、コマンド制御モードではシリアル通信やTCP通信から加工開始トリガーを送ることもできます。
@@ -71,6 +78,7 @@
 | 外部通信による加工パラメータ設定 | × | ◎ |
 | 加工数カウント機能 | ⚪︎ | ◎<br><small>※エラーカウントも取得可能</small> |
 | ユーザー権限の管理 | ◎ | ◎ |
+| 搬送マーキング | × | ◎ |
 | 回転軸加工 | ◎ | × |
 | 対応画像形式 | ◎<br><small>bmp / jpg / gif / tga / png / tif <br>ai (ver.8) / plt / dxf / jpc / svg / nc 等</small> | ⚪︎<br><small>bmp / jpg / png <br>ai (ver.8) / dxf / plt</small>|
 

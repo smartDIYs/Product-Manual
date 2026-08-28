@@ -5,11 +5,16 @@
 
 レンズ交換・焦点の調整方法は、各製品の製品マニュアル「レンズ」に記載されている「レンズ交換」「高さ調整用レーザーポインター調整」の項目をご覧ください。
 
-- [LM110C 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf)
-- [LM140R 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf)
-- [LM110U 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf)
+<div class="annotation">
 
+**製品マニュアル**
+
+LM110C ｜ https://www.smartdiys.com/assets/pdf/fiber-laser-marking-machine-lm110c-manual.pdf
 <br>
+LM140R ｜ https://www.smartdiys.com/assets/pdf/co2-laser-marking-machine-lm140r-manual.pdf
+<br>
+LM110U ｜ https://www.smartdiys.com/assets/pdf/uv-laser-marking-machine-lm110u-jpt-manual.pdf
+</div>
 
 レンズを交換した場合は補正ファイルも変更する必要があります。
 補正ファイルが存在しない場合は、[補正ファイルの作成](#補正ファイルの作成)を行なってください。
