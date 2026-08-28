@@ -5,17 +5,22 @@
 
 レンズ交換・焦点の調整方法は、各製品の製品マニュアル「レンズ」に記載されている「レンズ交換」「高さ調整用レーザーポインター調整」の項目をご覧ください。
 
-- [LM110C 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf)
-- [LM140R 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf)
-- [LM110U 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf)
+<div class="annotation">
 
+**製品マニュアル**
+
+LM110C ｜ https://www.smartdiys.com/assets/pdf/fiber-laser-marking-machine-lm110c-manual.pdf
 <br>
+LM140R ｜ https://www.smartdiys.com/assets/pdf/co2-laser-marking-machine-lm140r-manual.pdf
+<br>
+LM110U ｜ https://www.smartdiys.com/assets/pdf/uv-laser-marking-machine-lm110u-jpt-manual.pdf
+</div>
 
 レンズを交換した場合は補正ファイルも変更する必要があります。
 補正ファイルが存在しない場合は、[補正ファイルの作成](#補正ファイルの作成)を行なってください。
 
 <div class="annotation">
-※ レンズを頻繁に取り替える場合などは、ポインター以外の高さ調整方法（実測での運用やZ軸のメモリの活用等）もご検討ください。
+※ レンズを頻繁に取り替える場合などは、ポインター以外の高さ調整方法（実測での運用やZ軸の目盛りの活用等）もご検討ください。
 </div>
 
 
@@ -37,7 +42,7 @@
 </div>
 
 1. **比率補正** の項目をX軸・Y軸ともに **100%** に設定します。
-1. **駆動エリア・加工エリア** の設定値を確認します。<br>
+1. **可動エリア・加工エリア** の設定値を確認します。<br>
 ※レンズごとに適切な設定値が異なりますので、[ガルバノスキャナ設定](#ガルバノスキャナ設定)を参照して値を入力してください。
 1. **樽型** の補正値に **X軸: 1.05** / **Y軸: 0.96** を入力してください。
 
@@ -92,13 +97,13 @@
 </tr>
 </table>
 
-これにより **比率補正** の値が自動で修正されます。
+これにより **スケール** の値が自動で修正されます。
 
 
 再度「補正テスト」を行い、加工された四角のサイズが設定した加工エリアの値（115mm/205mm/305mm）と同じかどうかを確認します。
 <img src="./images/lends_correction/7_test_marking.png" width="400px"/>
 
-※レンズとのズレがある場合は比率補正を 100% に戻して補正テストを行い、計測および実サイズの入力を再度行ってください。
+※レンズとのズレがある場合はスケールを 100% に戻して補正テストを行い、計測および実サイズの入力を再度行ってください。
 
 
 <div style="page-break-before:always"></div>
@@ -147,6 +152,13 @@
 
 <div style="page-break-before:always"></div>
 
+
+## フォントの追加
+
+パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
+<img src="./images/_add_font.png" width="400px"/>
+
+
 ## ユーザーデータのバックアップ
 
 あらかじめ USB メモリを本体パネルの USB ポートに接続します。<br>
@@ -165,9 +177,22 @@
 </table>
 
 
+<div style="page-break-before:always"></div>
 
-## フォントの追加
 
-パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
-<img src="./images/_add_font.png" width="400px"/>
+## ソフトウェアアップデート
 
+1. 下記URLから最新のアップデートファイルをダウンロードします。<br>
+[https://download.smartdiys.com/inlinelasermarker/update/](https://download.smartdiys.com/inlinelasermarker/update/)
+1. 空のUSBメモリにアップデートファイルを保存します。<br>※ USBメモリはFAT32形式でのフォーマットを推奨します。
+1. USBメモリをタッチパネル背面のUSBポートに挿入します。
+1. 「パラメータ」タブから「システム」画面を開き、現在の「ソフトウェアバージョン」を確認します。<br>
+「ソフトウェアアップグレード」→「手動アップグレード」の順にタップします。<br>
+<img src="./images/software_update/1_upgrade_button.png" width="400px"/>
+1. USBメモリ内のアップデートファイルを選択し、「確定」をタップします。<br>
+<img src="./images/software_update/2_select_file.png" width="400px"/>
+1. 確認画面が表示されたら「はい」をタップし、アップデートが完了するまで待ちます。<br>
+※ アップデート中は、加工機の電源を切ったりUSBメモリを取り外したりしないでください。<br>
+<img src="./images/software_update/3_upgrade_confirm.png" width="160px"/>
+1. アップデートが完了すると、再起動の確認画面が表示されます。「はい」をタップして加工機を再起動します。
+1. 再起動後、「パラメータ」タブから「システム」画面を開き、「ソフトウェアバージョン」が、ダウンロードページに記載された最新バージョンに更新されていることを確認します。
