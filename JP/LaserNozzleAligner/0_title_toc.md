@@ -10,15 +10,15 @@ puppeteer:
 <div style="height:100px"></div>
 
 <div style="color:#003649; font-weight:bold;" align="center">
-<span style="font-size:48pt;">LM100P</span><br>
-<span style="font-size:28pt;">製品マニュアル</span>
+<span style="font-size:32pt;">ノズル芯出し検査器</span><br>
+<span style="font-size:22pt;">製品マニュアル</span>
 </div>
 
-<div style="height:120px"></div>
+<div style="height:140px"></div>
 <div align="center">
-<img src="images/LM100P.webp" width=480px />
+<img src="images/_title.jpg" width=520px />
 </div>
-<div style="height:120px"></div>
+<div style="height:140px"></div>
 
 
 <div align="center">
@@ -37,14 +37,3 @@ puppeteer:
 
 <div style="page-break-before:always"></div>
 
-<div class="toc">
-
-<div style="font-size:24pt; font-weight:bold; padding-bottom:1rem;">
-目次
-</div>
-
-
-<!-- custom toc -->
-
-
-</div>
