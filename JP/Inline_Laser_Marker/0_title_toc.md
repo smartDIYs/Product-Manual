@@ -23,8 +23,8 @@ puppeteer:
 
 <div align="center">
 
-第 4 版 <br>
-発行日 2026年3月13日<br>
+第 5 版 <br>
+発行日 2026年-月-日<br>
 
 </div>
 

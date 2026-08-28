@@ -429,15 +429,20 @@ puppeteer:
 	<span class="dots"></span>
 	<span class="page-number">60</span>
 </a>
-<a class="toc-item toc-section-item" href="#94-ユーザーデータのバックアップ">
-	<span>9.4 ユーザーデータのバックアップ</span>
+<a class="toc-item toc-section-item" href="#94-フォントの追加">
+	<span>9.4 フォントの追加</span>
 	<span class="dots"></span>
 	<span class="page-number">61</span>
 </a>
-<a class="toc-item toc-section-item" href="#95-フォントの追加">
-	<span>9.5 フォントの追加</span>
+<a class="toc-item toc-section-item" href="#95-ユーザーデータのバックアップ">
+	<span>9.5 ユーザーデータのバックアップ</span>
 	<span class="dots"></span>
 	<span class="page-number">61</span>
+</a>
+<a class="toc-item toc-section-item" href="#96-ソフトウェアアップデート">
+	<span>9.6 ソフトウェアアップデート</span>
+	<span class="dots"></span>
+	<span class="page-number">62</span>
 </a>
 
 
@@ -452,9 +457,16 @@ puppeteer:
 本書は、加工機を制御する専用コントローラおよびソフトウェアのマニュアルです。<br>
 ご利用前に、加工機本体の製品マニュアルも必ずご確認ください。
 
-- [LM110C 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf)
-- [LM140R 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf)
-- [LM110U 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf)
+<div class="annotation" style="font-size:0.9em; padding: 5px 10px">
+
+**製品マニュアル**
+
+LM110C ｜ https://www.smartdiys.com/assets/pdf/fiber-laser-marking-machine-lm110c-manual.pdf
+<br>
+LM140R ｜ https://www.smartdiys.com/assets/pdf/co2-laser-marking-machine-lm140r-manual.pdf
+<br>
+LM110U ｜ https://www.smartdiys.com/assets/pdf/uv-laser-marking-machine-lm110u-jpt-manual.pdf
+</div>
 
 
 ## 1.2 インラインレーザーマーカーシステムの特徴
@@ -462,7 +474,7 @@ puppeteer:
 本製品は、スタンドアロンでの運用に必要な基本機能を備えたレーザーマーキングシステムです。<br>
 また、光電センサやエンコーダと連携することで、搬送ライン上を移動するワークへのマーキングにも対応します。
 
-<img src="./images/_about_line_example.png" width="700px"/>
+<img src="./images/_about_line_example.png" width="680px"/>
 
 **多様な加工開始トリガー**<br>
 光電トリガー、フットスイッチ、内部トリガーから選択可能。設備仕様や運用フローに応じて柔軟に切り替えられます。また、コマンド制御モードではシリアル通信やTCP通信から加工開始トリガーを送ることもできます。
@@ -493,7 +505,8 @@ puppeteer:
 
 <div class="annotation">
 ※ 光電センサ・エンコーダとレーザーマーカー間のケーブルは、最大約20mまで延長できます。<br>
-※ 搬送ラインの上限速度は、マーキング内容によって異なります。マーキング時間が長くなるほど、上限速度は低下します。<br>
+※ 搬送ライン上では、静止時よりマーキング精度が低下する場合があります。<br>
+※ 搬送ラインの上限速度は、マーキング内容（加工時間）や使用するレンズによって異なります。<br>
 </div>
 
 
@@ -517,6 +530,7 @@ puppeteer:
 | 外部通信による加工パラメータ設定 | × | ◎ |
 | 加工数カウント機能 | ⚪︎ | ◎<br><small>※エラーカウントも取得可能</small> |
 | ユーザー権限の管理 | ◎ | ◎ |
+| 搬送マーキング | × | ◎ |
 | 回転軸加工 | ◎ | × |
 | 対応画像形式 | ◎<br><small>bmp / jpg / gif / tga / png / tif <br>ai (ver.8) / plt / dxf / jpc / svg / nc 等</small> | ⚪︎<br><small>bmp / jpg / png <br>ai (ver.8) / dxf / plt</small>|
 
@@ -1205,7 +1219,7 @@ QRコードやデータマトリックスなどの2次元コードの作成が�
 
 ### 5.2.4 図形
 
-直線、円形、円形、点、多角形、三角形、破線などの図形を作成します。
+直線、円形、楕円形、四角形、多角形、破線などの図形を作成します。
 
 <img src="./images/_software_edit_shape.png" width="320px"/>
 
@@ -1456,11 +1470,15 @@ DXFファイルを読み込む場合は、使用するフォントを選択し�
 ### 6.2.1 トリガーモード
 <div class="subentry">トリガーモード</div>
 
+
+使用するマーキング開始トリガーを設定します。<br>
+マーク画面の「マーキング」ボタンをタップしてマーキング状態に移行した後、選択したトリガーモードに応じてマーキングを開始します。
+
 | 項目 | 説明 |
 |:---:|-----|
 | 光電トリガー | 制御入出力の IN0 への信号入力でマーキングを開始します。マーク画面の「手動トリガー」での代用も可能です。 |
 | フットスイッチ | 制御入出力の IN1 への信号入力でマーキングを開始します。マーク画面の「手動トリガー」での代用も可能です。 |
-| 内部トリガー | 「マーキング」ボタンをタップしてマーキングモードへ移行すると、直ちにマーキングを開始します。「連続マーク」が有効の場合は、マーキングを繰り返します。 |
+| 内部トリガー | マーキングモードへ移行すると、直ちにマーキングを開始します。「連続マーク」が有効の場合は、マーキングを繰り返します。 |
 | 立ち上がりトリガー | 有効の場合はセンサ信号がONになったとき、無効の場合はOFFになったときにマーキングを開始します。 |
 
 <div style="page-break-before:always"></div>
@@ -1729,7 +1747,7 @@ LM110C 通常（Qスイッチ）：**ファイバー** ／ LM110C MOPA型：**Mo
 
 | 項目 | 説明 |
 |:---:|-----|
-| シリアルポートを選択 | 使用するシリアルポートを選択します。tty2を使用してください。 |
+| シリアルポートを選択 | 使用するシリアルポートを選択します。ttyS2を使用してください。 |
 | ボーレート | ボーレートを設定します。 |
 | データビット | データビットを設定します。 |
 | パリティ | パリティを設定します。 |
@@ -2000,7 +2018,7 @@ MarkStatus:2;;<br>
 1. 「解析プラグイン」に「stdParser 0.0※」を設定します。<br>
 ※プラグインの数字はバージョンによって異なります。
 
-**[2] テスト**
+**[3] テスト**
 1. 「パラメータ」タブ→システム設定→外部通信を開きます。
 2. 「起動」ボタンをタップします。
 3. PC デバイスのターミナルで上記に接続します。<br>
@@ -2972,11 +2990,16 @@ width：文字間隔を指定します。
 
 レンズ交換・焦点の調整方法は、各製品の製品マニュアル「レンズ」に記載されている「レンズ交換」「高さ調整用レーザーポインター調整」の項目をご覧ください。
 
-- [LM110C 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110C_Manual.pdf)
-- [LM140R 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM140R_Manual.pdf)
-- [LM110U 製品マニュアル - https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf](https://www.smartdiys.com/assets/pdf/LM110U_Manual.pdf)
+<div class="annotation">
 
+**製品マニュアル**
+
+LM110C ｜ https://www.smartdiys.com/assets/pdf/fiber-laser-marking-machine-lm110c-manual.pdf
 <br>
+LM140R ｜ https://www.smartdiys.com/assets/pdf/co2-laser-marking-machine-lm140r-manual.pdf
+<br>
+LM110U ｜ https://www.smartdiys.com/assets/pdf/uv-laser-marking-machine-lm110u-jpt-manual.pdf
+</div>
 
 レンズを交換した場合は補正ファイルも変更する必要があります。
 補正ファイルが存在しない場合は、[9.2 補正ファイルの作成](#92-補正ファイルの作成)を行なってください。
@@ -3114,7 +3137,14 @@ width：文字間隔を指定します。
 
 <div style="page-break-before:always"></div>
 
-## 9.4 ユーザーデータのバックアップ
+
+## 9.4 フォントの追加
+
+パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
+<img src="./images/_add_font.png" width="400px"/>
+
+
+## 9.5 ユーザーデータのバックアップ
 
 あらかじめ USB メモリを本体パネルの USB ポートに接続します。<br>
 ファイル画面を開き、右上のメニューボタンをタップして「ユーザーデータをバックアップします」を選択します。
@@ -3132,13 +3162,25 @@ width：文字間隔を指定します。
 </table>
 
 
-
-## 9.5 フォントの追加
-
-パラメータタブの「言語とフォント」画面を表示し、画面中央右側の「フォント追加」ボタンから追加してください。
-<img src="./images/_add_font.png" width="400px"/>
+<div style="page-break-before:always"></div>
 
 
+## 9.6 ソフトウェアアップデート
+
+1. 下記URLから最新のアップデートファイルをダウンロードします。<br>
+[https://download.smartdiys.com/inlinelasermarker/update/](https://download.smartdiys.com/inlinelasermarker/update/)
+1. 空のUSBメモリにアップデートファイルを保存します。<br>※ USBメモリはFAT32形式でのフォーマットを推奨します。
+1. USBメモリをタッチパネル背面のUSBポートに挿入します。
+1. 「パラメータ」タブから「システム」画面を開き、現在の「ソフトウェアバージョン」を確認します。<br>
+「ソフトウェアアップグレード」→「手動アップグレード」の順にタップします。<br>
+<img src="./images/software_update/1_upgrade_button.png" width="400px"/>
+1. USBメモリ内のアップデートファイルを選択し、「確定」をタップします。<br>
+<img src="./images/software_update/2_select_file.png" width="400px"/>
+1. 確認画面が表示されたら「はい」をタップし、アップデートが完了するまで待ちます。<br>
+※ アップデート中は、加工機の電源を切ったりUSBメモリを取り外したりしないでください。<br>
+<img src="./images/software_update/3_upgrade_confirm.png" width="160px"/>
+1. アップデートが完了すると、再起動の確認画面が表示されます。「はい」をタップして加工機を再起動します。
+1. 再起動後、「パラメータ」タブから「システム」画面を開き、「ソフトウェアバージョン」が、ダウンロードページに記載された最新バージョンに更新されていることを確認します。
 <div style="page-break-before:always"></div>
 
 <h1>お問い合わせ</h1>
