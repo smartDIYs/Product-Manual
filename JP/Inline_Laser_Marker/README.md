@@ -24,7 +24,7 @@ puppeteer:
 <div align="center">
 
 第 5 版 <br>
-発行日 2026年-月-日<br>
+発行日 2026年8月28日<br>
 
 </div>
 
