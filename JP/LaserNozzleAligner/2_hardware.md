@@ -5,13 +5,13 @@
 
 主な各部の名称は以下のとおりです。
 
-<img src="images/about_product.jpg" width=500px>
+<img src="images/about_product.jpg" width=400px>
 
 ## 操作画面
 
 操作画面には、以下の項目があります。
 
-<img src="images/about_screen.jpg" width=500px>
+<img src="images/about_screen.jpg" width=400px>
 
 
 ## 電源
@@ -21,9 +21,13 @@
 本体に電源プラグを接続すると、内蔵バッテリーを充電できます。充電中は、電源アダプタのLEDランプが赤色に点灯します。
 電源アダプタを接続した状態でも本製品を使用でき、使用中もバッテリーを充電できます。
 
-<div class="annotation">
+<!-- <div class="annotation">
 充電完了が近づいた場合、電源アダプタのLEDランプの表示（赤・緑）が不規則に切り替わる場合があります。
-</div>
+</div> -->
+
+
+<div style="page-break-before:always"></div>
+
 
 <!-- ## 電源
 
