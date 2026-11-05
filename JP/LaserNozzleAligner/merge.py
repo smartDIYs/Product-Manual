@@ -92,7 +92,8 @@ def merge_sections(indexes_file, content_dir, output_file):
 
         document += data
         if json_data != json_array[-1]:
-            document += "\n" + NEWPAGE_CODE + "\n\n"
+            document += "\n\n"
+        #     document += "\n" + NEWPAGE_CODE + "\n\n"
 
     f = open(output_file, "w")
     f.write(document)
@@ -204,7 +205,7 @@ def main():
     # セクションリンク更新
     update_section_links(OUTPUT_FILE)
 
-    create_toc(OUTPUT_FILE)
+    # create_toc(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
